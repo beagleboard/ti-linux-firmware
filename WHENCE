@@ -3050,6 +3050,14 @@ Licence: Redistributable. See LICENCE.ti-keystone for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti_sci - TI SCI driver
+
+File: ti-keystone/ti-sci-firmware-k2g.bin
+
+Licence: Redistributable. See LICENCE.ti-keystone for details.
+
+--------------------------------------------------------------------------
+
 Driver: mwlwifi - Marvell mac80211 driver for 80211ac cards.
 
 File: mwlwifi/88W8864.bin
