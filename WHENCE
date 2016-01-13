@@ -3109,6 +3109,18 @@ Files: ti-keystone/ks2_gbe_serdes_1.0.0.bin (GBE mode firmware)
 Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
+Driver: netcp-pa.c - TI Keystone 2 Packet Accelerator (PA) Driver
+
+Files: ti-keystone/ks2_pa_pdsp0_classify1-1.0.0.bin
+       ti-keystone/ks2_pa_pdsp1_classify1-1.0.0.bin
+       ti-keystone/ks2_pa_pdsp2_classify1-1.0.0.bin
+       ti-keystone/ks2_pa_pdsp3_classify2-1.0.0.bin
+       ti-keystone/ks2_pa_pdsp4_pam-1.0.0.bin
+       ti-keystone/ks2_pa_pdsp5_pam-1.0.0.bin
+
+Licence: Redistributable. See LICENCE.ti-keystone for details.
+--------------------------------------------------------------------------
+
 Driver: mwlwifi - Marvell mac80211 driver for 80211ac cards.
 
 File: mwlwifi/88W8864.bin
