@@ -3142,6 +3142,13 @@ Files: ti-keystone/ks2_pa_in0_pdsp0-1.0.0.bin
 Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
+Driver: keystone-sa.c - TI Keystone SA Driver
+
+Files: ti-keystone/sa_mci.fw
+
+Licence: Redistributable. See LICENCE.ti-keystone for details.
+--------------------------------------------------------------------------
+
 Driver: mwlwifi - Marvell mac80211 driver for 80211ac cards.
 
 File: mwlwifi/88W8864.bin
