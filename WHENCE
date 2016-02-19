@@ -3170,3 +3170,13 @@ File: mwlwifi/88W8897.bin
 Version: 8.2.0.10
 
 Licence: Redistributable. See LICENCE.Marvell for details.
+
+--------------------------------------------------------------------------
+
+Driver: ti-prueth - TI PRU Ethernet Driver
+
+File: ti-pruss/am57xx-pru0-prueth-fw.elf
+File: ti-pruss/am57xx-pru1-prueth-fw.elf
+Version: 1.0.0
+
+License: Redistributable. See LICENSE.ti for details.
