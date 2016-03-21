@@ -897,11 +897,23 @@ Version: 25.30.13.0
 File: iwlwifi-7265D-16.ucode
 Version 16.242414.0
 
+File: iwlwifi-7265D-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-3168-21.ucode
+Version 21.302800.0
+
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
 
 File: iwlwifi-8000C-16.ucode
 Version 16.242414.0
+
+File: iwlwifi-8000C-21.ucode
+Version 21.302800.0
+
+File: iwlwifi-8265-21.ucode
+Version 21.302800.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -2153,7 +2165,7 @@ Version: 8.5.0.0.55
 File: ti-connectivity/wl18xx-fw-3.bin
 Version: 8.8.0.0.13
 File: ti-connectivity/wl18xx-fw-4.bin
-Version: 8.9.0.0.39
+Version: 8.9.0.1.55
 
 Licence: Redistributable. See LICENCE.ti-connectivity for details.
 
@@ -2765,7 +2777,7 @@ Driver: microcode_amd - AMD CPU Microcode Update Driver for Linux
 File: amd-ucode/microcode_amd.bin
 Version: 2013-07-10
 File: amd-ucode/microcode_amd_fam15h.bin
-Version: 2014-10-28
+Version: 2016-03-16
 File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 
@@ -2948,8 +2960,8 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.869
-md5sum: 146ab54050e720c35e03e8f264ac3459
+Version: 8.20.00.896
+md5sum: f0e267c93aa64eab7c91d64f29dc273b
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3054,6 +3066,10 @@ Version: Guc API/ABI ver 1 - release 1059 for Skylake
 
 File: i915/skl_guc_ver4.bin
 Version: Guc API/ABI ver 4 - release 3 for Skylake
+
+File: i915/skl_guc_ver6_1.bin
+File: i915/skl_guc_ver6.bin
+Version: Guc API/ABI ver 6 - release 1 for Skylake
 
 License: Redistributable. See LICENSE.i915 for details
 
