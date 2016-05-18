@@ -1370,12 +1370,15 @@ Downloaded from http://www.mediatek.com/en/downloads/
 Driver: rt2800pci - Ralink RT2860, RT2890, RT3090, RT3290, RT5390 wireless MACs
 
 File: rt2860.bin
+Version: 40
+
 File: rt3290.bin
+Version: 37
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 34
-rt3290.bin is a specific firmware support the RT3290 chip. Firmware Version 37
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
@@ -1390,10 +1393,12 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 Driver: rt2800usb - Ralink RT2870, RT3070, RT3071, RT3072, RT5370 wireless MACs
 
 File: rt2870.bin
+Version: 36
 
 Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
-Binary file supplied by Shiang Tu <shiang_tu@ralinktech.com>. Firmware Version 29
+Binary file supplied originally by Shiang Tu <shiang_tu@ralinktech.com>, latest
+from http://www.mediatek.com/en/downloads1/downloads/
 
 --------------------------------------------------------------------------
 
@@ -2994,8 +2999,8 @@ License: Redistributable. See LICENCE.fw_sst_0f28 for details
 Driver: snd-soc-skl
 
 File: intel/dsp_fw_release.bin
-Version: 8.20.00.896
-md5sum: f0e267c93aa64eab7c91d64f29dc273b
+Version: 8.20.00.927
+md5sum: 9eb14fe5ccda5d80071f36728f6b2a54
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
