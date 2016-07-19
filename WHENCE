@@ -3300,7 +3300,7 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
-Driver: ti-prueth - TI PRU Ethernet Driver
+Driver: prueth - TI PRU-ICSS EMAC Driver
 
 File: ti-pruss/am57xx-pru0-prueth-fw.elf
 File: ti-pruss/am57xx-pru1-prueth-fw.elf
@@ -3312,6 +3312,6 @@ Version: 2.1.2
 
 File: ti-pruss/am335x-pru0-prueth-fw.elf
 File: ti-pruss/am335x-pru1-prueth-fw.elf
-Version: 2.1.2
+Version: 3.1.4
 
 License: Redistributable. See LICENSE.ti for details.
