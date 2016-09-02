@@ -3302,10 +3302,10 @@ Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
 Driver: phy-keystone-serdes.c - TI Keystone 2 SerDes Phy driver
-
-Files: ti-keystone/ks2_gbe_serdes_1.0.0.bin (GBE mode firmware)
-       ti-keystone/ks2_pcie_serdes_1.0.0.bin (PCIe mode firmware)
-       ti-keystone/ks2_xgbe_serdes_1.0.0.bin (XGBE mode firmware)
+version: 1.0.0
+Files: ti-keystone/ks2_gbe_serdes.bin (GBE mode firmware)
+       ti-keystone/ks2_pcie_serdes.bin (PCIe mode firmware)
+       ti-keystone/ks2_xgbe_serdes.bin (XGBE mode firmware)
 
 Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
