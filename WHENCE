@@ -3324,6 +3324,9 @@ File: ti-keystone/ks2_gbe_serdes.bin (GBE mode firmware)
 File: ti-keystone/ks2_pcie_serdes.bin (PCIe mode firmware)
 File: ti-keystone/ks2_xgbe_serdes.bin (XGBE mode firmware)
 
+version: 323
+File: ti-keystone/ks2_xgbe_serdes_mcu_fw.bin (XGBE mode MCU firmware)
+
 Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
