@@ -3384,6 +3384,8 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 Driver: prueth - TI PRU-ICSS EMAC Driver
 
+File: ti-pruss/k2g-pru0-prueth-fw.elf
+File: ti-pruss/k2g-pru1-prueth-fw.elf
 File: ti-pruss/am57xx-pru0-prueth-fw.elf
 File: ti-pruss/am57xx-pru1-prueth-fw.elf
 File: ti-pruss/am437x-pru0-prueth-fw.elf
