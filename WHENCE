@@ -3311,7 +3311,7 @@ Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
 Driver: ti_sci - TI SCI driver
-version: 0.1.1-35
+version: 0.1.1-37
 File: ti-keystone/ti-sci-firmware-k2g.bin
 
 Licence: Redistributable. See LICENCE.ti-keystone for details.
