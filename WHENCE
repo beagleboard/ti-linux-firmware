@@ -3372,6 +3372,15 @@ Driver: keystone-sa.c - TI Keystone SA Driver
 File: ti-keystone/sa_mci.fw
 
 Licence: Redistributable. See LICENCE.ti-keystone for details.
+
+--------------------------------------------------------------------------
+
+Driver: GT927 - Goodix Touchscreen driver
+
+File: ti-evm/DRA71x-RevA-GT9271_SpecDig_Config.bin
+
+Licence: Redistributable. See LICENCE.Spectrum-GT9271 for details.
+
 --------------------------------------------------------------------------
 
 Driver: mwlwifi - Marvell mac80211 driver for 80211ac cards.
