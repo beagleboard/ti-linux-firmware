@@ -1837,6 +1837,7 @@ Licence: Redistributable. See LICENSE.radeon for details.
 Driver: amdgpu - AMD Radeon
 
 File: amdgpu/topaz_ce.bin
+File: amdgpu/topaz_k_smc.bin
 File: amdgpu/topaz_mc.bin
 File: amdgpu/topaz_me.bin
 File: amdgpu/topaz_mec2.bin
@@ -1847,6 +1848,7 @@ File: amdgpu/topaz_sdma1.bin
 File: amdgpu/topaz_sdma.bin
 File: amdgpu/topaz_smc.bin
 File: amdgpu/tonga_ce.bin
+File: amdgpu/tonga_k_smc.bin
 File: amdgpu/tonga_mc.bin
 File: amdgpu/tonga_me.bin
 File: amdgpu/tonga_mec2.bin
@@ -2769,25 +2771,25 @@ Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq
 Version: BT_WilkinsPeak_B3_REL_86_0001
 File: intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_38_0001
+Version: BT_WilkinsPeak_B5_REL_39_0001
 File: intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq
-Version: BT_WilkinsPeak_B5_REL_38_0001
+Version: BT_WilkinsPeak_B5_REL_39_0001
 File: intel/ibt-hw-37.8.bseq
 Version: 1339_02.00
 File: intel/ibt-hw-37.8.10-fw-1.10.2.27.d.bseq
-Version: BT_StonePeak_C0_REL_58_0001
+Version: BT_StonePeak_C0_REL_59_0001
 File: intel/ibt-hw-37.8.10-fw-1.10.3.11.e.bseq
 Version: BT_StonePeak_D0_REL_37_0002
 File: intel/ibt-hw-37.8.10-fw-22.50.19.14.f.bseq
-Version: BT_StonePeak_D1_REL_20_0001
+Version: BT_StonePeak_D1_REL_25_0001
 File: intel/ibt-11-5.ddc
-Version: LnP/SfP_REL0257
+Version: LnP/SfP_REL0351
 File: intel/ibt-11-5.sfi
-Version: BT_LightningPeak_REL0330
+Version: BT_LightningPeak_REL0351
 File: intel/ibt-12-16.ddc
-Version: BT_WindStormPeak_REL0060
+Version: BT_WindStormPeak_REL0082
 File: intel/ibt-12-16.sfi
-Version: BT_WindStormPeak_REL0060
+Version: BT_WindStormPeak_REL0082
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3037,6 +3039,7 @@ License: Redistributable. See LICENCE.IntcSST2 for details
 Driver: snd_intel_sst_core
 
 File: intel/fw_sst_0f28.bin
+File: intel/fw_sst_0f28_ssp0.bin
 
 License: Redistributable. See LICENCE.fw_sst_0f28 for details
 
@@ -3127,6 +3130,10 @@ Driver: atusb - ATUSB IEEE 802.15.4 transceiver driver
 
 File: atusb/atusb-0.2.dfu
 Version: 0.2
+File: atusb/atusb-0.3.dfu
+Version: 0.3
+File: atusb/rzusb-0.3.bin
+Version: 0.3
 Info: atusb/ChangeLog
 
 Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
