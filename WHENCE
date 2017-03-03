@@ -422,9 +422,9 @@ Version: 3.03.28 IPX
 File: ql2322_fw.bin
 Version: 3.03.28 IPX
 File: ql2400_fw.bin
-Version: 8.03.00 MID
+Version: 8.06.00 MID
 File: ql2500_fw.bin
-Version: 8.03.00 MIDQ
+Version: 8.06.00 MIDQ
 
 Licence: Redistributable. See LICENCE.qla2xxx for details
 
@@ -569,14 +569,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.16.26.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.16.26.0.bin
+File: cxgb4/t4fw-1.16.33.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.16.33.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.16.26.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.16.26.0.bin
-File: cxgb4/t6fw-1.16.26.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.16.26.0.bin
+File: cxgb4/t5fw-1.16.33.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.16.33.0.bin
+File: cxgb4/t6fw-1.16.33.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.16.33.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 
@@ -855,7 +855,7 @@ File: iwlwifi-7260-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7260-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-3160-7.ucode
 Version: 22.1.7.0
@@ -879,7 +879,7 @@ File: iwlwifi-3160-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-3160-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-7265-8.ucode
 Version: 22.24.8.0
@@ -900,7 +900,7 @@ File: iwlwifi-7265-16.ucode
 Version 16.242414.0
 
 File: iwlwifi-7265-17.ucode
-Version 17.352738.0
+Version 17.459231.0
 
 File: iwlwifi-7265D-10.ucode
 Version: 23.15.10.0
@@ -921,13 +921,19 @@ File: iwlwifi-7265D-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-7265D-22.ucode
-Version 22.361476.0
+Version 22.391740.0
+
+File: iwlwifi-7265D-27.ucode
+Version 27.455470.0
 
 File: iwlwifi-3168-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-3168-22.ucode
 Version 22.361476.0
+
+File: iwlwifi-3168-27.ucode
+Version 27.455470.0
 
 File: iwlwifi-8000C-13.ucode
 Version: 25.30.13.0
@@ -939,13 +945,19 @@ File: iwlwifi-8000C-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8000C-22.ucode
-Version 22.361476.0
+Version 22.391740.0
+
+File: iwlwifi-8000C-27.ucode
+Version 27.455470.0
 
 File: iwlwifi-8265-21.ucode
 Version 21.302800.0
 
 File: iwlwifi-8265-22.ucode
-Version 22.361476.0
+Version 22.391740.0
+
+File: iwlwifi-8265-27.ucode
+Version 27.455470.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1904,6 +1916,7 @@ File: amdgpu/polaris10_rlc.bin
 File: amdgpu/polaris10_sdma1.bin
 File: amdgpu/polaris10_sdma.bin
 File: amdgpu/polaris10_smc.bin
+File: amdgpu/polaris10_k_smc.bin
 File: amdgpu/polaris10_smc_sk.bin
 File: amdgpu/polaris10_uvd.bin
 File: amdgpu/polaris10_vce.bin
@@ -1917,9 +1930,22 @@ File: amdgpu/polaris11_rlc.bin
 File: amdgpu/polaris11_sdma1.bin
 File: amdgpu/polaris11_sdma.bin
 File: amdgpu/polaris11_smc.bin
+File: amdgpu/polaris11_k_smc.bin
 File: amdgpu/polaris11_smc_sk.bin
 File: amdgpu/polaris11_uvd.bin
 File: amdgpu/polaris11_vce.bin
+File: amdgpu/polaris12_ce.bin
+File: amdgpu/polaris12_mc.bin
+File: amdgpu/polaris12_me.bin
+File: amdgpu/polaris12_mec.bin
+File: amdgpu/polaris12_mec2.bin
+File: amdgpu/polaris12_pfp.bin
+File: amdgpu/polaris12_rlc.bin
+File: amdgpu/polaris12_sdma.bin
+File: amdgpu/polaris12_sdma1.bin
+File: amdgpu/polaris12_smc.bin
+File: amdgpu/polaris12_uvd.bin
+File: amdgpu/polaris12_vce.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2394,6 +2420,19 @@ Info: Initial version taken from Realtek version
       Updated Jan. 14, 2015 with file added by Realtek to
       http://github.com/lwfinger/rtlwifi_new.git.
 File: rtlwifi/rtl8192eefw.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
+Driver: rtl8723bs - Realtek 802.11n WLAN driver for RTL8723BS
+
+Info: Firmware files extracted from data statements in Realtek driver
+      v4.3.5.5_12290.20140916_BTCOEX20140507-4E40.
+File: rtlwifi/rtl8723bs_bt.bin
+File: rtlwifi/rtl8723bs_nic.bin
+File: rtlwifi/rtl8723bs_ap_wowlan.bin
+File: rtlwifi/rtl8723bs_wowlan.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3171,14 +3210,17 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 
 Driver: liquidio -- Cavium LiquidIO driver
 
+File: liquidio/lio_23xx_nic.bin
+Version: v1.4.2
+
 File: liquidio/lio_210nv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.1.9
+Version: v1.4.2
 
 Licence: Redistributable. See LICENCE.cavium for details
 
@@ -3208,6 +3250,21 @@ Version: Guc API/ABI ver 4 - release 3 for Skylake
 File: i915/skl_guc_ver6_1.bin
 File: i915/skl_guc_ver6.bin
 Version: Guc API/ABI ver 6 - release 1 for Skylake
+
+File: i915/skl_huc_ver01_07_1398.bin
+Version: HuC API/ABI ver 1 - release 7 for Skylake
+
+File: i915/bxt_huc_ver01_07_1398.bin
+Version: HuC API/APB ver 1 - release 7 for Broxton
+
+File: i915/kbl_huc_ver02_00_1810.bin
+Version: HuC API/APB ver 2 - for Kabylake
+
+File: i915/bxt_guc_ver8_7.bin
+Version: Guc API/APB ver 8 - release 7 for Broxton
+
+File: i915/kbl_guc_ver9_14.bin
+Version: Guc API/APB ver 9 release 14 for Kabylake
 
 License: Redistributable. See LICENSE.i915 for details
 
@@ -3280,6 +3337,9 @@ File: nvidia/gm20b/gr/sw_bundle_init.bin
 File: nvidia/gm20b/gr/sw_ctx.bin
 File: nvidia/gm20b/gr/sw_method_init.bin
 File: nvidia/gm20b/gr/sw_nonctx.bin
+File: nvidia/gm20b/pmu/desc.bin
+File: nvidia/gm20b/pmu/image.bin
+File: nvidia/gm20b/pmu/sig.bin
 File: nvidia/gp100/acr/bl.bin
 File: nvidia/gp100/acr/ucode_load.bin
 File: nvidia/gp100/acr/ucode_unload.bin
@@ -3295,6 +3355,86 @@ File: nvidia/gp100/gr/sw_bundle_init.bin
 File: nvidia/gp100/gr/sw_ctx.bin
 File: nvidia/gp100/gr/sw_method_init.bin
 File: nvidia/gp100/gr/sw_nonctx.bin
+File: nvidia/gp102/acr/bl.bin
+File: nvidia/gp102/acr/ucode_load.bin
+File: nvidia/gp102/acr/ucode_unload.bin
+File: nvidia/gp102/acr/unload_bl.bin
+File: nvidia/gp102/gr/fecs_bl.bin
+File: nvidia/gp102/gr/fecs_data.bin
+File: nvidia/gp102/gr/fecs_inst.bin
+File: nvidia/gp102/gr/fecs_sig.bin
+File: nvidia/gp102/gr/gpccs_bl.bin
+File: nvidia/gp102/gr/gpccs_data.bin
+File: nvidia/gp102/gr/gpccs_inst.bin
+File: nvidia/gp102/gr/gpccs_sig.bin
+File: nvidia/gp102/gr/sw_bundle_init.bin
+File: nvidia/gp102/gr/sw_ctx.bin
+File: nvidia/gp102/gr/sw_method_init.bin
+File: nvidia/gp102/gr/sw_nonctx.bin
+File: nvidia/gp102/nvdec/scrubber.bin
+File: nvidia/gp102/sec2/desc.bin
+File: nvidia/gp102/sec2/image.bin
+File: nvidia/gp102/sec2/sig.bin
+File: nvidia/gp104/acr/bl.bin
+File: nvidia/gp104/acr/ucode_load.bin
+File: nvidia/gp104/acr/ucode_unload.bin
+File: nvidia/gp104/acr/unload_bl.bin
+File: nvidia/gp104/gr/fecs_bl.bin
+File: nvidia/gp104/gr/fecs_data.bin
+File: nvidia/gp104/gr/fecs_inst.bin
+File: nvidia/gp104/gr/fecs_sig.bin
+File: nvidia/gp104/gr/gpccs_bl.bin
+File: nvidia/gp104/gr/gpccs_data.bin
+File: nvidia/gp104/gr/gpccs_inst.bin
+File: nvidia/gp104/gr/gpccs_sig.bin
+File: nvidia/gp104/gr/sw_bundle_init.bin
+File: nvidia/gp104/gr/sw_ctx.bin
+File: nvidia/gp104/gr/sw_method_init.bin
+File: nvidia/gp104/gr/sw_nonctx.bin
+File: nvidia/gp104/nvdec/scrubber.bin
+File: nvidia/gp104/sec2/desc.bin
+File: nvidia/gp104/sec2/image.bin
+File: nvidia/gp104/sec2/sig.bin
+File: nvidia/gp106/acr/bl.bin
+File: nvidia/gp106/acr/ucode_load.bin
+File: nvidia/gp106/acr/ucode_unload.bin
+File: nvidia/gp106/acr/unload_bl.bin
+File: nvidia/gp106/gr/fecs_bl.bin
+File: nvidia/gp106/gr/fecs_data.bin
+File: nvidia/gp106/gr/fecs_inst.bin
+File: nvidia/gp106/gr/fecs_sig.bin
+File: nvidia/gp106/gr/gpccs_bl.bin
+File: nvidia/gp106/gr/gpccs_data.bin
+File: nvidia/gp106/gr/gpccs_inst.bin
+File: nvidia/gp106/gr/gpccs_sig.bin
+File: nvidia/gp106/gr/sw_bundle_init.bin
+File: nvidia/gp106/gr/sw_ctx.bin
+File: nvidia/gp106/gr/sw_method_init.bin
+File: nvidia/gp106/gr/sw_nonctx.bin
+File: nvidia/gp106/nvdec/scrubber.bin
+File: nvidia/gp106/sec2/desc.bin
+File: nvidia/gp106/sec2/image.bin
+File: nvidia/gp106/sec2/sig.bin
+File: nvidia/gp107/acr/bl.bin
+File: nvidia/gp107/acr/ucode_load.bin
+File: nvidia/gp107/acr/ucode_unload.bin
+File: nvidia/gp107/acr/unload_bl.bin
+File: nvidia/gp107/gr/fecs_bl.bin
+File: nvidia/gp107/gr/fecs_data.bin
+File: nvidia/gp107/gr/fecs_inst.bin
+File: nvidia/gp107/gr/fecs_sig.bin
+File: nvidia/gp107/gr/gpccs_bl.bin
+File: nvidia/gp107/gr/gpccs_data.bin
+File: nvidia/gp107/gr/gpccs_inst.bin
+File: nvidia/gp107/gr/gpccs_sig.bin
+File: nvidia/gp107/gr/sw_bundle_init.bin
+File: nvidia/gp107/gr/sw_ctx.bin
+File: nvidia/gp107/gr/sw_method_init.bin
+File: nvidia/gp107/gr/sw_nonctx.bin
+File: nvidia/gp107/nvdec/scrubber.bin
+File: nvidia/gp107/sec2/desc.bin
+File: nvidia/gp107/sec2/image.bin
+File: nvidia/gp107/sec2/sig.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3455,3 +3595,15 @@ File: rockchip/dptx.bin
 Version: 3.1
 
 Licence: Redistributable. See LICENCE.rockchip for details.
+
+---------------------------------------------------------------------------
+
+Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
+
+File: mt7662.bin
+Version: 1.9
+
+File: mt7662_rom_patch.bin
+Version: 0.0.2_P69
+
+Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
