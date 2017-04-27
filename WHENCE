@@ -751,7 +751,7 @@ File: mrvl/pcie8897_uapsta.bin
 Version: 15.68.7.p77
 
 File: mrvl/sd8887_uapsta.bin
-Version: 15.68.7.p5
+Version: 15.68.7.p112
 
 File: mrvl/sd8801_uapsta.bin
 Version: 14.68.36.p60
@@ -2856,7 +2856,8 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 Found in vendor driver, linux_bt_usb_2.11.20140423_8723be.rar
 From https://github.com/troy-tan/driver_store
-Files rtl_bt/rtl8822b_* came directly from Realtek.
+Files rtl_bt/rtl8822b_* came directly from Realtek. These files are
+updated on April 14, 2017.
 
 --------------------------------------------------------------------------
 
@@ -3223,16 +3224,16 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: liquidio -- Cavium LiquidIO driver
 
 File: liquidio/lio_23xx_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_210nv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_210sv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 File: liquidio/lio_410nv_nic.bin
-Version: v1.4.2
+Version: v1.5.1
 
 Licence: Redistributable. See LICENCE.cavium for details
 
