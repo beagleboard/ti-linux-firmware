@@ -3528,7 +3528,7 @@ Licence: Redistributable. See LICENCE.ti-keystone for details.
 --------------------------------------------------------------------------
 
 Driver: netcp-pa.c - TI Keystone 2 Packet Accelerator (PA) Driver
-version: 3.0.1.17
+version: 3.0.2.3
 File: ti-keystone/ks2_pa_pdsp0_classify1.bin
 File: ti-keystone/ks2_pa_pdsp1_classify1.bin
 File: ti-keystone/ks2_pa_pdsp2_classify1.bin
