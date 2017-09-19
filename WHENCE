@@ -3653,7 +3653,7 @@ File: ti-pruss/am437x-pru0-prueth-fw.elf
 File: ti-pruss/am437x-pru1-prueth-fw.elf
 File: ti-pruss/am335x-pru0-prueth-fw.elf
 File: ti-pruss/am335x-pru1-prueth-fw.elf
-Version: 3.1.4
+Version: 5.1.4
 
 License: Redistributable. See LICENSE.ti for details.
 --------------------------------------------------------------------------
