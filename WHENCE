@@ -3858,6 +3858,19 @@ File: ti-pruss/am335x-pru1-prueth-fw.elf
 Version: 5.1.4
 
 License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG Ethernet Driver
+
+File: ti-pruss/am65x-pru0-prueth-fw.elf
+File: ti-pruss/am65x-pru1-prueth-fw.elf
+File: ti-pruss/am65x-rtu0-prueth-fw.elf
+File: ti-pruss/am65x-rtu1-prueth-fw.elf
+Version: 1.0.0
+
+License: Redistributable. See LICENSE.ti for details.
+
 --------------------------------------------------------------------------
 
 Driver: mtk-vpu - Mediatek VPU video processing unit driver
