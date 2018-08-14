@@ -3950,6 +3950,14 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti_sci - TI SCI driver for am6 devices
+version: v2018.07a
+File: ti-sysfw/ti-sci-firmware-am6x-gp.bin
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: prueth - TI PRU-ICSS EMAC Driver
 
 File: ti-pruss/k2g-pru0-prueth-fw.elf
