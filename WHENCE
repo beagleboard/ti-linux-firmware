@@ -4103,7 +4103,7 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 --------------------------------------------------------------------------
 
 Driver: ti_sci - TI SCI driver for am6 devices
-version: v2019.01a
+version: v2019.02
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
 
