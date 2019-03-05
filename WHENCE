@@ -2230,7 +2230,6 @@ File: amdgpu/raven2_mec2.bin
 File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
-File: amdgpu/raven2_sdma1.bin
 File: amdgpu/raven2_vcn.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
@@ -2463,7 +2462,7 @@ File: "brcm/brcmfmac43430-sdio.AP6212.txt"
 File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
-File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
@@ -3196,13 +3195,13 @@ Version: BT_WindStormPeak_REL0295
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0295
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0395
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0395
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0395
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0386
+Version: BT_JeffersonPeak_B0_B0_REL0395
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3212,13 +3211,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0395
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0395
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0395
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0386
+Version: BT_ThunderPeak_B0_B0_REL0395
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3309,6 +3308,15 @@ File: go7007/px-tv402u.fw
 File: go7007/wis-startrek.fw
 
 Licence: Redistributable. See LICENCE.go7007 for details
+
+--------------------------------------------------------------------------
+
+Driver: ccp - Platform Security Processor (PSP) device
+
+File: amd/amd_sev_fam17h_model0xh.sbin
+Version: 2019-02-13
+
+License: Redistributable. See LICENSE.amd-sev for details
 
 --------------------------------------------------------------------------
 
@@ -3639,6 +3647,8 @@ File: qca/rampatch_usb_00000300.bin
 File: qca/rampatch_usb_00000302.bin
 File: qca/rampatch_00130300.bin
 File: qca/rampatch_00130302.bin
+File: qca/crbtfw21.tlv
+File: qca/crnv21.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
