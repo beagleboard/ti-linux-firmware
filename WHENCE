@@ -4167,7 +4167,7 @@ File: ti-pruss/am65x-pru0-prueth-fw.elf
 File: ti-pruss/am65x-pru1-prueth-fw.elf
 File: ti-pruss/am65x-rtu0-prueth-fw.elf
 File: ti-pruss/am65x-rtu1-prueth-fw.elf
-Version: 5.1.0.7
+Version: 5.3.0.5 DEV.EMAC_LLD.01.00.03.15
 
 License: Redistributable. See LICENSE.ti for details.
 
