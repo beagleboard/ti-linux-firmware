@@ -4136,9 +4136,12 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
-Driver: ti_sci - TI SCI driver for am6 devices
+Driver: ti_sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
+Version: v2019.05
+
+File: ti-sysfw/ti-sci-firmware-j721e-gp.bin
 Version: v2019.05
 
 Licence: Redistributable. See LICENSE.ti for details.
