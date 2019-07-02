@@ -3268,7 +3268,26 @@ File:intel/ibt-20-1-4.sfi
 Version: BT_CyclonePeak_A0_REL0282
 File:intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL0282
-
+File:intel/ibt-19-0-0.sfi
+Version: BT_Quasar_REL0282
+File:intel/ibt-19-0-0.ddc
+Version: BT_Quasar_REL0282
+File:intel/ibt-19-0-1.sfi
+Version: BT_Quasar_REL0282
+File:intel/ibt-19-0-1.ddc
+Version: BT_Quasar_REL0282
+File:intel/ibt-19-0-4.sfi
+Version: BT_HarrisonPeak_REL0282
+File:intel/ibt-19-0-4.ddc
+Version: BT_HarrisonPeak_REL0282
+File:intel/ibt-19-16-4.sfi
+Version: BT_HarrisonPeak_REL0282
+File:intel/ibt-19-16-4.ddc
+Version: BT_HarrisonPeak_REL0282
+File:intel/ibt-19-32-1.sfi
+Version: BT_HarrisonPeak_REL0282
+File:intel/ibt-19-32-1.ddc
+Version: BT_HarrisonPeak_REL0282
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3491,10 +3510,16 @@ Version: 1.6.1
 File: rsi/rs9113_ap_bt_dual_mode.rps
 Version: 1.6.1
 
+File: rsi/rs9116_wlan.rps
+Version: 1.0.5b
+
+File: rsi/rs9116_wlan_bt_classic.rps
+Version: 1.0.5b
+
 Licence:
  * Firmware is:
  *	Derived from proprietary unpublished source code,
- *	Copyright (C) 2014 Redpine Signals Inc.
+ *	Copyright (C) 2019 Redpine Signals Inc.
  *
  *	Permission is hereby granted for the distribution of this firmware
  *	as part of Linux or other Open Source operating system kernel
