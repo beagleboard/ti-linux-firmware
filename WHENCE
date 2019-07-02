@@ -4198,6 +4198,15 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 --------------------------------------------------------------------------
 
+Driver: tidss - TI display driver for J721E device
+
+File: ti-display-sharing/ti-display-sharing-j721e.bin
+Version: 00.09.00.00
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+-------------------------------------------------------------------------
+
 Driver: ti_sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
