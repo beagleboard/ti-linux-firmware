@@ -4269,10 +4269,10 @@ Licence: Redistributable. See LICENSE.ti for details.
 Driver: ti_sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
-Version: v2019.07a
+Version: v2019.08
 
 File: ti-sysfw/ti-sci-firmware-j721e-gp.bin
-Version: v2019.07a
+Version: v2019.08
 
 Licence: Redistributable. See LICENSE.ti for details.
 
