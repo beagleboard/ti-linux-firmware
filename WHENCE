@@ -587,6 +587,14 @@ File: cxgb4/t6fw-1.24.3.0.bin
 Link: cxgb4/t6fw.bin -> t6fw-1.24.3.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
+File: cxgb4/configs/t4-config-default.txt
+File: cxgb4/configs/t5-config-default.txt
+File: cxgb4/configs/t6-config-default.txt
+File: cxgb4/configs/t5-config-hashfilter.txt
+File: cxgb4/configs/t6-config-hashfilter.txt
+Link: cxgb4/t4-config.txt -> cxgb4/configs/t4-config-default.txt
+Link: cxgb4/t5-config.txt -> cxgb4/configs/t5-config-default.txt
+Link: cxgb4/t6-config.txt -> cxgb4/configs/t6-config-default.txt
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -2908,6 +2916,9 @@ Version: 0.0.2
 File: rtl_nic/rtl8107e-2.fw
 Version: 0.0.2
 
+File: rtl_nic/rtl8125a-3.fw
+Version: 0.0.1
+
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
  *
@@ -3295,6 +3306,10 @@ Version: BT_HarrisonPeak_REL0318
 File:intel/ibt-19-32-0.sfi
 Version: BT_HarrisonPeak_REL0318
 File:intel/ibt-19-32-0.ddc
+Version: BT_HarrisonPeak_REL0318
+File:intel/ibt-19-32-4.sfi
+Version: BT_HarrisonPeak_REL0318
+File:intel/ibt-19-32-4.ddc
 Version: BT_HarrisonPeak_REL0318
 
 
@@ -3684,6 +3699,9 @@ Version: v45.46
 File: nvidia/tegra210/xusb.bin
 Version: v50.10
 
+File: nvidia/tegra186/xusb.bin
+Version: v55.15
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
@@ -3691,8 +3709,13 @@ Licence: Redistributable. See LICENCE.nvidia for details
 Driver: tegra-vic -- NVIDIA Tegra VIC driver
 
 File: nvidia/tegra124/vic03_ucode.bin
+Link: nvidia/tegra124/vic.bin -> vic03_ucode.bin
+
 File: nvidia/tegra210/vic04_ucode.bin
+Link: nvidia/tegra210/vic.bin -> vic03_ucode.bin
+
 File: nvidia/tegra186/vic04_ucode.bin
+Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
