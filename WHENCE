@@ -1407,6 +1407,9 @@ File: bnx2x/bnx2x-e2-7.13.1.0.fw
 File: bnx2x/bnx2x-e1-7.13.11.0.fw
 File: bnx2x/bnx2x-e1h-7.13.11.0.fw
 File: bnx2x/bnx2x-e2-7.13.11.0.fw
+File: bnx2x/bnx2x-e1-7.13.15.0.fw
+File: bnx2x/bnx2x-e1h-7.13.15.0.fw
+File: bnx2x/bnx2x-e2-7.13.15.0.fw
 
 
 License:
@@ -2285,11 +2288,16 @@ File: amdgpu/navi10_sos.bin
 File: amdgpu/navi10_vcn.bin
 File: amdgpu/navi14_asd.bin
 File: amdgpu/navi14_ce.bin
+File: amdgpu/navi14_ce_wks.bin
 File: amdgpu/navi14_gpu_info.bin
 File: amdgpu/navi14_me.bin
+File: amdgpu/navi14_me_wks.bin
 File: amdgpu/navi14_mec.bin
+File: amdgpu/navi14_mec_wks.bin
 File: amdgpu/navi14_mec2.bin
+File: amdgpu/navi14_mec2_wks.bin
 File: amdgpu/navi14_pfp.bin
+File: amdgpu/navi14_pfp_wks.bin
 File: amdgpu/navi14_rlc.bin
 File: amdgpu/navi14_sdma.bin
 File: amdgpu/navi14_sdma1.bin
@@ -2396,6 +2404,7 @@ File: qed/qed_init_values-8.33.12.0.bin
 File: qed/qed_init_values_zipped-8.37.2.0.bin
 File: qed/qed_init_values_zipped-8.37.7.0.bin
 File: qed/qed_init_values-8.37.7.0.bin
+File: qed/qed_init_values-8.40.33.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2965,6 +2974,17 @@ Licence:
 
 --------------------------------------------------------------------------
 
+Driver: r8152 - Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
+
+File: rtl_nic/rtl8153a-2.fw
+File: rtl_nic/rtl8153a-3.fw
+File: rtl_nic/rtl8153a-4.fw
+File: rtl_nic/rtl8153b-2.fw
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: vt6656 - VIA VT6656 USB wireless driver
 
 File: vntwusb.fw
@@ -3348,6 +3368,14 @@ File:intel/ibt-19-32-4.sfi
 Version: BT_HarrisonPeak_REL0333
 File:intel/ibt-19-32-4.ddc
 Version: BT_HarrisonPeak_REL0333
+File:intel/ibt-19-240-1.sfi
+Version: BT_HarrisonPeak_REL0333
+File:intel/ibt-19-240-1.ddc
+Version: BT_HarrisonPeak_REL0333
+File:intel/ibt-19-240-4.sfi
+Version: BT_HarrisonPeak_REL0333
+File:intel/ibt-19-240-4.ddc
+Version: BT_HarrisonPeak_REL0333
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
@@ -3368,6 +3396,7 @@ File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
+File: rtl_bt/rtl8822cu_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3379,6 +3408,8 @@ Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 updated on February 24, 2019
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
+updated on October 23, 2019
+File rtl_bt/rtl8822cu_config.bin came directly from Realtek.
 
 --------------------------------------------------------------------------
 
@@ -3454,7 +3485,7 @@ Version: 2018-05-24
 File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
-Version: 2018-11-28
+Version: 2019-10-21
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -4646,6 +4677,8 @@ File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
 File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
 File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
 File: mellanox/mlxsw_spectrum-13.2000.1886.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.2308.mfa2
+File: mellanox/mlxsw_spectrum2-29.2000.2308.mfa2
 
 Licence:
  Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
