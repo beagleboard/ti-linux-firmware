@@ -2849,6 +2849,7 @@ File: rtw88/rtw8822b_fw.bin
 File: rtw88/rtw8822c_fw.bin
 File: rtw88/rtw8822c_wow_fw.bin
 File: rtw88/README
+File: rtw88/rtw8723d_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2955,6 +2956,9 @@ Version: 0.0.2
 
 File: rtl_nic/rtl8168h-2.fw
 Version: 0.0.2
+
+File: rtl_nic/rtl8168fp-3.fw
+Version: 0.0.1
 
 File: rtl_nic/rtl8107e-1.fw
 Version: 0.0.2
@@ -3297,13 +3301,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0489
+Version: BT_JeffersonPeak_B0_B0_REL0519
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0489
+Version: BT_JeffersonPeak_B0_B0_REL0519
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0489
+Version: BT_JeffersonPeak_B0_B0_REL0519
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0489
+Version: BT_JeffersonPeak_B0_B0_REL0519
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3313,13 +3317,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0489
+Version: BT_ThunderPeak_B0_B0_REL0519
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0489
+Version: BT_ThunderPeak_B0_B0_REL0519
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0489
+Version: BT_ThunderPeak_B0_B0_REL0519
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0489
+Version: BT_ThunderPeak_B0_B0_REL0519
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3329,53 +3333,53 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL_0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL0333
+Version: BT_CyclonePeak_A0_REL0352
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL0333
+Version: BT_Quasar_REL0352
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL0333
+Version: BT_Quasar_REL0352
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL0333
+Version: BT_Quasar_REL0352
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL0333
+Version: BT_Quasar_REL0352
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL0333
+Version: BT_HarrisonPeak_REL0352
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
@@ -3992,6 +3996,18 @@ Version: DMC API/APB ver 2 release 4 for Tigerlake
 
 File: i915/icl_huc_9.0.0.bin
 Version: Huc API/APB ver 9 release 0 for Icelake
+
+File: i915/ehl_guc_33.0.4.bin
+Version: Guc API/APB ver 33 release 0 for Elkhartlake
+
+File: i915/ehl_huc_9.0.0.bin
+Version: Huc API/APB ver 9 release 0 for Elkhartlake
+
+File: i915/tgl_guc_35.2.0.bin
+Version: Guc API/APB ver 35 release 2 for Tigerlake
+
+File: i915/tgl_huc_7.0.3.bin
+Version: Huc API/APB ver 7 release 0 for Tigerlake
 
 License: Redistributable. See LICENSE.i915 for details
 
@@ -4735,6 +4751,9 @@ File: dpaa2/mc/mc_10.14.3_lx2160a.itb
 File: dpaa2/mc/mc_10.16.2_ls1088a.itb
 File: dpaa2/mc/mc_10.16.2_ls2088a.itb
 File: dpaa2/mc/mc_10.16.2_lx2160a.itb
+File: dpaa2/mc/mc_10.18.0_ls1088a.itb
+File: dpaa2/mc/mc_10.18.0_ls2088a.itb
+File: dpaa2/mc/mc_10.18.0_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
 
