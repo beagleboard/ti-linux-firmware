@@ -577,14 +577,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.24.3.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.24.3.0.bin
+File: cxgb4/t4fw-1.24.11.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.24.11.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.24.3.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.24.3.0.bin
-File: cxgb4/t6fw-1.24.3.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.24.3.0.bin
+File: cxgb4/t5fw-1.24.11.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.24.11.0.bin
+File: cxgb4/t6fw-1.24.11.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.24.11.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -2538,6 +2538,7 @@ File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
+File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
@@ -3091,7 +3092,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4-1.0-00045
+Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -3121,19 +3122,23 @@ Version: 10.4-3.6-00140
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00045
+Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00040
+Version: 10.4-3.9.0.2-00070
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00046
+Version: 10.4-3.9.0.2-00070
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/WCN3990/hw1.0/firmware-5.bin
+File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
+Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3489,7 +3494,7 @@ Version: 2018-05-24
 File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
-Version: 2019-10-21
+Version: 2019-12-18
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -4644,6 +4649,16 @@ File: qcom/venus-5.2/venus.mbn
 
 Version: 5.2-00023
 
+File: qcom/venus-5.4/venus.mdt
+File: qcom/venus-5.4/venus.b00
+File: qcom/venus-5.4/venus.b01
+File: qcom/venus-5.4/venus.b02
+File: qcom/venus-5.4/venus.b03
+File: qcom/venus-5.4/venus.b04
+File: qcom/venus-5.4/venus.mbn
+
+Version: 5.4-00024
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
@@ -4682,6 +4697,44 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
+
+File: qcom/sdm845/adsp.mbn
+File: qcom/sdm845/adspr.jsn
+File: qcom/sdm845/adspua.jsn
+File: qcom/sdm845/cdsp.mbn
+File: qcom/sdm845/cdspr.jsn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+
+adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
+https://github.com/andersson/pil-squasher
+
+cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
+https://github.com/andersson/pil-squasher
+
+--------------------------------------------------------------------------
+
+Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
+
+File: qcom/sdm845/mba.mbn
+File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modemuw.jsn
+File: qcom/sdm845/wlanmdsp.mbn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+
+modem.mbn has been converted from 28-modem/modem.* using
+https://github.com/andersson/pil-squasher
 
 --------------------------------------------------------------------------
 
@@ -4792,3 +4845,18 @@ File: intel/ice/ddp/ice-1.3.4.0.pkg
 Link: intel/ice/ddp/ice.pkg -> ice-1.3.4.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
+
+--------------------------------------------------------------------------
+
+Driver: inside-secure -- Inside Secure EIP197 crypto driver
+
+File: inside-secure/eip197_minifw/ipue.bin
+File: inside-secure/eip197_minifw/ifpp.bin
+
+Licence: Redistributable.
+Copyright (c) 2019 Verimatrix, Inc.
+
+Derived from proprietary unpublished source code.
+Permission is hereby granted for the distribution of this firmware
+as part of Linux or other Open Source operating system kernel,
+provided this copyright notice is accompanying it.
