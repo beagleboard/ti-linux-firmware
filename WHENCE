@@ -793,8 +793,8 @@ Version: W16.68.1.p179
 File: mrvl/sdsd8977_combo_v2.bin
 Version: W16.68.1.p195
 
-Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
-http://git.marvell.com/?p=mwifiex-firmware.git
+Licence: Redistributable. See LICENCE.NXP for details.
+Originates from https://github.com/NXP/mwifiex-firmware.git
 
 --------------------------------------------------------------------------
 
@@ -2252,6 +2252,7 @@ File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
 File: amdgpu/raven_dmcu.bin
 File: amdgpu/raven_kicker_rlc.bin
+File: amdgpu/raven_ta.bin
 File: amdgpu/picasso_asd.bin
 File: amdgpu/picasso_ce.bin
 File: amdgpu/picasso_gpu_info.bin
@@ -2263,6 +2264,7 @@ File: amdgpu/picasso_rlc.bin
 File: amdgpu/picasso_rlc_am4.bin
 File: amdgpu/picasso_sdma.bin
 File: amdgpu/picasso_vcn.bin
+File: amdgpu/picasso_ta.bin
 File: amdgpu/raven2_asd.bin
 File: amdgpu/raven2_ce.bin
 File: amdgpu/raven2_gpu_info.bin
@@ -2273,6 +2275,7 @@ File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
 File: amdgpu/raven2_vcn.bin
+File: amdgpu/raven2_ta.bin
 File: amdgpu/navi10_asd.bin
 File: amdgpu/navi10_ce.bin
 File: amdgpu/navi10_gpu_info.bin
@@ -2286,6 +2289,7 @@ File: amdgpu/navi10_sdma1.bin
 File: amdgpu/navi10_smc.bin
 File: amdgpu/navi10_sos.bin
 File: amdgpu/navi10_vcn.bin
+File: amdgpu/navi10_ta.bin
 File: amdgpu/navi14_asd.bin
 File: amdgpu/navi14_ce.bin
 File: amdgpu/navi14_ce_wks.bin
@@ -2405,6 +2409,7 @@ File: qed/qed_init_values_zipped-8.37.2.0.bin
 File: qed/qed_init_values_zipped-8.37.7.0.bin
 File: qed/qed_init_values-8.37.7.0.bin
 File: qed/qed_init_values-8.40.33.0.bin
+File: qed/qed_init_values_zipped-8.42.2.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -3137,6 +3142,7 @@ Version: WLAN.TF.2.1-00021-QCARMSWP-1
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
 File: ath10k/WCN3990/hw1.0/firmware-5.bin
 File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
 Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
 Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
@@ -4726,7 +4732,6 @@ Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
 File: qcom/sdm845/mba.mbn
 File: qcom/sdm845/modem.mbn
 File: qcom/sdm845/modemuw.jsn
-File: qcom/sdm845/wlanmdsp.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -4750,9 +4755,11 @@ File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
 File: mellanox/mlxsw_spectrum-13.2000.1886.mfa2
 File: mellanox/mlxsw_spectrum-13.2000.2308.mfa2
 File: mellanox/mlxsw_spectrum2-29.2000.2308.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.2714.mfa2
+File: mellanox/mlxsw_spectrum2-29.2000.2714.mfa2
 
 Licence:
- Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
+ Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
