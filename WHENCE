@@ -4539,6 +4539,9 @@ File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-enc.bin
 Version: v2019.12b
 
+File: ti-sysfw/ti-sci-firmware-am65x_sr2-gp.bin
+Version: v2019.12b
+
 File: ti-sysfw/ti-sci-firmware-j721e-gp.bin
 Version: v2019.12b
 
