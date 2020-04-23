@@ -11,6 +11,7 @@ kernel.
 Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
 
 File: brcm/BCM-0bb4-0306.hcd
+Link: brcm/BCM-0a5c-6410.hcd -> BCM-0bb4-0306.hcd
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
@@ -577,14 +578,14 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.24.11.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.24.11.0.bin
+File: cxgb4/t4fw-1.24.14.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.24.14.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.24.11.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.24.11.0.bin
-File: cxgb4/t6fw-1.24.11.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.24.11.0.bin
+File: cxgb4/t5fw-1.24.14.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.24.14.0.bin
+File: cxgb4/t6fw-1.24.14.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.24.14.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
 File: cxgb4/configs/t4-config-default.txt
@@ -2308,6 +2309,7 @@ File: amdgpu/navi14_sdma1.bin
 File: amdgpu/navi14_smc.bin
 File: amdgpu/navi14_sos.bin
 File: amdgpu/navi14_vcn.bin
+File: amdgpu/navi14_ta.bin
 File: amdgpu/renoir_asd.bin
 File: amdgpu/renoir_ce.bin
 File: amdgpu/renoir_gpu_info.bin
@@ -2546,7 +2548,7 @@ File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
-File: "brcm/brcmfmac43362-sdio.lemaker,bananapro.txt"
+Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
 File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
@@ -3852,6 +3854,8 @@ File: qca/rampatch_00440302.bin
 File: qca/nvm_00440302_eu.bin
 File: qca/nvm_00440302_i2s_eu.bin
 File: qca/nvm_usb_00000302_eu.bin
+File: qca/htbtfw20.tlv
+File: qca/htnv20.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -4624,6 +4628,8 @@ File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
 File: mediatek/mt7668pr2h.bin
 Version: 20180517181834
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4693,6 +4699,17 @@ File: mediatek/mt7622_n9.bin
 Version: 20200131
 File: mediatek/mt7622_rom_patch.bin
 Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7663 - MediaTek MT7663 Wireless MACs
+
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
+File: mediatek/mt7663_n9_v3.bin
+Version: 7663mp1827-20200326130317
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4875,6 +4892,7 @@ File: qcom/a530_zap.b02
 File: qcom/a530_zap.mdt
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
+File: qcom/sdm845/a630_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
