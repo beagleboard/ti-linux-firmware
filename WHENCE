@@ -3325,13 +3325,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0538
+Version: BT_JeffersonPeak_B0_B0_REL6412
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0538
+Version: BT_JeffersonPeak_B0_B0_REL6412
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0538
+Version: BT_JeffersonPeak_B0_B0_REL6412
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0538
+Version: BT_JeffersonPeak_B0_B0_REL6412
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3341,13 +3341,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0538
+Version: BT_ThunderPeak_B0_B0_REL6412
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0538
+Version: BT_ThunderPeak_B0_B0_REL6412
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0538
+Version: BT_ThunderPeak_B0_B0_REL6412
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0538
+Version: BT_ThunderPeak_B0_B0_REL6412
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3357,53 +3357,53 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL0384
+Version: BT_CyclonePeak_A0_REL6356
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL0384
+Version: BT_Quasar_REL6356
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL0384
+Version: BT_Quasar_REL6356
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL0384
+Version: BT_Quasar_REL6356
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL0384
+Version: BT_Quasar_REL6356
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL0384
+Version: BT_HarrisonPeak_REL6356
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
