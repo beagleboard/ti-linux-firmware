@@ -4571,13 +4571,27 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
-Driver: icssg-prueth - TI ICSSG Ethernet Driver
+Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR1.0)
 
 File: ti-pruss/am65x-pru0-prueth-fw.elf
 File: ti-pruss/am65x-pru1-prueth-fw.elf
 File: ti-pruss/am65x-rtu0-prueth-fw.elf
 File: ti-pruss/am65x-rtu1-prueth-fw.elf
 Version: 5.3.0.5 DEV.EMAC_LLD.01.00.03.15
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR2.0)
+
+File: ti-pruss/am65x-sr2-pru0-prueth-fw.elf
+File: ti-pruss/am65x-sr2-pru1-prueth-fw.elf
+File: ti-pruss/am65x-sr2-rtu0-prueth-fw.elf
+File: ti-pruss/am65x-sr2-rtu1-prueth-fw.elf
+File: ti-pruss/am65x-sr2-txpru0-prueth-fw.elf
+File: ti-pruss/am65x-sr2-txpru1-prueth-fw.elf
+Version: LINUX_TSN_TIMESYNC_02.02.00.02.RC1
 
 License: Redistributable. See LICENSE.ti for details.
 
