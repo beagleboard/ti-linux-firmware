@@ -4555,34 +4555,6 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
-Driver: prueth - TI PRU-ICSS EMAC Driver
-
-File: ti-pruss/k2g-pru0-prueth-fw.elf
-File: ti-pruss/k2g-pru1-prueth-fw.elf
-File: ti-pruss/am57xx-pru0-prueth-fw.elf
-File: ti-pruss/am57xx-pru1-prueth-fw.elf
-File: ti-pruss/am437x-pru0-prueth-fw.elf
-File: ti-pruss/am437x-pru1-prueth-fw.elf
-File: ti-pruss/am335x-pru0-prueth-fw.elf
-File: ti-pruss/am335x-pru1-prueth-fw.elf
-Version: 5.1.4
-
-License: Redistributable. See LICENSE.ti for details.
-
---------------------------------------------------------------------------
-
-Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR1.0)
-
-File: ti-pruss/am65x-pru0-prueth-fw.elf
-File: ti-pruss/am65x-pru1-prueth-fw.elf
-File: ti-pruss/am65x-rtu0-prueth-fw.elf
-File: ti-pruss/am65x-rtu1-prueth-fw.elf
-Version: 5.3.0.5 DEV.EMAC_LLD.01.00.03.15
-
-License: Redistributable. See LICENSE.ti for details.
-
---------------------------------------------------------------------------
-
 Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR2.0)
 
 File: ti-pruss/am65x-sr2-pru0-prueth-fw.elf
