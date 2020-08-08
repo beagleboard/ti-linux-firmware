@@ -4689,6 +4689,21 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: prueth - TI PRU-ICSS EMAC Driver
+
+File: ti-pruss/am335x-pru0-prueth-fw.elf
+File: ti-pruss/am335x-pru1-prueth-fw.elf
+File: ti-pruss/am437x-pru0-prueth-fw.elf
+File: ti-pruss/am437x-pru1-prueth-fw.elf
+File: ti-pruss/am57xx-pru0-prueth-fw.elf
+File: ti-pruss/am57xx-pru1-prueth-fw.elf
+
+Version: 5.2.7
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: mtk-vpu - Mediatek VPU video processing unit driver
 
 File: mediatek/mt8173/vpu_d.bin
