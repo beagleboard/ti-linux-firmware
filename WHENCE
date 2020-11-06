@@ -4733,6 +4733,16 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti-dm - TI Device Manager (DM) firmware for K3 devices
+
+File: ti-dm/j7200/ipc_echo_testb_mcu1_0_release_strip.xer5f
+File: ti-dm/j721e/ipc_echo_testb_mcu1_0_release_strip.xer5f
+Version: 07.01.00.33
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR2.0)
 
 File: ti-pruss/am65x-sr2-pru0-prueth-fw.elf
