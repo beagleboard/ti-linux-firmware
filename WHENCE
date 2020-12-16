@@ -4811,6 +4811,9 @@ File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-enc.bin
 Version: v2020.08b
 
+File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
+Version: w2020.17
+
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-gp.bin
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-enc.bin
