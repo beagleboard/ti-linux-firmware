@@ -4811,7 +4811,7 @@ Licence: Redistributable. See LICENSE.ti for details.
 Driver: ti-sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
-Version: w2020.23
+Version: v2020.12
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
