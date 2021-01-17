@@ -4811,25 +4811,31 @@ Licence: Redistributable. See LICENSE.ti for details.
 Driver: ti-sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
-Version: v2020.12
+Version: v2020.12a
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
+Version: v2020.12a
+
 File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-enc.bin
 Version: v2020.12
 
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-gp.bin
+Version: v2020.12a
+
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-enc.bin
 Version: v2020.12
 
 File: ti-sysfw/ti-fs-firmware-j721e-gp.bin
+Version: v2020.12a
+
 File: ti-sysfw/ti-fs-firmware-j721e-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721e-hs-enc.bin
 Version: v2020.12
 
 File: ti-sysfw/ti-fs-firmware-j7200-gp.bin
-Version: v2020.12
+Version: v2020.12a
 
 Licence: Redistributable. See LICENSE.ti for details.
 
