@@ -5048,14 +5048,12 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
-Driver: prueth - TI PRU-ICSS EMAC Driver
+Driver: prueth - TI PRU-ICSS EMAC Driver for AM335x and AM437x
 
 File: ti-pruss/am335x-pru0-prueth-fw.elf
 File: ti-pruss/am335x-pru1-prueth-fw.elf
 File: ti-pruss/am437x-pru0-prueth-fw.elf
 File: ti-pruss/am437x-pru1-prueth-fw.elf
-File: ti-pruss/am57xx-pru0-prueth-fw.elf
-File: ti-pruss/am57xx-pru1-prueth-fw.elf
 
 Version: 5.5.13
 
@@ -5063,6 +5061,16 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: prueth - TI PRU-ICSS EMAC Driver for AM57xx
+
+File: ti-pruss/am57xx-pru0-prueth-fw.elf
+File: ti-pruss/am57xx-pru1-prueth-fw.elf
+
+Version: 5.6.15
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
 Driver: prueth - TI PRU-ICSS switch Driver
 
 File: ti-pruss/am335x-pru0-prusw-fw.elf
