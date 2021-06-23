@@ -4991,6 +4991,19 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR1.0)
+
+File: ti-pruss/am65x-pru0-prueth-fw.elf
+File: ti-pruss/am65x-pru1-prueth-fw.elf
+File: ti-pruss/am65x-rtu0-prueth-fw.elf
+File: ti-pruss/am65x-rtu1-prueth-fw.elf
+
+Version: REL.CORESDK.08.00.00.20
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR2.0)
 
 File: ti-pruss/am65x-sr2-pru0-prueth-fw.elf
