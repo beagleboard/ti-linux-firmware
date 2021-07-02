@@ -5013,6 +5013,17 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti-ethernet - TI Remote Switch Driver (DM) firmware for K3 devices
+
+File: ti-eth/j7200/app_remoteswitchcfg_server_strip.xer5f
+File: ti-eth/j721e/app_remoteswitchcfg_server_strip.xer5f
+
+Version: 08.00.00.26
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR1.0)
 
 File: ti-pruss/am65x-pru0-prueth-fw.elf
