@@ -4991,6 +4991,28 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti-ipc - TI InterProcessor Communication (IPC) firmware for K3 devices
+
+File: ti-ipc/j7200/ipc_echo_test_mcu1_1_release_strip.xer5f
+File: ti-ipc/j7200/ipc_echo_test_mcu2_0_release_strip.xer5f
+File: ti-ipc/j7200/ipc_echo_test_mcu2_1_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_mcu1_1_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_mcu2_0_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_mcu2_1_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_mcu3_0_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_mcu3_1_release_strip.xer5f
+File: ti-ipc/j721e/ipc_echo_test_c66xdsp_1_release_strip.xe66
+File: ti-ipc/j721e/ipc_echo_test_c66xdsp_2_release_strip.xe66
+File: ti-ipc/j721e/ipc_echo_test_c7x_1_release_strip.xe71
+File: ti-ipc/am65xx/ipc_echo_test_mcu1_0_release_strip.xer5f
+File: ti-ipc/am65xx/ipc_echo_test_mcu1_1_release_strip.xer5f
+
+Version: 08.00.00.26
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR1.0)
 
 File: ti-pruss/am65x-pru0-prueth-fw.elf
