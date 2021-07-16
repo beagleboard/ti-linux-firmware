@@ -5013,6 +5013,19 @@ Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti-ipc - TI InterProcessor Communication (IPC) firmware for am64xx
+
+File: ti-ipc/am64xx/am64-main-r5f0_0-fw
+File: ti-ipc/am64xx/am64-main-r5f0_1-fw
+File: ti-ipc/am64xx/am64-main-r5f1_0-fw
+File: ti-ipc/am64xx/am64-main-r5f1_1-fw
+
+Version: 08.00.00.21
+
+Licence: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: ti-ethernet - TI Remote Switch Driver (DM) firmware for K3 devices
 
 File: ti-eth/j7200/app_remoteswitchcfg_server_strip.xer5f
