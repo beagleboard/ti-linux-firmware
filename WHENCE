@@ -5140,7 +5140,7 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
-Driver: icssg-prueth - TI ICSSG Ethernet Driver (SR2.0)
+Driver: icssg-prueth - TI ICSSG Ethernet Dual EMAC Driver (SR2.0)
 
 File: ti-pruss/am65x-sr2-pru0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-pru1-prueth-fw.elf
@@ -5148,6 +5148,20 @@ File: ti-pruss/am65x-sr2-rtu0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-prueth-fw.elf
+Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.09.06
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG Ethernet Switch Driver (SR2.0)
+
+File: ti-pruss/am65x-sr2-pru0-prusw-fw.elf
+File: ti-pruss/am65x-sr2-pru1-prusw-fw.elf
+File: ti-pruss/am65x-sr2-rtu0-prusw-fw.elf
+File: ti-pruss/am65x-sr2-rtu1-prusw-fw.elf
+File: ti-pruss/am65x-sr2-txpru0-prusw-fw.elf
+File: ti-pruss/am65x-sr2-txpru1-prusw-fw.elf
 Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.09.06
 
 License: Redistributable. See LICENSE.ti for details.
