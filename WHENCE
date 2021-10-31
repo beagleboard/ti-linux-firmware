@@ -5208,8 +5208,7 @@ File: ti-pruss/am335x-pru0-prueth-fw.elf
 File: ti-pruss/am335x-pru1-prueth-fw.elf
 File: ti-pruss/am437x-pru0-prueth-fw.elf
 File: ti-pruss/am437x-pru1-prueth-fw.elf
-
-Version: 5.5.13
+Version: REL.PDK_ICSS_EMAC_FW_08.01.00
 
 License: Redistributable. See LICENSE.ti for details.
 
