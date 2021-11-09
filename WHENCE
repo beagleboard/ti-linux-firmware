@@ -5893,3 +5893,11 @@ Version: 3.12.1
 
 Licence: Redistributable. See silabs/LICENCE.wf200 for details.
 Originates from https://github.com/SiliconLabs/wfx-firmware
+
+------------------------------------------------------------------
+
+Driver: vxd_dec - Imagination D5550 Hardware decoder firmware
+
+File: pvdec_full_bin.fw
+
+License: Redistributable. See LICENSE.ti-img for details.
