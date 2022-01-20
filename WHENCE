@@ -5443,7 +5443,7 @@ Driver: prueth - TI PRU-ICSS switch Driver for AM57xx
 File: ti-pruss/am57xx-pru0-prusw-fw.elf
 File: ti-pruss/am57xx-pru1-prusw-fw.elf
 
-Version: 3.2.9
+Version: 3.2.12
 
 License: Redistributable. See LICENSE.ti for details.
 
