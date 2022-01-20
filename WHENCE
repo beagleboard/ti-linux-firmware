@@ -5421,7 +5421,7 @@ Driver: prueth - TI PRU-ICSS EMAC Driver for AM57xx
 File: ti-pruss/am57xx-pru0-prueth-fw.elf
 File: ti-pruss/am57xx-pru1-prueth-fw.elf
 
-Version: 5.6.15
+Version: 5.6.18
 
 License: Redistributable. See LICENSE.ti for details.
 
