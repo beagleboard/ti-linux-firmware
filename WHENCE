@@ -5268,6 +5268,10 @@ File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am65x_sr2-hs-enc.bin
 Version: v2022.01
 
+File: ti-sysfw/ti-fs-firmware-am62x-gp.bin
+File: ti-sysfw/ti-fs-stub-firmware-am62x-gp-signed.bin
+Version: v08.03.00
+
 Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
