@@ -5355,7 +5355,7 @@ Version: 08.02.00.04
 File: ti-dm/j721s2/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 08.00.04.02
 
-File: ti-dm/am62x/am62x/ipc_echo_testb_mcu1_0_release_strip.xer5f
+File: ti-dm/am62xx/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 08.03.00.07
 
 Licence: Redistributable. See LICENSE.ti for details.
