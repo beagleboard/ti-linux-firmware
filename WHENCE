@@ -5262,7 +5262,7 @@ Version: v08.04.01
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-enc.bin
-Version: v08.04.01
+Version: v08.04.04
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
@@ -5274,7 +5274,7 @@ Version: v2022.01
 
 File: ti-sysfw/ti-fs-firmware-am62x-gp.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-gp-signed.bin
-Version: v08.04.02
+Version: v08.04.04
 
 Licence: Redistributable. See LICENSE.ti for details.
 
