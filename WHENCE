@@ -5472,21 +5472,11 @@ File: mediatek/mt8173/vpu_p.bin
 Link: vpu_d.bin -> mediatek/mt8173/vpu_d.bin
 Link: vpu_p.bin -> mediatek/mt8173/vpu_p.bin
 
-Licence: Redistributable.
-
-MediaTek Inc. grants permission to use and redistribute aforementioned firmware
-files for the use with devices containing MediaTek chipsets, but not as part of
-the Linux kernel or in any other form which would require these files themselves
-to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
-
-These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mtk_scp - Mediatek SCP System Control Processing Driver
+Driver: mtk_scp - MediaTek SCP System Control Processing Driver
 
 File: mediatek/mt8183/scp.img
 Version: v2.0.13324
@@ -5497,17 +5487,7 @@ Version: v2.0.8548
 File: mediatek/mt8195/scp.img
 Version: v2.0.13324
 
-Licence: Redistributable.
-
-MediaTek Inc. grants permission to use and redistribute aforementioned firmware
-files for the use with devices containing MediaTek chipsets, but not as part of
-the Linux kernel or in any other form which would require these files themselves
-to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
-
-These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
@@ -6043,6 +6023,10 @@ File: mellanox/mlxsw_spectrum-13.2010.3020.mfa2
 File: mellanox/mlxsw_spectrum2-29.2010.3020.mfa2
 File: mellanox/mlxsw_spectrum3-30.2010.3020.mfa2
 File: mellanox/lc_ini_bundle_2010_3020.bin
+File: mellanox/mlxsw_spectrum-13.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum2-29.2010.3146.mfa2
+File: mellanox/mlxsw_spectrum3-30.2010.3146.mfa2
+File: mellanox/lc_ini_bundle_2010_3146.bin
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
@@ -6260,24 +6244,14 @@ Semiconductor Ltd. All Rights Reserved.
 
 ---------------------------------------------------------------------------
 
-Driver: mtk-sof - Mediatek Sound Open Firmware driver
+Driver: mtk-sof - MediaTek Sound Open Firmware driver
 
 File: mediatek/sof/sof-mt8186.ri
 File: mediatek/sof/sof-mt8186-mt6366-da7219-max98357.tplg
 File: mediatek/sof/sof-mt8186-mt6366-rt1019-rt5682s.tplg
 Version: v0.2.0
 
-Licence: Redistributable.
-
-MediaTek Inc. grants permission to use and redistribute aforementioned firmware
-files for the use with devices containing MediaTek chipsets, but not as part of
-the Linux kernel or in any other form which would require these files themselves
-to be covered by the terms of the GNU General Public License or the GNU Lesser
-General Public License.
-
-These firmware files are distributed in the hope that they will be useful, but
-are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
-OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
