@@ -5311,6 +5311,7 @@ Version: v2022.01
 
 File: ti-sysfw/ti-fs-firmware-am62x-gp.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-gp-signed.bin
+File: ti-sysfw/ti-fs-firmware-am62ax-gp.bin
 Version: v08.04.07
 
 Licence: Redistributable. See LICENSE.ti for details.
