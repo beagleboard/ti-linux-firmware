@@ -5395,6 +5395,7 @@ Driver: ti-ethernet - TI Remote Switch Driver (DM) firmware for K3 devices
 
 File: ti-eth/j7200/app_remoteswitchcfg_server_strip.xer5f
 File: ti-eth/j721e/app_remoteswitchcfg_server_strip.xer5f
+Version: 08.04.00.04
 
 File: ti-eth/j784s4/app_remoteswitchcfg_server_strip.xer5f
 Version: 08.02.02.04
