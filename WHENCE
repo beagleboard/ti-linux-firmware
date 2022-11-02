@@ -1184,6 +1184,42 @@ Version: 71.058653f6.0
 File: iwlwifi-so-a0-jf-b0-71.ucode
 Version: 71.058653f6.0
 
+File: iwlwifi-cc-a0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-b0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-b0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-c0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-Qu-c0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-QuZ-a0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-QuZ-a0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-ty-a0-gf-a0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-so-a0-gf4-a0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-so-a0-gf-a0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-so-a0-hr-b0-72.ucode
+Version: 72.daa05125.0
+
+File: iwlwifi-so-a0-jf-b0-72.ucode
+Version: 72.daa05125.0
+
 File: iwlwifi-cc-a0-73.ucode
 Version: 73.35c0a2c6.0
 
@@ -5918,15 +5954,10 @@ File: qcom/venus-5.2/venus.mbn
 
 Version: 5.2-00023
 
-File: qcom/venus-5.4/venus.mdt
-File: qcom/venus-5.4/venus.b00
-File: qcom/venus-5.4/venus.b01
-File: qcom/venus-5.4/venus.b02
-File: qcom/venus-5.4/venus.b03
-File: qcom/venus-5.4/venus.b04
 File: qcom/venus-5.4/venus.mbn
+Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: 5.4-00038
+Version: 5.4-00053
 
 File: qcom/vpu-1.0/venus.mdt
 File: qcom/vpu-1.0/venus.b00
@@ -5945,22 +5976,9 @@ File: qcom/vpu-1.0/venus.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
-File: qcom/vpu-2.0/venus.mdt
-File: qcom/vpu-2.0/venus.b00
-File: qcom/vpu-2.0/venus.b01
-File: qcom/vpu-2.0/venus.b02
-File: qcom/vpu-2.0/venus.b03
-File: qcom/vpu-2.0/venus.b04
-File: qcom/vpu-2.0/venus.b05
-File: qcom/vpu-2.0/venus.b06
-File: qcom/vpu-2.0/venus.b07
-File: qcom/vpu-2.0/venus.b08
-File: qcom/vpu-2.0/venus.b09
-File: qcom/vpu-2.0/venus.b10
-File: qcom/vpu-2.0/venus.b19
 File: qcom/vpu-2.0/venus.mbn
 
-Version: VIDEO.VPU.2.0-00038-PROD-1
+Version: VIDEO.VPU.2.0-00049-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6490,6 +6508,16 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e02-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-10431e02-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431f12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431f12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431f12-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
