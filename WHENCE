@@ -1292,6 +1292,42 @@ Version: 74.a5e9588b.0
 File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
+File: iwlwifi-cc-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-Qu-b0-hr-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-Qu-b0-jf-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-Qu-c0-hr-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-Qu-c0-jf-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-QuZ-a0-hr-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-QuZ-a0-jf-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-ty-a0-gf-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-gf4-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-gf-a0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-hr-b0-77.ucode
+Version: 74.f92b5fed.0
+
+File: iwlwifi-so-a0-jf-b0-77.ucode
+Version: 74.f92b5fed.0
+
 File: iwlwifi-so-a0-gf-a0.pnvm
 
 File: iwlwifi-so-a0-gf4-a0.pnvm
@@ -3835,92 +3871,92 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL47124
+Version: BT_CyclonePeak_A0_REL51818
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL47124
+Version: BT_Quasar_REL51818
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL47124
+Version: BT_Quasar_REL51818
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL47124
+Version: BT_Quasar_REL51818
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL47124
+Version: BT_Quasar_REL51818
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL47124
+Version: BT_HarrisonPeak_REL51818
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL47489
+Version: BT_TyphoonPeak_REL52159
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL47489
+Version: BT_TyphoonPeak_REL52159
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL47489
+Version: BT_Solar_GfP2_REL52159
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL47489
+Version: BT_Solar_GfP2_REL52159
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL47489
+Version: BT_SolarF_GfP2_REL52159
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL47489
+Version: BT_SolarF_GfP2_REL52159
 
 File:intel/ibt-0040-1020.sfi
-Version: BT_Solar_JfP1_REL47489
+Version: BT_Solar_JfP1_REL52159
 File:intel/ibt-0040-1020.ddc
-Version: BT_Solar_JfP1_REL47489
+Version: BT_Solar_JfP1_REL52159
 File:intel/ibt-1040-1020.sfi
-Version: BT_SolarF_JfP1_REL47489
+Version: BT_SolarF_JfP1_REL52159
 File:intel/ibt-1040-1020.ddc
-Version: BT_SolarF_JfP1_REL47489
+Version: BT_SolarF_JfP1_REL52159
 
 File:intel/ibt-0040-2120.sfi
-Version: BT_Solar_JfP2_REL47489
+Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-0040-2120.ddc
-Version: BT_Solar_JfP2_REL47489
+Version: BT_Solar_JfP2_REL52159
 File:intel/ibt-1040-2120.sfi
-Version: BT_SolarF_JfP2_REL47489
+Version: BT_SolarF_JfP2_REL52159
 File:intel/ibt-1040-2120.ddc
-Version: BT_SolarF_JfP2_REL47489
+Version: BT_SolarF_JfP2_REL52159
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL47489
+Version: BT_Solar_HrP2_REL52159
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL47489
+Version: BT_Solar_HrP2_REL52159
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL47489
+Version: BT_SolarF_HrP2_REL52159
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL47489
+Version: BT_SolarF_HrP2_REL52159
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -5922,31 +5958,18 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
 Driver: venus - Qualcomm Venus video codec accelerator
 
-File: qcom/venus-1.8/venus.mdt
-File: qcom/venus-1.8/venus.b00
-File: qcom/venus-1.8/venus.b01
-File: qcom/venus-1.8/venus.b02
-File: qcom/venus-1.8/venus.b03
-File: qcom/venus-1.8/venus.b04
+File: qcom/venus-1.8/venus.mbn
+Link: qcom/venus-1.8/venus.mdt -> venus.mbn
 
 Version: 1.8-00109
 
-File: qcom/venus-4.2/venus.mdt
-File: qcom/venus-4.2/venus.b00
-File: qcom/venus-4.2/venus.b01
-File: qcom/venus-4.2/venus.b02
-File: qcom/venus-4.2/venus.b03
-File: qcom/venus-4.2/venus.b04
+File: qcom/venus-4.2/venus.mbn
+Link: qcom/venus-4.2/venus.mdt -> venus.mbn
 
 Version: 4.2
 
-File: qcom/venus-5.2/venus.mdt
-File: qcom/venus-5.2/venus.b00
-File: qcom/venus-5.2/venus.b01
-File: qcom/venus-5.2/venus.b02
-File: qcom/venus-5.2/venus.b03
-File: qcom/venus-5.2/venus.b04
 File: qcom/venus-5.2/venus.mbn
+Link: qcom/venus-5.2/venus.mdt -> venus.mbn
 
 Version: 5.2-00023
 
@@ -5955,20 +5978,8 @@ Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
 Version: 5.4-00053
 
-File: qcom/vpu-1.0/venus.mdt
-File: qcom/vpu-1.0/venus.b00
-File: qcom/vpu-1.0/venus.b01
-File: qcom/vpu-1.0/venus.b02
-File: qcom/vpu-1.0/venus.b03
-File: qcom/vpu-1.0/venus.b04
-File: qcom/vpu-1.0/venus.b05
-File: qcom/vpu-1.0/venus.b06
-File: qcom/vpu-1.0/venus.b07
-File: qcom/vpu-1.0/venus.b08
-File: qcom/vpu-1.0/venus.b09
-File: qcom/vpu-1.0/venus.b10
-File: qcom/vpu-1.0/venus.b19
 File: qcom/vpu-1.0/venus.mbn
+Link: qcom/vpu-1.0/venus.mdt -> venus.mbn
 
 Version: VIDEO.VPU.1.0-00087-PROD-1
 
@@ -6007,11 +6018,8 @@ File: qcom/a420_pm4.fw
 File: qcom/a530_pfp.fw
 File: qcom/a530_pm4.fw
 File: qcom/a530v3_gpmu.fw2
-File: qcom/a530_zap.b00
-File: qcom/a530_zap.b01
-File: qcom/a530_zap.b02
-File: qcom/a530_zap.mdt
 File: qcom/apq8096/a530_zap.mbn
+Link: qcom/a530_zap.mdt -> apq8096/a530_zap.mbn
 File: qcom/a630_gmu.bin
 File: qcom/a630_sqe.fw
 File: qcom/sdm845/a630_zap.mbn
@@ -6284,6 +6292,8 @@ Driver: prestera - Marvell driver for Prestera family ASIC devices
 File: mrvl/prestera/mvsw_prestera_fw-v2.0.img
 File: mrvl/prestera/mvsw_prestera_fw-v3.0.img
 File: mrvl/prestera/mvsw_prestera_fw-v4.0.img
+File: mrvl/prestera/mvsw_prestera_fw-v4.1.img
+File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
