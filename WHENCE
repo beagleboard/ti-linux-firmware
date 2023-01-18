@@ -2964,7 +2964,10 @@ File: "brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
+File: "brcm/brcmfmac43362-sdio.WC121.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
+Link: brcm/brcmfmac43362-sdio.kobo,aura.txt -> brcmfmac43362-sdio.WC121.txt
+Link: brcm/brcmfmac43362-sdio.kobo,tolino-shine2hd.txt -> brcmfmac43362-sdio.WC121.txt
 Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
 File: "brcm/brcmfmac43430a0-sdio.ilife-S806.txt"
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
@@ -3892,13 +3895,13 @@ Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20182
+Version: BT_JeffersonPeak_B0_B0_REL20332
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3924,65 +3927,65 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL51818
+Version: BT_CyclonePeak_A0_REL53263
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL51818
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL51818
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL51818
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL51818
+Version: BT_Quasar_REL53263
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL51818
+Version: BT_HarrisonPeak_REL53263
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL52159
+Version: BT_TyphoonPeak_REL56683
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL52159
+Version: BT_TyphoonPeak_REL56683
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL52159
+Version: BT_Solar_GfP2_REL56683
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL52159
+Version: BT_Solar_GfP2_REL56683
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL52159
+Version: BT_SolarF_GfP2_REL56683
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL52159
+Version: BT_SolarF_GfP2_REL56683
 
 File:intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL52159
@@ -4003,13 +4006,13 @@ File:intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL52159
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_HrP2_REL52159
+Version: BT_Solar_HrP2_REL56683
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_HrP2_REL52159
+Version: BT_Solar_HrP2_REL56683
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_HrP2_REL52159
+Version: BT_SolarF_HrP2_REL56683
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_HrP2_REL52159
+Version: BT_SolarF_HrP2_REL56683
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4520,6 +4523,19 @@ Driver: qca - Qualcomm Atheros Bluetooth support for WCN6750 chips
 File: qca/msbtfw11.mbn
 File: qca/msbtfw11.tlv
 File: qca/msnv11.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
+
+File: qca/hpbtfw21.tlv
+File: qca/hpnv21.bin
+File: qca/hpnv21g.bin
+File: qca/hpnv21.301
+File: qca/hpnv21.302
+File: qca/hpnv21g.301
+File: qca/hpnv21g.302
+
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -6109,6 +6125,19 @@ Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: adreno - Qualcomm Adreno GPU firmware
+
+File: qcom/yamato_pfp.fw
+File: qcom/yamato_pm4.fw
+
+Licence: Redistributable, BSD-3-Clause licence, See LICENSE.qcom_yamato for details
+
+Binary files generated from header files in EfikaMX kernel sources. A prefix of
+four zero bytes was prepended to make them work with the DRM MSM driver. See
+https://github.com/genesi/linux-legacy/tree/master/drivers/mxc/amd-gpu
 
 --------------------------------------------------------------------------
 
