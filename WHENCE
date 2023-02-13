@@ -2625,7 +2625,6 @@ File: brcm/brcmfmac4329-sdio.bin
 File: brcm/brcmfmac4330-sdio.bin
 File: brcm/brcmfmac4334-sdio.bin
 File: brcm/brcmfmac4335-sdio.bin
-File: brcm/brcmfmac4339-sdio.bin
 File: brcm/brcmfmac43241b0-sdio.bin
 File: brcm/brcmfmac43241b4-sdio.bin
 File: brcm/brcmfmac43241b5-sdio.bin
@@ -2635,10 +2634,7 @@ File: brcm/brcmfmac43143-sdio.bin
 File: brcm/brcmfmac43430a0-sdio.bin
 File: brcm/brcmfmac4350c2-pcie.bin
 File: brcm/brcmfmac4350-pcie.bin
-File: brcm/brcmfmac4354-sdio.bin
 File: brcm/brcmfmac43569.bin
-File: brcm/brcmfmac4356-pcie.bin
-File: brcm/brcmfmac4356-sdio.bin
 File: brcm/brcmfmac4358-pcie.bin
 File: brcm/brcmfmac43602-pcie.bin
 File: brcm/brcmfmac43602-pcie.ap.bin
@@ -3882,7 +3878,7 @@ Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
 Version: 2022-04-08
 File: amd-ucode/microcode_amd_fam19h.bin
-Version: 2022-09-30
+Version: 2023-01-31
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4624,6 +4620,9 @@ Version: DMC API/APB ver 2 release 14 for Alderlake P
 File: i915/adlp_dmc_ver2_16.bin
 Version: DMC API/APB ver 2 release 16 for Alderlake P
 
+File: i915/adlp_dmc.bin
+Version: DMC API/APB ver 2 release 18 for Alderlake P
+
 File: i915/adlp_guc_62.0.3.bin
 Version: GuC API/APB ver 62.0.3 for Alderlake P
 
@@ -4659,6 +4658,9 @@ Version: DMC API/APB ver 2 release 8 for DG2
 
 File: i915/mtl_dmc_ver2_10.bin
 Version: DMC API/APB ver 2 release 10 for Meteorlake
+
+File: i915/mtl_dmc.bin
+Version: DMC API/APB ver 2 release 11 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -6277,6 +6279,10 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8991.bin -> cs35l41-dsp1-spk-prot-103c897
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8991.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8992.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8992.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8994.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8994.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8995.bin -> cs35l41-dsp1-spk-prot-103c8973.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8995.bin -> cs35l41-dsp1-spk-cali-103c8973.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c89c6-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c89c6-l0.bin
@@ -6374,6 +6380,16 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid1-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
