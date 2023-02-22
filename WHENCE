@@ -5420,7 +5420,7 @@ File: ti-pruss/am65x-sr2-rtu0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-prueth-fw.elf
-Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.11.02
+Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.12.01
 
 License: Redistributable. See LICENSE.ti for details.
 
@@ -5434,7 +5434,7 @@ File: ti-pruss/am65x-sr2-rtu0-prusw-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-prusw-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-prusw-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-prusw-fw.elf
-Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.11.02
+Version: REL.PRU-ICSS-PROFINET-SWITCH_02.02.12.01
 
 License: Redistributable. See LICENSE.ti for details.
 
