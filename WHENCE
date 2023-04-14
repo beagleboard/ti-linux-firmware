@@ -5256,6 +5256,8 @@ File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-fs-enc.bin
+Version: v08.06.03
+
 File: ti-sysfw/ti-fs-firmware-j721s2-gp.bin
 File: ti-sysfw/ti-fs-firmware-j721s2-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721s2-hs-enc.bin
@@ -5266,7 +5268,7 @@ File: ti-sysfw/ti-fs-firmware-j784s4-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-enc.bin
-Version: v08.06.03
+Version: v08.06.03a
 
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
