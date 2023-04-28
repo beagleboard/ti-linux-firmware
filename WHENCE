@@ -6458,7 +6458,7 @@ Originates from https://github.com/NXP/uwb-NXPUWB-FW.git
 
 Driver: vxd_dec - Imagination D5550 Hardware decoder firmware
 
-File: pvdec_full_bin.fw
+File: ti-img/pvdec_full_bin.fw
 
 License: Redistributable. See LICENSE.ti-img for details.
 
