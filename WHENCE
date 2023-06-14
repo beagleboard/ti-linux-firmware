@@ -5450,6 +5450,20 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: icssg-prueth - TI ICSSG HSR Driver (SR2.0)
+
+File: ti-pruss/am65x-sr2-pru0-pru-hsr-fw.elf
+File: ti-pruss/am65x-sr2-pru1-pru-hsr-fw.elf
+File: ti-pruss/am65x-sr2-rtu0-pru-hsr-fw.elf
+File: ti-pruss/am65x-sr2-rtu1-pru-hsr-fw.elf
+File: ti-pruss/am65x-sr2-txpru0-pru-hsr-fw.elf
+File: ti-pruss/am65x-sr2-txpru1-pru-hsr-fw.elf
+Version: REL.HSR_1G_01.00.00.00
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: prueth - TI PRU-ICSS HSR Driver
 
 File: ti-pruss/am335x-pru0-pruhsr-fw.elf
