@@ -4701,6 +4701,9 @@ Version: DMC API/APB ver 2 release 12 for Meteorlake
 File: i915/mtl_guc_70.bin
 Version: GuC API/APB ver 70.6.6 for Meteorlake
 
+File: i915/mtl_huc_gsc.bin
+Version: HuC API/APB ver 8.5.0 for Meteorlake
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
@@ -5545,7 +5548,7 @@ Version: v0.0.9
 File: mediatek/mt8192/scp.img
 Version: v2.0.20536
 File: mediatek/mt8195/scp.img
-Version: v2.0.20536
+Version: v2.0.11966
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5713,9 +5716,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20230331110902a
+Version: 20230526130917a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20230331110939
+Version: 20230526130958
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5724,7 +5727,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20230331111156
+Version: 20230526131214
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5733,9 +5736,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20230509203612a
+Version: 20230530123154a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20230509203655
+Version: 20230530123236
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5744,7 +5747,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20230509203838
+Version: 20230530123531
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
