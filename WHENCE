@@ -5293,7 +5293,6 @@ File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-fs-enc.bin
 Version: v09.00.04
 
 File: ti-sysfw/ti-fs-stub-firmware-am62x-gp.bin
-File: ti-sysfw/ti-fs-stub-firmware-am62x-gp-signed.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-hs-cert.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-am62x-gp.bin
