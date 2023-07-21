@@ -5295,7 +5295,7 @@ File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-enc.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-fs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-fs-enc.bin
-Version: v09.00.05
+Version: v09.00.07
 
 File: ti-sysfw/ti-fs-stub-firmware-am62x-gp.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-hs-cert.bin
@@ -5310,7 +5310,7 @@ File: ti-sysfw/ti-fs-firmware-am62ax-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-fs-enc.bin
-Version: v09.00.05
+Version: v09.00.07
 
 File: ti-sysfw/ti-sci-firmware-am65x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am65x-hs-cert.bin
