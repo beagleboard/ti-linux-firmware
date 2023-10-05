@@ -5353,12 +5353,10 @@ Licence: Redistributable. See LICENSE.ti for details.
 Driver: ti-dm - TI Device Manager (DM) firmware for K3 devices
 
 File: ti-dm/j7200/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.00.06a
-
 File: ti-dm/j721e/ipc_echo_testb_mcu1_0_release_strip.xer5f
 File: ti-dm/j721s2/ipc_echo_testb_mcu1_0_release_strip.xer5f
 File: ti-dm/j784s4/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.00.06
+Version: 09.01.00
 
 File: ti-dm/am62xx/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 09.00.00.12
