@@ -1100,6 +1100,9 @@ Version: 75.27f1c37b.0
 File: iwlwifi-so-a0-hr-b0-81.ucode
 Version: 78.31fc9ae6.0
 
+File: iwlwifi-so-a0-hr-b0-83.ucode
+Version: 80.e8f84e98.0
+
 File: iwlwifi-so-a0-hr-b0-84.ucode
 Version: 81.8e5c544c.0
 
@@ -3791,21 +3794,17 @@ Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL70976
+Version: BT_TyphoonPeak_REL66410
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL70976
+Version: BT_TyphoonPeak_REL66410
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL70976
+Version: BT_Solar_GfP2_REL66410
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL70976
+Version: BT_Solar_GfP2_REL66410
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL70976
+Version: BT_SolarF_GfP2_REL66410
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL70976
-File:intel/ibt-0080-0041.sfi
-Version: BT_Magnetar_REL88938
-File:intel/ibt-0080-0041.ddc
-Version: BT_Magnetar_REL88938
+Version: BT_SolarF_GfP2_REL66410
 
 File:intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL59564
@@ -3826,13 +3825,33 @@ File:intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL59564
 
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_JnP2_REL70976
+Version: BT_Solar_JnP2_REL66410
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_JnP2_REL70976
+Version: BT_Solar_JnP2_REL66410
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_JnP2_REL70976
+Version: BT_SolarF_JnP2_REL66410
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_JnP2_REL70976
+Version: BT_SolarF_JnP2_REL66410
+
+File:intel/ibt-0291-0291.sfi
+Version: BT_GalePeak_REL39025
+File:intel/ibt-0291-0291.ddc
+Version: BT_GalePeak_REL39025
+
+File:intel/ibt-0180-0041.sfi
+Version: BT_Magnetar_GfP2_REL82221
+File:intel/ibt-0180-0041.ddc
+Version: BT_Magnetar_GfP2_REL82221
+
+File:intel/ibt-0180-4150.sfi
+Version: BT_Magnetar_HrP2_REL82221
+File:intel/ibt-0180-4150.ddc
+Version: BT_Magnetar_HrP2_REL82221
+
+File:intel/ibt-0180-1050.sfi
+Version: BT_Magnetar_HrP1_REL82221
+File:intel/ibt-0180-1050.ddc
+Version: BT_Magnetar_HrP1_REL82221
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -3967,7 +3986,7 @@ Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
 Version: 2023-07-19
 RawFile: amd-ucode/microcode_amd_fam19h.bin
-Version: 2023-08-08
+Version: 2023-10-19
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -4657,7 +4676,7 @@ File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
 File: i915/tgl_guc_70.bin
-Version: GuC API/APB ver 70.5.1 for Tigerlake
+Version: GuC API/APB ver 70.13.1 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4738,7 +4757,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.5.1 for Alderlake P
+Version: GuC API/APB ver 70.13.1 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -4747,7 +4766,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.8.0 for DG2
+Version: GuC API/APB ver 70.13.1 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.3 for DG2
@@ -4768,7 +4787,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 17 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.8.0 for Meteorlake
+Version: GuC API/APB ver 70.13.1 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
@@ -7072,4 +7091,12 @@ Version: v0.1.0
 
 Licence: Redistributable. See LICENCE.linaro for details
 Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-topology.git
+--------------------------------------------------------------------------
+
+Driver: amlogic - Amlogic SoC Firmware
+File: amlogic/bluetooth/w2_bt_fw_uart.bin
+Version: date = 38.01, number = 0xa914
+
+Licence: Redistributable. See LICENSE.amlogic for details
+
 --------------------------------------------------------------------------
