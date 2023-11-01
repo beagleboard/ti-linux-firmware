@@ -5472,13 +5472,16 @@ File: ti-ipc/am64xx/am64-mcu-m4f0_0-fw
 Version: 08.05.00.1
 
 File: ti-ipc/am62xx/am62-mcu-m4f0_0-fw
-Version: 09.00.00.12
+Version: 09.00.01.17
 
 File: ti-ipc/am62axx/am62a-mcu-r5f0_0-fw
-Version: 09.00.00.12
+Version: 09.00.01.17
 
 File: ti-ipc/am62axx/ipc_echo_test_c7x_1_release_strip.xe71
-Version: 09.00.00.12
+Version: 09.00.01.17
+
+File: ti-ipc/am62pxx/am62p-mcu-r5f0_0-fw
+Version: 09.00.01.17
 
 Licence: Redistributable. See LICENSE.ti for details.
 
