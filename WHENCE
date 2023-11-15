@@ -1017,22 +1017,22 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.bd067429.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.bd067429.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.bd067429.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.bd067429.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.bd067429.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.bd06742.0
+Version: 74.ad46c98b.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
 Version: 74.206b0184.0
@@ -1055,6 +1055,9 @@ Version: 80.e8f84e98.0
 File: iwlwifi-ty-a0-gf-a0-84.ucode
 Version: 81.8e5c544c.0
 
+File: iwlwifi-ty-a0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
 
@@ -1072,6 +1075,9 @@ Version: 80.e8f84e98.0
 
 File: iwlwifi-so-a0-gf4-a0-84.ucode
 Version: 81.8e5c544c.0
+
+File: iwlwifi-so-a0-gf4-a0-86.ucode
+Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1091,6 +1097,9 @@ Version: 80.e8f84e98.0
 File: iwlwifi-so-a0-gf-a0-84.ucode
 Version: 81.8e5c544c.0
 
+File: iwlwifi-so-a0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
 
@@ -1106,6 +1115,9 @@ Version: 80.e8f84e98.0
 File: iwlwifi-so-a0-hr-b0-84.ucode
 Version: 81.8e5c544c.0
 
+File: iwlwifi-so-a0-hr-b0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
 
@@ -1114,20 +1126,32 @@ File: iwlwifi-ty-a0-gf-a0.pnvm
 File: iwlwifi-gl-c0-fm-c0-83.ucode
 Version: 80.d24e06ed.0
 
+File: iwlwifi-gl-c0-fm-c0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-ma-b0-gf-a0-83.ucode
 Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-gf-a0-86.ucode
+Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf-a0.pnvm
 
 File: iwlwifi-ma-b0-gf4-a0-83.ucode
 Version: 80.d24e06ed.0
 
+File: iwlwifi-ma-b0-gf4-a0-86.ucode
+Version: 83.fb5c9aeb.0
+
 File: iwlwifi-ma-b0-gf4-a0.pnvm
 
 File: iwlwifi-ma-b0-hr-b0-83.ucode
 Version: 80.d24e06ed.0
+
+File: iwlwifi-ma-b0-hr-b0-86.ucode
+Version: 83.fb5c9aeb.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1143,6 +1167,16 @@ md5sum: 59abc311fce49c5a180b5a8a3917912d
 Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
+
+--------------------------------------------------------------------------
+
+Driver: ixp4xx-npe - Intel IXP4xx XScale Network Processing Engine (NPE) Firmware
+File: ixp4xx/NPE-A
+File: ixp4xx/NPE-A-HSS
+File: ixp4xx/NPE-B
+File: ixp4xx/NPE-C
+Version: date = February 26, 2007
+License: Redistributable. See LICENSE.ixp4xx for details
 
 --------------------------------------------------------------------------
 
@@ -3794,17 +3828,17 @@ Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-19-240-4.ddc
 Version: BT_HarrisonPeak_REL53497
 File:intel/ibt-0041-0041.sfi
-Version: BT_TyphoonPeak_REL66410
+Version: BT_TyphoonPeak_REL73111
 File:intel/ibt-0041-0041.ddc
-Version: BT_TyphoonPeak_REL66410
+Version: BT_TyphoonPeak_REL73111
 File:intel/ibt-0040-0041.sfi
-Version: BT_Solar_GfP2_REL66410
+Version: BT_Solar_GfP2_REL73111
 File:intel/ibt-0040-0041.ddc
-Version: BT_Solar_GfP2_REL66410
+Version: BT_Solar_GfP2_REL73111
 File:intel/ibt-1040-0041.sfi
-Version: BT_SolarF_GfP2_REL66410
+Version: BT_SolarF_GfP2_REL73111
 File:intel/ibt-1040-0041.ddc
-Version: BT_SolarF_GfP2_REL66410
+Version: BT_SolarF_GfP2_REL73111
 
 File:intel/ibt-0040-1020.sfi
 Version: BT_Solar_JfP1_REL59564
@@ -3824,34 +3858,43 @@ Version: BT_SolarF_JfP2_REL59564
 File:intel/ibt-1040-2120.ddc
 Version: BT_SolarF_JfP2_REL59564
 
+File:intel/ibt-0040-1050.sfi
+Version: BT_Solar_HrP1_REL73111
+File:intel/ibt-0040-1050.ddc
+Version: BT_Solar_HrP1_REL73111
+File:intel/ibt-1040-1050.sfi
+Version: BT_SolarF_HrP1_REL73111
+File:intel/ibt-1040-1050.ddc
+Version: BT_SolarF_HrP1_REL73111
+
 File:intel/ibt-0040-4150.sfi
-Version: BT_Solar_JnP2_REL66410
+Version: BT_Solar_JnP2_REL73111
 File:intel/ibt-0040-4150.ddc
-Version: BT_Solar_JnP2_REL66410
+Version: BT_Solar_JnP2_REL73111
 File:intel/ibt-1040-4150.sfi
-Version: BT_SolarF_JnP2_REL66410
+Version: BT_SolarF_JnP2_REL73111
 File:intel/ibt-1040-4150.ddc
-Version: BT_SolarF_JnP2_REL66410
+Version: BT_SolarF_JnP2_REL73111
 
 File:intel/ibt-0291-0291.sfi
-Version: BT_GalePeak_REL39025
+Version: BT_GalePeak_REL43914
 File:intel/ibt-0291-0291.ddc
-Version: BT_GalePeak_REL39025
+Version: BT_GalePeak_REL43914
 
 File:intel/ibt-0180-0041.sfi
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL91648
 File:intel/ibt-0180-0041.ddc
-Version: BT_Magnetar_GfP2_REL82221
+Version: BT_Magnetar_GfP2_REL91648
 
 File:intel/ibt-0180-4150.sfi
-Version: BT_Magnetar_HrP2_REL82221
+Version: BT_Magnetar_JnP2_REL91648
 File:intel/ibt-0180-4150.ddc
-Version: BT_Magnetar_HrP2_REL82221
+Version: BT_Magnetar_JnP2_REL91648
 
 File:intel/ibt-0180-1050.sfi
-Version: BT_Magnetar_HrP1_REL82221
+Version: BT_Magnetar_HrP1_REL91648
 File:intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_HrP1_REL82221
+Version: BT_Magnetar_HrP1_REL91648
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4364,6 +4407,17 @@ File: qca/rampatch_usb_00190200.bin
 File: qca/nvm_usb_00190200.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN3988 chips
+
+File: qca/apbtfw10.tlv
+File: qca/apbtfw11.tlv
+File: qca/apnv10.bin
+File: qca/apnv11.bin
+
+Licence: Redistributable. See LICENSE.qcom and qca/NOTICE.txt for details
 
 --------------------------------------------------------------------------
 
@@ -5212,6 +5266,48 @@ File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
 File: nvidia/tu10x/typec/ccg_boot.cyacd
 
+Firmware images needed for GSP-RM:
+
+File: nvidia/tu102/gsp/bootloader-535.113.01.bin
+File: nvidia/tu102/gsp/booter_load-535.113.01.bin
+File: nvidia/tu102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu104/gsp -> ../tu102/gsp
+Link: nvidia/tu106/gsp -> ../tu102/gsp
+
+File: nvidia/tu116/gsp/booter_load-535.113.01.bin
+File: nvidia/tu116/gsp/booter_unload-535.113.01.bin
+Link: nvidia/tu116/gsp/bootloader-535.113.01.bin -> ../../tu102/gsp/bootloader-535.113.01.bin
+Link: nvidia/tu117/gsp -> ../tu116/gsp
+
+File: nvidia/ga100/gsp/bootloader-535.113.01.bin
+File: nvidia/ga100/gsp/booter_load-535.113.01.bin
+File: nvidia/ga100/gsp/booter_unload-535.113.01.bin
+
+File: nvidia/ad102/gsp/bootloader-535.113.01.bin
+File: nvidia/ad102/gsp/booter_load-535.113.01.bin
+File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ad103/gsp -> ../ad102/gsp
+Link: nvidia/ad104/gsp -> ../ad102/gsp
+Link: nvidia/ad106/gsp -> ../ad102/gsp
+Link: nvidia/ad107/gsp -> ../ad102/gsp
+
+File: nvidia/ga102/gsp/bootloader-535.113.01.bin
+File: nvidia/ga102/gsp/booter_load-535.113.01.bin
+File: nvidia/ga102/gsp/booter_unload-535.113.01.bin
+Link: nvidia/ga103/gsp -> ../ga102/gsp
+Link: nvidia/ga104/gsp -> ../ga102/gsp
+Link: nvidia/ga106/gsp -> ../ga102/gsp
+Link: nvidia/ga107/gsp -> ../ga102/gsp
+
+File: nvidia/tu102/gsp/gsp-535.113.01.bin
+Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/tu116/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+Link: nvidia/ga100/gsp/gsp-535.113.01.bin -> ../../tu102/gsp/gsp-535.113.01.bin
+
+File: nvidia/ga102/gsp/gsp-535.113.01.bin
+Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
+Link: nvidia/ad102/gsp/gsp-535.113.01.bin -> ../../ga102/gsp/gsp-535.113.01.bin
+
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
@@ -5869,6 +5965,15 @@ Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
 Version: 20230627144220
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7988 - MediaTek MT7988 Internal 2.5G Ethernet Phy
+
+File: mediatek/mt7988/i2p5ge-phy-pmb.bin
+Version: 20230728
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
