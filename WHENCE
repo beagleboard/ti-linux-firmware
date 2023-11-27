@@ -5943,9 +5943,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20230526130917a
+Version: 20231109190918a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20230526130958
+Version: 20231109190959
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5954,7 +5954,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20230526131214
+Version: 20231109191416
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5963,9 +5963,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20230627143702a
+Version: 20231120183400a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20230627143946
+Version: 20231120183441
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -5974,7 +5974,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20230627144220
+Version: 20231120183620
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6451,14 +6451,14 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.30.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.30.0.pkg
+File: intel/ice/ddp/ice-1.3.35.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.35.0.pkg
 File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
-File: intel/ice/ddp-comms/ice_comms-1.3.40.0.pkg
-File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.10.0.pkg
+File: intel/ice/ddp-comms/ice_comms-1.3.45.0.pkg
+File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.13.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
@@ -7273,3 +7273,10 @@ Version: date = 38.01, number = 0xa914
 Licence: Redistributable. See LICENSE.amlogic for details
 
 --------------------------------------------------------------------------
+
+Driver: powervr - Imagination Technologies PowerVR graphics driver
+
+File: powervr/rogue_33.15.11.3_v1.fw
+Version: 1.0.OS@6503725
+
+License: Redistributable. See LICENSE.powervr for details
