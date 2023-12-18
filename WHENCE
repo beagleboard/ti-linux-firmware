@@ -5617,6 +5617,12 @@ Version: 09.01.00.29
 File: ti-ipc/am62pxx/am62p-mcu-r5f0_0-fw
 Version: 09.01.00.29
 
+File: ti-ipc/j722s/ipc_echo_test_c7x_1_release_strip.xe71
+File: ti-ipc/j722s/ipc_echo_test_c7x_2_release_strip.xe71
+File: ti-ipc/j722s/ipc_echo_test_mcu2_0_release_strip.xer5f
+File: ti-ipc/j722s/ipc_echo_test_mcu3_0_release_strip.xer5f
+Version: j7aen-wkup.1.0.0
+
 Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
