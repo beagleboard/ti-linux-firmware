@@ -5476,6 +5476,12 @@ File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-enc.bin
 Version: v09.01.02
 
+File: ti-sysfw/ti-fs-firmware-j722s-hs-cert.bin
+File: ti-sysfw/ti-fs-firmware-j722s-hs-enc.bin
+File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-cert.bin
+File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-enc.bin
+Version: j7aen-wkup.1.0.0
+
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-enc.bin
@@ -5529,6 +5535,9 @@ Version: 09.01.02.01
 
 File: ti-dm/j721s2/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 09.01.00
+
+File: ti-dm/j722s/ipc_echo_testb_mcu1_0_release_strip.xer5f
+Version: j7aen-wkup.1.0.0
 
 File: ti-dm/am62xx/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 09.01.00.32
