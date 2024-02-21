@@ -1161,10 +1161,11 @@ Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
 
 Driver: ipu3-imgu - Intel IPU3 (3rd Gen Image Processing Unit) driver
 
-File: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+File: intel/ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 Version: irci_irci_ecr-master_20161208_0213_20170112_1500
 md5sum: 59abc311fce49c5a180b5a8a3917912d
-Link: intel/ipu3-fw.bin -> irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Link: intel/ipu3-fw.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
+Link: intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin -> ipu/irci_irci_ecr-master_20161208_0213_20170112_1500.bin
 
 Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
@@ -1172,13 +1173,13 @@ Licence: Redistributable. See LICENSE.ipu3_firmware for details
 
 Driver: intel-ipu6-isys - Intel IPU6 (Image Processing Unit 6) driver
 
-File: intel/ipu6epadln_fw.bin
-File: intel/ipu6ep_fw.bin
-File: intel/ipu6epmtl_fw.bin
-File: intel/ipu6_fw.bin
+File: intel/ipu/ipu6epadln_fw.bin
+File: intel/ipu/ipu6ep_fw.bin
+File: intel/ipu/ipu6epmtl_fw.bin
+File: intel/ipu/ipu6_fw.bin
 Version: scci_master_20230926_0007
 
-File: intel/ipu6se_fw.bin
+File: intel/ipu/ipu6se_fw.bin
 Version: scci_master_20210502_1459
 
 Licence: Redistributable. See LICENSE.ivsc for details
@@ -1541,7 +1542,7 @@ Licence: Redistributable. See LICENCE.ralink-firmware.txt for details
 
 Downloaded from http://www.ralinktech.com/ralink/Home/Support/Linux.html
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt7601u - MediaTek MT7601U Wireless MACs
 
@@ -2580,8 +2581,6 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 
 --------------------------------------------------------------------------
 
---------------------------------------------------------------------------
-
 Driver: amd_pmf - AMD Platform Management Framework TA
 
 File: amdtee/773bd96f-b83f-4d52-b12dc529b13d8543.bin
@@ -2838,6 +2837,7 @@ File: "brcm/brcmfmac43340-sdio.ASUSTeK COMPUTER INC.-TF103CE.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
 File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43340-sdio.predia-basic.txt"
+File: "brcm/brcmfmac43362-sdio.ASUSTeK COMPUTER INC.-ME176C.txt"
 File: "brcm/brcmfmac43362-sdio.WC121.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
 Link: brcm/brcmfmac43362-sdio.kobo,aura.txt -> brcmfmac43362-sdio.WC121.txt
@@ -4562,7 +4562,7 @@ Licence: Redistributable. See LICENCE.cavium for details
 
 --------------------------------------------------------------------------
 
-Driver: i915 -- Intel Integrated Graphics driver
+Driver: i915 -- Intel Graphics driver
 
 File: i915/skl_dmc_ver1_23.bin
 File: i915/skl_dmc_ver1_26.bin
@@ -4808,7 +4808,7 @@ File: i915/tgl_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Tigerlake
 
 File: i915/tgl_guc_70.bin
-Version: GuC API/APB ver 70.13.1 for Tigerlake
+Version: GuC API/APB ver 70.20.0 for Tigerlake
 
 File: i915/tgl_huc_7.0.3.bin
 Version: Huc API/APB ver 7 release 0 for Tigerlake
@@ -4847,7 +4847,7 @@ File: i915/dg1_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for DG1
 
 File: i915/dg1_guc_70.bin
-Version: GuC API/APB ver 70.5.1 for DG1
+Version: GuC API/APB ver 70.20.0 for DG1
 
 File: i915/dg1_huc_7.7.1.bin
 Version: Huc API/APB ver 7 release 1 for DG1
@@ -4889,7 +4889,7 @@ File: i915/adlp_guc_70.1.1.bin
 Version: GuC API/APB ver 70.1.1 for Alderlake P
 
 File: i915/adlp_guc_70.bin
-Version: GuC API/APB ver 70.13.1 for Alderlake P
+Version: GuC API/APB ver 70.20.0 for Alderlake P
 
 File: i915/dg2_guc_70.1.2.bin
 Version: GuC API/APB ver 70.1.2 for DG2
@@ -4898,7 +4898,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.13.1 for DG2
+Version: GuC API/APB ver 70.20.0 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.3 for DG2
@@ -4919,7 +4919,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 19 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.13.1 for Meteorlake
+Version: GuC API/APB ver 70.20.0 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
@@ -4928,6 +4928,14 @@ File: i915/mtl_gsc_1.bin
 Version: GSC API/APB v1.0, release 102.0.0.1655, SVN 1 for Meteorlake
 
 License: Redistributable. See LICENSE.i915 for details
+--------------------------------------------------------------------------
+
+Driver: xe -- Intel Graphics driver
+
+File: xe/lnl_guc_70.bin
+Version: GuC API/APB ver 70.20.0 for Lunarlake
+
+License: Redistributable. See LICENSE.xe for details
 --------------------------------------------------------------------------
 
 Driver: nouveau - NVIDIA GPU driver
@@ -5907,7 +5915,7 @@ Version: 1.0.07-b370
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt76x2e - MediaTek MT76x2 Wireless MACs
 
@@ -5921,7 +5929,7 @@ Link: mt7662_rom_patch.bin -> mediatek/mt7662_rom_patch.bin
 
 Licence: Redistributable. See LICENCE.ralink_a_mediatek_company_firmware for details
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mt76x2u - MediaTek MT76x2u Wireless MACs
 
@@ -6101,6 +6109,21 @@ Version: 20230728
 Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
+
+Driver: mt7996e - MediaTek Wireless MACs for MT7996
+
+File: mediatek/mt7996/mt7996_wm.bin
+Version: 20240104161608
+File: mediatek/mt7996/mt7996_wa.bin
+Version: 20240104161505
+File: mediatek/mt7996/mt7996_rom_patch.bin
+Version: 20240104161614a
+File: mediatek/mt7996/mt7996_dsp.bin
+Version: 20231113135337
+File: mediatek/mt7996/mt7996_eeprom.bin
+Version: 20230518
+
+--------------------------------------------------------------------------
 Driver: nfp - Netronome Flow Processor
 
 Link: netronome/nic_AMDA0081-0001_1x40.nffw -> nic/nic_AMDA0081-0001_1x40.nffw
@@ -6225,7 +6248,7 @@ Version: 5.2-00023
 File: qcom/venus-5.4/venus.mbn
 Link: qcom/venus-5.4/venus.mdt -> venus.mbn
 
-Version: 5.4-00053
+Version: VIDEO.VE.5.4-00058-PROD-4
 
 File: qcom/venus-6.0/venus.mbn
 
@@ -6564,8 +6587,8 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.35.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.35.0.pkg
+File: intel/ice/ddp/ice-1.3.36.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.36.0.pkg
 File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
@@ -6590,7 +6613,7 @@ Permission is hereby granted for the distribution of this firmware
 as part of Linux or other Open Source operating system kernel,
 provided this copyright notice is accompanying it.
 
-------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: prestera - Marvell driver for Prestera family ASIC devices
 
@@ -6602,7 +6625,7 @@ File: mrvl/prestera/mvsw_prestera_fw_arm64-v4.1.img
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
-------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: lt9611uxc - Lontium DSI to HDMI bridge
 
@@ -6638,7 +6661,7 @@ File: cnm/wave521c_k3_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: rvu_cptpf - Marvell CPT driver
 
@@ -6658,7 +6681,7 @@ Version: v1.21
 
 Licence: Redistributable. See LICENCE.Marvell for details.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: amphion - Amphion VPU(Video Processing Unit) Codec IP driver
 
@@ -6669,7 +6692,7 @@ Version: 1.3.4
 
 Licence: Redistributable. See LICENSE.amphion_vpu for details
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: cs35l41_hda - CS35l41 ALSA HDA audio driver
 
@@ -6789,10 +6812,10 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8ca7.wmfw -> cs35l41/v6.83.0/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8ca7.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-103c8ca4.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8ca4.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8ca7.wmfw -> cs35l41-dsp1-spk-prot-103c8ca4.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8ca7.wmfw -> cs35l41-dsp1-spk-cali-103c8ca4.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8ca7.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8ca7.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ca7.bin -> cs35l41-dsp1-spk-prot-103c8ca4.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8ca7.bin -> cs35l41-dsp1-spk-cali-103c8ca4.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8cf5.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-103c8cf5.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-103c8cf5-l0.bin
 File: cirrus/cs35l41-dsp1-spk-cali-103c8cf5-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-103c8cf5-l1.bin
@@ -7178,26 +7201,6 @@ Link: cirrus/cs35l41-dsp1-spk-prot-103c8ad8.wmfw -> cs35l41/v6.61.1/halo_cspl_RA
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8ad8.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8ad8.bin -> cs35l41-dsp1-spk-prot-103c8972.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8ad8.bin -> cs35l41-dsp1-spk-cali-103c8972.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-File: cirrus/cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-File: cirrus/cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01-r0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01-r0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-File: cirrus/cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d01-r1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d01-r1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-l0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-l0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-r0.bin -> cs35l41-dsp1-spk-prot-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-r0.bin -> cs35l41-dsp1-spk-cali-103c8d01-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-l1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-l1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-103c8d08-r1.bin -> cs35l41-dsp1-spk-prot-103c8d01-l1.bin
-Link: cirrus/cs35l41-dsp1-spk-cali-103c8d08-r1.bin -> cs35l41-dsp1-spk-cali-103c8d01-l1.bin
 File: cirrus/cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8a6e.wmfw -> cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-103c8a6e.wmfw -> cs35l41/v6.68.0/halo_cspl_RAM_revB2_29.70.0.wmfw
@@ -7292,6 +7295,11 @@ Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-l0.bin -> cs35l41-dsp1-spk-prot-17aa
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa22f3-r0.bin -> cs35l41-dsp1-spk-prot-17aa22f2-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-l0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-cali-17aa22f3-r0.bin -> cs35l41-dsp1-spk-cali-17aa22f2-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-17aa386f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-17aa386f.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386f-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-17aa386f-r0.bin
+File: cirrus/cs35l41-dsp1-spk-cali-17aa386f.bin
 File: cirrus/cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-104312af.wmfw -> cs35l41/v6.63.0/halo_cspl_RAM_revB2_29.65.0.wmfw
@@ -7333,6 +7341,16 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a83.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a83.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a83-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431f12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a83-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431f12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a83-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431f12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431a83-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431f12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a83-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431f12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a83-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431f12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a83-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431f12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431a83-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431f12-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-10431e12.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 File: cirrus/cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
@@ -7343,6 +7361,26 @@ File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431683.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431683.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-10431683-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431683-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431683-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-10431683-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431683-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431683-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431683-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431683-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104316A3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104316A3.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-cali-104316A3-spkid0-l0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104316A3-spkid0-r0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104316A3-spkid1-l0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-cali-104316A3-spkid1-r0.bin -> cs35l41-dsp1-spk-cali-10431e12-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104316A3-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104316A3-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104316A3-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-104316A3-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431e12-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431573.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-cali-10431573.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-10431463.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
@@ -7879,7 +7917,7 @@ only in connection with Cirrus Logic hardware products.
 Copyright © 2022 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: cs42l43 - CS42L43 ALSA audio driver
 
@@ -7893,7 +7931,7 @@ only in connection with Cirrus Logic hardware products.
 Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 Driver: mtk-sof - MediaTek Sound Open Firmware driver
 
