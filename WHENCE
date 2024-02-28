@@ -5527,12 +5527,8 @@ Licence: Redistributable. See LICENSE.ti for details.
 Driver: ti-sci - TI SCI driver for K3 devices
 
 File: ti-sysfw/ti-fs-firmware-j7200-gp.bin
-File: ti-sysfw/ti-fs-firmware-j7200-hs-cert.bin
-File: ti-sysfw/ti-fs-firmware-j7200-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j7200-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j7200-hs-fs-enc.bin
-File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-cert.bin
-File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-fs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j721e-gp.bin
@@ -5548,6 +5544,12 @@ File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j721e_sr2-hs-fs-enc.bin
+Version: v09.02.04
+
+File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-cert.bin
+File: ti-sysfw/ti-fs-firmware-j7200_sr2-hs-enc.bin
+File: ti-sysfw/ti-fs-firmware-j7200-hs-cert.bin
+File: ti-sysfw/ti-fs-firmware-j7200-hs-enc.bin
 Version: v09.02.03
 
 File: ti-sysfw/ti-fs-firmware-j721s2-gp.bin
@@ -5560,11 +5562,11 @@ File: ti-sysfw/ti-fs-firmware-j784s4-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j784s4-hs-fs-enc.bin
-Version: v09.02.03
+Version: v09.02.04
 
 File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-enc.bin
-Version: v09.02.03
+Version: v09.02.04
 
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
