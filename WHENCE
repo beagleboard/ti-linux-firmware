@@ -5582,7 +5582,7 @@ Version: v09.02.04
 
 File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j722s-hs-fs-enc.bin
-Version: v09.02.04
+Version: w2023.02-j722s
 
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
