@@ -5724,7 +5724,7 @@ File: ti-ipc/j722s/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j722s/ipc_echo_test_c7x_2_release_strip.xe71
 File: ti-ipc/j722s/ipc_echo_test_mcu2_0_release_strip.xer5f
 File: ti-ipc/j722s/ipc_echo_test_mcu3_0_release_strip.xer5f
-Version: 09.02.00.10
+Version: 09.01.01.06
 
 Licence: Redistributable. See LICENSE.ti for details.
 
