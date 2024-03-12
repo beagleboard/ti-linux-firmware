@@ -824,7 +824,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.ff18e32a.0
+Version: 46.7e3e4b69.0
 
 File: iwlwifi-9260-th-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -833,7 +833,7 @@ File: iwlwifi-9260-th-b0-jf-b0-38.ucode
 Version: 38.755cfdd8.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.ff18e32a.0
+Version: 46.7e3e4b69.0
 
 File: iwlwifi-cc-a0-50.ucode
 Version: 50.3e391d3e.0
@@ -6061,9 +6061,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20231109190918a
+Version: 20240219110958a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20231109190959
+Version: 20240219111038
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6072,7 +6072,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20231109191416
+Version: 20240219111427
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6081,9 +6081,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20231120183400a
+Version: 20240219103244a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20231120183441
+Version: 20240219103337
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6092,7 +6092,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20231120183620
+Version: 20240219103618
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
