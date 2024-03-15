@@ -5683,7 +5683,7 @@ File: ti-ipc/j784s4/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_2_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_3_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_4_release_strip.xe71
-Version: 09.02.00.10
+Version: 09.02.00.21
 
 File: ti-ipc/j721s2/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j721s2/ipc_echo_test_c7x_2_release_strip.xe71
@@ -5701,7 +5701,7 @@ File: ti-ipc/j784s4/ipc_echo_test_mcu3_0_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu3_1_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu4_0_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu4_1_release_strip.xer5f
-Version: 09.02.00.10
+Version: 09.02.00.21
 
 File: ti-ipc/am64xx/am64-main-r5f0_0-fw
 File: ti-ipc/am64xx/am64-main-r5f0_1-fw
