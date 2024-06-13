@@ -5676,16 +5676,16 @@ Driver: ti-dm - TI Device Manager (DM) firmware for K3 devices
 
 File: ti-dm/j7200/ipc_echo_testb_mcu1_0_release_strip.xer5f
 File: ti-dm/j721e/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.02.00.10
+Version: 10.00.00.01
 
 File: ti-dm/j784s4/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.02.00.26
+Version: 10.00.00.01
 
 File: ti-dm/j721s2/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.02.00.15
+Version: 10.00.00.01
 
 File: ti-dm/j722s/ipc_echo_testb_mcu1_0_release_strip.xer5f
-Version: 09.01.02.09
+Version: 10.00.00.01
 
 File: ti-dm/am62xx/ipc_echo_testb_mcu1_0_release_strip.xer5f
 Version: 09.02.01.01
