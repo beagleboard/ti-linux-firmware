@@ -5716,7 +5716,7 @@ File: ti-ipc/j721e/ipc_echo_test_mcu2_0_release_strip.xer5f
 File: ti-ipc/j721e/ipc_echo_test_mcu2_1_release_strip.xer5f
 File: ti-ipc/j721e/ipc_echo_test_mcu3_0_release_strip.xer5f
 File: ti-ipc/j721e/ipc_echo_test_mcu3_1_release_strip.xer5f
-Version: 09.02.00.10
+Version: 10.00.00.01
 
 File: ti-ipc/am65xx/ipc_echo_test_mcu1_0_release_strip.xer5f
 File: ti-ipc/am65xx/ipc_echo_test_mcu1_1_release_strip.xer5f
@@ -5726,7 +5726,7 @@ File: ti-ipc/j784s4/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_2_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_3_release_strip.xe71
 File: ti-ipc/j784s4/ipc_echo_test_c7x_4_release_strip.xe71
-Version: 09.02.00.21
+Version: 10.00.00.01
 
 File: ti-ipc/j721s2/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j721s2/ipc_echo_test_c7x_2_release_strip.xe71
@@ -5735,7 +5735,7 @@ File: ti-ipc/j721s2/ipc_echo_test_mcu2_0_release_strip.xer5f
 File: ti-ipc/j721s2/ipc_echo_test_mcu2_1_release_strip.xer5f
 File: ti-ipc/j721s2/ipc_echo_test_mcu3_0_release_strip.xer5f
 File: ti-ipc/j721s2/ipc_echo_test_mcu3_1_release_strip.xer5f
-Version: 09.02.00.15
+Version: 10.00.00.01
 
 File: ti-ipc/j784s4/ipc_echo_test_mcu1_1_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu2_0_release_strip.xer5f
@@ -5744,7 +5744,7 @@ File: ti-ipc/j784s4/ipc_echo_test_mcu3_0_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu3_1_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu4_0_release_strip.xer5f
 File: ti-ipc/j784s4/ipc_echo_test_mcu4_1_release_strip.xer5f
-Version: 09.02.00.21
+Version: 10.00.00.01
 
 File: ti-ipc/am64xx/am64-main-r5f0_0-fw
 File: ti-ipc/am64xx/am64-main-r5f0_1-fw
@@ -5769,7 +5769,7 @@ File: ti-ipc/j722s/ipc_echo_test_c7x_1_release_strip.xe71
 File: ti-ipc/j722s/ipc_echo_test_c7x_2_release_strip.xe71
 File: ti-ipc/j722s/ipc_echo_test_mcu2_0_release_strip.xer5f
 File: ti-ipc/j722s/ipc_echo_test_mcu3_0_release_strip.xer5f
-Version: 09.01.01.06
+Version: 10.00.00.01
 
 Licence: Redistributable. See LICENSE.ti for details.
 
