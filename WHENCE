@@ -1017,25 +1017,25 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.a20fb07d.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.206b0184.0
+Version: 74.c360c4b1.0
 
 File: iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1059,7 +1059,7 @@ File: iwlwifi-ty-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1083,7 +1083,7 @@ File: iwlwifi-so-a0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1107,7 +1107,7 @@ File: iwlwifi-so-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1128,7 +1128,7 @@ File: iwlwifi-so-a0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-hr-b0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1153,7 +1153,7 @@ File: iwlwifi-ma-b0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-ma-b0-gf-a0.pnvm
 
@@ -1164,7 +1164,7 @@ File: iwlwifi-ma-b0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 87.e9cec78e.0
+Version: 87.202a2f7b.0
 
 File: iwlwifi-ma-b0-gf4-a0.pnvm
 
@@ -1173,6 +1173,9 @@ Version: 80.d24e06ed.0
 
 File: iwlwifi-ma-b0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
+
+File: iwlwifi-ma-b0-hr-b0-89.ucode
+Version: 83.202a2f7b.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -3922,14 +3925,17 @@ File: intel/ibt-12-16.ddc
 Version: BT_WindStormPeak_REL1299
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL1299
+
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL20397
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL20397
+File: intel/ibt-18-16-1.sfi
+File: intel/ibt-18-16-1.ddc
+File: intel/ibt-18-2.sfi
+File: intel/ibt-18-2.ddc
+Version: BT_Pulsar_REL20425_22.20.2412.20425
+
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3938,14 +3944,7 @@ File: intel/ibt-17-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
-File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL20397
-File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL20397
+
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -4021,7 +4020,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81454_23.50.24144.81454
+Version: BT_Solar_REL81528_23.50.24183.81528
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4035,7 +4034,7 @@ Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL56888_23.50.24144.56888
+Version: BT_BlazarU_S_REL58211_23.60.24183.58211
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4043,7 +4042,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103171_23.50.24144.103171
+Version: BT_Magnetar_REL103243_23.50.24183.103243
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -7671,13 +7670,17 @@ Originates from https://git.linaro.org/people/srinivas.kandagatla/audioreach-top
 --------------------------------------------------------------------------
 
 Driver: amlogic - Amlogic SoC Firmware
-File: amlogic/bluetooth/w2_bt_fw_uart.bin
-Version: 38.01
-Info: 0xa914
+File: amlogic/aml_w155s2_bt_uart.bin
+Version: 42.23
+Info: 0x2de8
 
-File: amlogic/bluetooth/w1u_bt_fw_uart.bin
-Version: 41.05
-Info: 0xb024
+File: amlogic/aml_w265s1_bt_uart.bin
+Version: 43.13
+Info: 0xc1c2
+
+File: amlogic/aml_w265s2_bt_uart.bin
+Version: 42.28
+Info: 0xb2fd
 
 Licence: Redistributable. See LICENSE.amlogic for details
 
@@ -7811,3 +7814,15 @@ Driver: isp - Image Signal Processor (ISP) device
 File: amdgpu/isp_4_1_1.bin
 
 License: Redistributable. See LICENSE.amdisp for details
+
+--------------------------------------------------------------------------
+
+Driver: qaic - Qualcomm Cloud AI accelerators
+File: qcom/aic100/fw1.bin
+File: qcom/aic100/fw10.bin
+File: qcom/aic100/fw2.bin
+File: qcom/aic100/fw5.bin
+File: qcom/aic100/fw9.bin
+File: qcom/aic100/sbl.bin
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
