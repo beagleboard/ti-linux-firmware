@@ -4177,9 +4177,9 @@ Version: 2018-05-24
 RawFile: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
-Version: 2023-12-05
+Version: 2024-07-10
 RawFile: amd-ucode/microcode_amd_fam19h.bin
-Version: 2024-01-16
+Version: 2024-07-10
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -7826,3 +7826,11 @@ File: qcom/aic100/fw9.bin
 File: qcom/aic100/sbl.bin
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: ish - Intel Integrated Sensor Hub
+File: intel/ish/ish_lnlm.bin
+Version: 5.8.0.7716
+
+License: Redistributable. See LICENCE.ish for details
