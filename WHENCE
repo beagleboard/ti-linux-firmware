@@ -5650,6 +5650,10 @@ File: ti-sysfw/ti-fs-firmware-j722s-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-j722s-hs-enc.bin
 Version: v10.00.01
 
+File: ti-sysfw/ti-fs-firmware-j742s2-hs-fs-cert.bin
+File: ti-sysfw/ti-fs-firmware-j742s2-hs-fs-enc.bin
+Version: v10.00.07
+
 File: ti-sysfw/ti-sci-firmware-am64x-gp.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x-hs-enc.bin
