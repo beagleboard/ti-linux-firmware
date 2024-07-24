@@ -5879,7 +5879,7 @@ File: ti-pruss/am65x-sr2-rtu0-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-pruhsr-fw.elf
-Version: REL.HSR_1G_01.02.00.02
+Version: REL.HSR_1G_01.02.01.00
 
 License: Redistributable. See LICENSE.ti for details.
 
