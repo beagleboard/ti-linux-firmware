@@ -6178,7 +6178,7 @@ File: ti-pruss/am65x-sr2-rtu0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-prueth-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-prueth-fw.elf
-Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.00
+Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.02
 
 License: Redistributable. See LICENSE.ti for details.
 
@@ -6192,7 +6192,7 @@ File: ti-pruss/am65x-sr2-rtu0-prusw-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-prusw-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-prusw-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-prusw-fw.elf
-Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.00
+Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.02
 
 License: Redistributable. See LICENSE.ti for details.
 
@@ -6206,7 +6206,7 @@ File: ti-pruss/am65x-sr2-rtu0-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-rtu1-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-txpru0-pruhsr-fw.elf
 File: ti-pruss/am65x-sr2-txpru1-pruhsr-fw.elf
-Version: REL.HSR_1G_01.02.03.00
+Version: REL.HSR_1G_01.02.03.02
 
 License: Redistributable. See LICENSE.ti for details.
 
