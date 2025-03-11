@@ -4209,7 +4209,7 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazarU_S_REL72721_23.100.24491.72721
+Version: BT_BlazarU_S_REL76693_23.120.25071.76693
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4225,7 +4225,7 @@ File: intel/ibt-0190-0291.ddc
 File: intel/ibt-0190-0041.sfi
 File: intel/ibt-0190-0041-iml.sfi
 File: intel/ibt-0190-0041.ddc
-Version: BT_BlazarI_S_REL64160_23.70.24233.64160
+Version: BT_BlazarI_S_REL82746_23.120.25071.82746
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -4466,6 +4466,8 @@ File: qat_4xxx.bin
 File: qat_4xxx_mmp.bin
 File: qat_402xx.bin
 File: qat_402xx_mmp.bin
+File: qat_420xx.bin
+File: qat_420xx_mmp.bin
 
 Licence: Redistributable. See LICENCE.qat_firmware for details
 
@@ -4747,7 +4749,7 @@ File: qca/nvm_usb_00130200_0107.bin
 File: qca/nvm_usb_00130200_0109.bin
 File: qca/nvm_usb_00130200_0110.bin
 File: qca/rampatch_usb_00130201.bin
-Version: BTFW.HSP.2.1.0-00650-USB_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00653-USB_PATCHZ-3
 File: qca/nvm_usb_00130201.bin
 File: qca/nvm_usb_00130201_010a.bin
 File: qca/nvm_usb_00130201_010b.bin
@@ -4757,6 +4759,10 @@ File: qca/nvm_usb_00130201_gf_010a.bin
 File: qca/nvm_usb_00130201_gf_010b.bin
 File: qca/nvm_usb_00130201_gf_0303.bin
 File: qca/rampatch_usb_00190200.bin
+File: qca/QCA2066/rampatch_usb_00130201.bin
+Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
+File: qca/QCA2066/nvm_usb_00130201_030a.bin
+File: qca/QCA2066/nvm_usb_00130201_gf_030a.bin
 Version: BTFW.HAMILTON.2.0.0-00515-USB_PATCHZ-2
 File: qca/nvm_usb_00190200.bin
 File: qca/nvm_usb_00190200_010e.bin
@@ -4846,7 +4852,7 @@ Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt 
 Driver: qca - Qualcomm Atheros Bluetooth support for QCA2066 chips
 
 File: qca/hpbtfw21.tlv
-Version: BTFW.HSP.2.1.0-00641-VER_PATCHZ-1
+Version: BTFW.HSP.2.1.0-00653-VER_PATCHZ-3
 File: qca/hpnv21.bin
 File: qca/hpnv21g.bin
 File: qca/hpnv21.301
@@ -4855,6 +4861,8 @@ File: qca/hpnv21g.301
 File: qca/hpnv21g.302
 File: qca/hpnv21.309
 File: qca/hpnv21g.309
+File: qca/hpnv21.30a
+File: qca/hpnv21g.30a
 File: qca/hpnv21.b8c
 File: qca/hpnv21.b9f
 File: qca/hpnv21.ba0
@@ -5318,7 +5326,7 @@ File: i915/xe2lpd_dmc.bin
 Version: DMC API/APB ver 2 release 28 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
-Version: DMC API/APB ver 2 release 17 for Xe3LPD
+Version: DMC API/APB ver 2 release 20 for Xe3LPD
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -6487,7 +6495,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin
-Version: 20241104091246
+Version: 20250210151502
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6536,9 +6544,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20250113153001a
+Version: 20250305132908a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20250113152854
+Version: 20250305132802
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6547,7 +6555,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20250113153307
+Version: 20250305133215
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6849,6 +6857,8 @@ File: qcom/x1e80100/gen70500_zap.mbn
 File: qcom/a663_gmu.bin
 File: qcom/sa8775p/a663_zap.mbn
 File: qcom/qcs615/a612_zap.mbn
+File: qcom/a623_gmu.bin
+File: qcom/qcs8300/a623_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -8778,3 +8788,17 @@ Driver: qdu100 - Qualcomm DU firmware image files
 File: qcom/qdu100/xbl_s.melf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: intel_vpu -- Intel NPU driver
+
+File: intel/vpu/vpu_37xx_v1.bin
+Version: ci_tag_ud202504_vpu_rc_20250115_1905
+Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
+
+File: intel/vpu/vpu_40xx_v1.bin
+Version: ci_tag_ud202504_vpu_rc_20250115_1905
+Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
+
+License: Redistributable. See LICENSE.intel_vpu for details
