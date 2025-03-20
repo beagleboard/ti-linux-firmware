@@ -6039,6 +6039,20 @@ Version: v11.00.07
 
 Licence: Redistributable. See LICENSE.ti for details.
 
+-------------------------------------------------------------------------
+
+Firmware: ti-hsm - HSM Demo Firmware for K3 devices
+
+File: ti-hsm/hsm-demo-firmware-j721s2-gp.bin
+File: ti-hsm/hsm-demo-firmware-j721s2-hs.bin
+File: ti-hsm/hsm-demo-firmware-j721s2-hs-fs.bin
+File: ti-hsm/hsm-demo-firmware-j784s4-gp.bin
+File: ti-hsm/hsm-demo-firmware-j784s4-hs.bin
+File: ti-hsm/hsm-demo-firmware-j784s4-hs-fs.bin
+Version: v11.00.09
+
+Licence: Redistributable. See LICENSE.ti for details.
+
 --------------------------------------------------------------------------
 
 Driver: ti-dm - TI Device Manager (DM) firmware for K3 devices
