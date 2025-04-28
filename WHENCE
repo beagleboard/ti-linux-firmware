@@ -6212,6 +6212,9 @@ Version: 11.00.00.09
 File: ti-ipc/am62axx/am62a-mcu-r5f0_0-fw
 Version: 11.00.00.09
 
+File: ti-ipc/am62axx/dsp_edgeai_c7x_1_release_strip.out
+Version: 11.00.00.01
+
 File: ti-ipc/am62axx/ipc_echo_test_c7x_1_release_strip.xe71
 Version: 11.00.00.09
 
