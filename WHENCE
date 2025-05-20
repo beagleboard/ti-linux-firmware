@@ -3053,6 +3053,7 @@ Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt -> brcmfmac43430-sdio.AP6
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-ultra.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bpi-m3.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.sinovoip,bananapi-m64.txt -> brcmfmac43430-sdio.AP6212.txt
+Link: brcm/brcmfmac43430-sdio.friendlyarm,nanopi-neo4.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.friendlyarm,nanopi-r1.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.starfive,visionfive-v1.txt -> brcmfmac43430-sdio.AP6212.txt
 Link: brcm/brcmfmac43430-sdio.beagle,beaglev-starlight-jh7100-a1.txt -> brcmfmac43430-sdio.AP6212.txt
@@ -3081,6 +3082,7 @@ File: "brcm/brcmfmac4356-pcie.Xiaomi Inc-Mipad2.txt"
 File: brcm/brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.firefly,firefly-rk3399.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.friendlyarm,nanopi-m4.txt -> brcmfmac4356-sdio.AP6356S.txt
+Link: brcm/brcmfmac4356-sdio.friendlyarm,nanopc-t4.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
 File: brcm/brcmfmac43455-sdio.AW-CM256SM.txt
@@ -3630,6 +3632,9 @@ File: rtl_nic/rtl8125bp-2.fw
 Version: 0.0.4
 
 File: rtl_nic/rtl8126a-3.fw
+Version: 0.0.5
+
+File: rtl_nic/rtl8127a-1.fw
 Version: 0.0.5
 
 Licence:
@@ -5825,33 +5830,63 @@ Firmware images needed for GSP-RM:
 File: nvidia/tu102/gsp/bootloader-535.113.01.bin
 File: nvidia/tu102/gsp/booter_load-535.113.01.bin
 File: nvidia/tu102/gsp/booter_unload-535.113.01.bin
+File: nvidia/tu102/gsp/bootloader-570.144.bin
+File: nvidia/tu102/gsp/booter_load-570.144.bin
+File: nvidia/tu102/gsp/booter_unload-570.144.bin
 Link: nvidia/tu104/gsp -> ../tu102/gsp
 Link: nvidia/tu106/gsp -> ../tu102/gsp
 
 File: nvidia/tu116/gsp/booter_load-535.113.01.bin
 File: nvidia/tu116/gsp/booter_unload-535.113.01.bin
 Link: nvidia/tu116/gsp/bootloader-535.113.01.bin -> ../../tu102/gsp/bootloader-535.113.01.bin
+File: nvidia/tu116/gsp/booter_load-570.144.bin
+File: nvidia/tu116/gsp/booter_unload-570.144.bin
+Link: nvidia/tu116/gsp/bootloader-570.144.bin -> ../../tu102/gsp/bootloader-570.144.bin
 Link: nvidia/tu117/gsp -> ../tu116/gsp
 
 File: nvidia/ga100/gsp/bootloader-535.113.01.bin
 File: nvidia/ga100/gsp/booter_load-535.113.01.bin
 File: nvidia/ga100/gsp/booter_unload-535.113.01.bin
-
-File: nvidia/ad102/gsp/bootloader-535.113.01.bin
-File: nvidia/ad102/gsp/booter_load-535.113.01.bin
-File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
-Link: nvidia/ad103/gsp -> ../ad102/gsp
-Link: nvidia/ad104/gsp -> ../ad102/gsp
-Link: nvidia/ad106/gsp -> ../ad102/gsp
-Link: nvidia/ad107/gsp -> ../ad102/gsp
+File: nvidia/ga100/gsp/bootloader-570.144.bin
+File: nvidia/ga100/gsp/booter_load-570.144.bin
+File: nvidia/ga100/gsp/booter_unload-570.144.bin
 
 File: nvidia/ga102/gsp/bootloader-535.113.01.bin
 File: nvidia/ga102/gsp/booter_load-535.113.01.bin
 File: nvidia/ga102/gsp/booter_unload-535.113.01.bin
+File: nvidia/ga102/gsp/bootloader-570.144.bin
+File: nvidia/ga102/gsp/booter_load-570.144.bin
+File: nvidia/ga102/gsp/booter_unload-570.144.bin
 Link: nvidia/ga103/gsp -> ../ga102/gsp
 Link: nvidia/ga104/gsp -> ../ga102/gsp
 Link: nvidia/ga106/gsp -> ../ga102/gsp
 Link: nvidia/ga107/gsp -> ../ga102/gsp
+
+File: nvidia/ad102/gsp/bootloader-535.113.01.bin
+File: nvidia/ad102/gsp/booter_load-535.113.01.bin
+File: nvidia/ad102/gsp/booter_unload-535.113.01.bin
+File: nvidia/ad102/gsp/bootloader-570.144.bin
+File: nvidia/ad102/gsp/booter_load-570.144.bin
+File: nvidia/ad102/gsp/booter_unload-570.144.bin
+File: nvidia/ad102/gsp/scrubber-570.144.bin
+Link: nvidia/ad103 -> ad102
+Link: nvidia/ad104 -> ad102
+Link: nvidia/ad106 -> ad102
+Link: nvidia/ad107 -> ad102
+
+File: nvidia/gh100/gsp/bootloader-570.144.bin
+File: nvidia/gh100/gsp/fmc-570.144.bin
+
+File: nvidia/gb100/gsp/bootloader-570.144.bin
+File: nvidia/gb100/gsp/fmc-570.144.bin
+Link: nvidia/gb102 -> gb100
+
+File: nvidia/gb202/gsp/bootloader-570.144.bin
+File: nvidia/gb202/gsp/fmc-570.144.bin
+Link: nvidia/gb203 -> gb202
+Link: nvidia/gb205 -> gb202
+Link: nvidia/gb206 -> gb202
+Link: nvidia/gb207 -> gb202
 
 File: nvidia/tu102/gsp/gsp-535.113.01.bin
 Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
@@ -5862,6 +5897,17 @@ File: nvidia/ga102/gsp/gsp-535.113.01.bin
 Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-535.113.01.run
 Link: nvidia/ad102/gsp/gsp-535.113.01.bin -> ../../ga102/gsp/gsp-535.113.01.bin
 
+File: nvidia/tu102/gsp/gsp-570.144.bin
+Origin: gsp_tu10x.bin from NVIDIA-Linux-x86_64-570.144.run
+Link: nvidia/tu116/gsp/gsp-570.144.bin -> ../../tu102/gsp/gsp-570.144.bin
+Link: nvidia/ga100/gsp/gsp-570.144.bin -> ../../tu102/gsp/gsp-570.144.bin
+
+File: nvidia/ga102/gsp/gsp-570.144.bin
+Origin: gsp_ga10x.bin from NVIDIA-Linux-x86_64-570.144.run
+Link: nvidia/ad102/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
+Link: nvidia/gh100/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
+Link: nvidia/gb100/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
+Link: nvidia/gb202/gsp/gsp-570.144.bin -> ../../ga102/gsp/gsp-570.144.bin
 Licence: Redistributable. See LICENCE.nvidia for details
 
 --------------------------------------------------------------------------
@@ -6383,6 +6429,15 @@ File: mediatek/mt8173/vpu_d.bin
 File: mediatek/mt8173/vpu_p.bin
 Link: vpu_d.bin -> mediatek/mt8173/vpu_d.bin
 Link: vpu_p.bin -> mediatek/mt8173/vpu_p.bin
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt8196 - MediaTek MT8196 Video Controller Processor
+
+File: mediatek/mt8196/vcp.img
+Version: v1.0.0
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7396,9 +7451,17 @@ https://github.com/SiliconLabs/wfx-linux-tools
 
 --------------------------------------------------------------------------
 
-Driver: wave5 - Chips&Media, Inc. video codec driver
+Driver: wave5 - Chips&Media, Inc. Wave5 video codec driver
 
 File: cnm/wave521c_k3_codec_fw.bin
+
+Licence: Redistributable. See LICENCE.cnm for details.
+
+--------------------------------------------------------------------------
+
+Driver: wave6 - Chips&Media, Inc. Wave6 video codec driver
+
+File: cnm/wave633c_imx9_codec_fw.bin
 
 Licence: Redistributable. See LICENCE.cnm for details.
 
@@ -8328,6 +8391,15 @@ File: cirrus/cs35l41-dsp1-spk-prot-1f660105.bin
 File: cirrus/cs35l41/v6.51.0/halo_cspl_RAM_revB2_29.53.0.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-vlv1776.wmfw -> cs35l41/v6.51.0/halo_cspl_RAM_revB2_29.53.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-vlv1776.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-1025182c.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10251826.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10251844.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-1025182c-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-1025182c-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10251826-l0.bin -> cs35l41-dsp1-spk-prot-1025182c-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10251826-r0.bin -> cs35l41-dsp1-spk-prot-1025182c-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10251844-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10251844-r0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
@@ -8760,6 +8832,9 @@ Driver: powervr - Imagination Technologies PowerVR graphics driver
 File: powervr/rogue_33.15.11.3_v1.fw
 Version: 1.0.OS@6503725
 
+File: powervr/rogue_36.53.104.796_v1.fw
+Version: 1.0.OS@6734358
+
 License: Redistributable. See LICENSE.powervr for details
 
 --------------------------------------------------------------------------
@@ -9014,11 +9089,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu -- Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: ci_tag_ud202512_vpu_rc_20250306_1130
+Version: ci_tag_ud202518_vpu_rc_20250415_1900
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: ci_tag_ud202512_vpu_rc_20250306_1130
+Version: ci_tag_ud202518_vpu_rc_20250415_1900
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
@@ -9034,7 +9109,8 @@ Originates from https://source.chromium.org/chromiumos/chromiumos/codesearch/+/m
 
 ---------------------------------------------------------------------------
 
-Driver: qcs9100 - Qualcomm QUPv3 firmware image file
+Driver: qcom-geni-se - Qualcomm QUPv3 firmware image file
 File: qcom/sa8775p/qupv3fw.elf
+File: qcom/qcm6490/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
