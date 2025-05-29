@@ -805,7 +805,7 @@ File: iwlwifi-7265-17.ucode
 Version: 17.bfb58538.0
 
 File: iwlwifi-7265D-29.ucode
-Version: 29.f2390aa8.0
+Version: 29.9ef079ed.0
 
 File: iwlwifi-3168-29.ucode
 Version: 29.0bd893f3.0
@@ -814,13 +814,13 @@ File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8000C-36.ucode
-Version: 36.ca7b901d.0
+Version: 36.c8e8e144.0
 
 File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
-Version: 36.ca7b901d.0
+Version: 36.c8e8e144.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-34.ucode
 Version: 34.ba501b11.0
@@ -1022,25 +1022,25 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.f31a351f.0
+Version: 74.864baa2e.0
 
 File: iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1064,7 +1064,7 @@ File: iwlwifi-ty-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1088,7 +1088,7 @@ File: iwlwifi-so-a0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1112,7 +1112,7 @@ File: iwlwifi-so-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1133,7 +1133,7 @@ File: iwlwifi-so-a0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1145,6 +1145,9 @@ Version: 93.44729d4e.0
 
 File: iwlwifi-bz-b0-hr-b0-98.ucode
 Version: 95.d661c37c.0
+
+File: iwlwifi-bz-b0-hr-b0-99.ucode
+Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-hr-b0.pnvm
 
@@ -1162,6 +1165,9 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-gf-a0-98.ucode
 Version: 95.d661c37c.0
+
+File: iwlwifi-bz-b0-gf-a0-99.ucode
+Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-gf-a0.pnvm
 
@@ -1189,6 +1195,9 @@ Version: 94.8049d69b.0
 File: iwlwifi-gl-c0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
+File: iwlwifi-gl-c0-fm-c0-99.ucode
+Version: 96.e673484a.0
+
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-bz-b0-fm-c0-92.ucode
@@ -1209,6 +1218,9 @@ Version: 94.8049d69b.0
 File: iwlwifi-bz-b0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
+File: iwlwifi-bz-b0-fm-c0-99.ucode
+Version: 96.e673484a.0
+
 File: iwlwifi-bz-b0-fm-c0.pnvm
 
 File: iwlwifi-ma-b0-gf-a0-83.ucode
@@ -1218,7 +1230,7 @@ File: iwlwifi-ma-b0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-ma-b0-gf-a0.pnvm
 
@@ -1229,7 +1241,7 @@ File: iwlwifi-ma-b0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 File: iwlwifi-ma-b0-gf4-a0.pnvm
 
@@ -1240,7 +1252,7 @@ File: iwlwifi-ma-b0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.7f71c7f4.0
+Version: 86.af655058.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -3087,6 +3099,7 @@ Link: brcm/brcmfmac4356-sdio.khadas,vim2.txt -> brcmfmac4356-sdio.AP6356S.txt
 Link: brcm/brcmfmac4356-sdio.vamrs,rock960.txt -> brcmfmac4356-sdio.AP6356S.txt
 File: brcm/brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.beagle,am5729-beagleboneai.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
+Link: brcm/brcmfmac43455-sdio.brcmfmac43455-sdio.khadas,vim.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinebook-pro.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.1.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
 Link: brcm/brcmfmac43455-sdio.pine64,pinenote-v1.2.txt -> brcmfmac43455-sdio.AW-CM256SM.txt
@@ -3963,7 +3976,7 @@ Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
 File: ath12k/WCN7850/hw2.0/board-2.bin
 File: ath12k/WCN7850/hw2.0/amss.bin
 File: ath12k/WCN7850/hw2.0/m3.bin
-Version: WLAN.HMT.1.1.c5-00284-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
+Version: WLAN.HMT.1.1.c5-00284.1-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
 File: ath12k/WCN7850/hw2.0/Notice.txt
 File: ath12k/QCN9274/hw2.0/board-2.bin
 File: ath12k/QCN9274/hw2.0/firmware-2.bin
@@ -4145,7 +4158,7 @@ File: intel/ibt-18-16-1.sfi
 File: intel/ibt-18-16-1.ddc
 File: intel/ibt-18-2.sfi
 File: intel/ibt-18-2.ddc
-Version: BT_Pulsar_REL20425_22.20.2412.20425
+Version: BT_Pulsar_REL20451_22.20.2433.20451
 
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
@@ -4177,45 +4190,45 @@ Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL53497
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL53497
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL53497
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL53497
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-3.sfi
-Version: BT_Quasar_REL53263
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-3.ddc
-Version: BT_Quasar_REL53263
+Version: BT_Quasar_REL53697
 File: intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL53636
+Version: BT_HarrisonPeak_REL53697
 
 File: intel/ibt-0041-0041.sfi
 File: intel/ibt-0041-0041.ddc
@@ -4231,7 +4244,7 @@ File: intel/ibt-0040-1050.sfi
 File: intel/ibt-0040-1050.ddc
 File: intel/ibt-1040-1050.sfi
 File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL81864_23.50.24483.81864
+Version: BT_Solar_REL82008_23.50.25133.82008
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
@@ -4253,7 +4266,7 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazarU_S_REL76693_23.120.25071.76693
+Version: BT_BlazarU_S_REL82313_23.140.25182.82313
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4261,7 +4274,7 @@ File: intel/ibt-0180-4150.sfi
 File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
-Version: BT_Magnetar_REL103604_23.50.24483.103604
+Version: BT_Magnetar_REL103831_23.50.25133.103831
 
 File: intel/ibt-0190-0291.sfi
 File: intel/ibt-0190-0291-iml.sfi
@@ -4277,7 +4290,7 @@ File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
 File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
-Version: BT_BlazarI_S_REL82746_23.120.25071.82746
+Version: BT_BlazarI_S_REL90142_23.140.25182.90142
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -6676,9 +6689,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20250425072955a
+Version: 20250526152947a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20250425072801
+Version: 20250526152808
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6687,7 +6700,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20250425073330
+Version: 20250526153203
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7105,11 +7118,13 @@ RawFile: qcom/sc8280xp/LENOVO/21BX/adspua.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/battmgr.jsn
 RawFile: qcom/sc8280xp/LENOVO/21BX/cdspr.jsn
 File: qcom/sc8280xp/LENOVO/21BX/qcadsp8280.mbn
-Version: ADSP.HT.5.6-00729-MAKENA-1
+Version: ADSP.HT.5.6.c2-00013-MAKENA-1.75542.4
 File: qcom/sc8280xp/LENOVO/21BX/qccdsp8280.mbn
-Version: CDSP.HT.2.6-00698-MAKENA-1
+Version: CDSP.HT.2.6-00735.4-MAKENA-1
 File: qcom/sc8280xp/LENOVO/21BX/qcslpi8280.mbn
-Version: SLPI.HY.4.1-00048-MAKENA-1
+Version: SLPI.HY.4.1-00061-MAKENA-1
+File: qcom/sc8280xp/LENOVO/21BX/qcvss8280.mbn
+Version: video-firmware.1.1-b158087140355883dc40b004032856a8feb5d565
 File: qcom/x1e80100/LENOVO/21N1/qcvss8380.mbn
 Version: vfw-3.1:rel0085-070fa3311d9ef968015fee7fea07198d7eb208a1
 File: qcom/x1e80100/adsp.mbn
@@ -7382,14 +7397,14 @@ Licence: Redistributable. See LICENSE.amlogic_vdec for details.
 
 Driver: ice - Intel(R) Ethernet Connection E800 Series
 
-File: intel/ice/ddp/ice-1.3.41.0.pkg
-Link: intel/ice/ddp/ice.pkg -> ice-1.3.41.0.pkg
+File: intel/ice/ddp/ice-1.3.43.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.43.0.pkg
 File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
-File: intel/ice/ddp-comms/ice_comms-1.3.52.0.pkg
-File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.20.0.pkg
+File: intel/ice/ddp-comms/ice_comms-1.3.55.0.pkg
+File: intel/ice/ddp-wireless_edge/ice_wireless_edge-1.3.23.0.pkg
 
 License: Redistributable. See LICENSE.ice_enhanced for details
 
@@ -7983,11 +7998,11 @@ Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid0-r0.bin -> cs35l41-dsp1-spk-pr
 Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431d1f-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431503-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-10431b93.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10431a20.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10431a30.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10431a40.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10431a50.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10431a60.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a20.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a30.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a40.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a50.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433a60.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid0-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10431b93-spkid1-l0.bin
@@ -8386,6 +8401,12 @@ File: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e3a.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e3b.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-103c8e3a-spkid0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8e3a-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e3b-spkid0.bin -> cs35l41-dsp1-spk-prot-103c8e3a-spkid0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8e3b-spkid1.bin -> cs35l41-dsp1-spk-prot-103c8e3a-spkid1.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-1f660105.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-1f660105.bin
 File: cirrus/cs35l41/v6.51.0/halo_cspl_RAM_revB2_29.53.0.wmfw
