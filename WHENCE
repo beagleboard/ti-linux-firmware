@@ -1146,9 +1146,6 @@ Version: 93.44729d4e.0
 File: iwlwifi-bz-b0-hr-b0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-bz-b0-hr-b0-99.ucode
-Version: 96.e673484a.0
-
 File: iwlwifi-bz-b0-hr-b0.pnvm
 
 File: iwlwifi-bz-b0-gf-a0-92.ucode
@@ -1165,9 +1162,6 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-gf-a0-98.ucode
 Version: 95.d661c37c.0
-
-File: iwlwifi-bz-b0-gf-a0-99.ucode
-Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-gf-a0.pnvm
 
@@ -1195,9 +1189,6 @@ Version: 94.8049d69b.0
 File: iwlwifi-gl-c0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
-File: iwlwifi-gl-c0-fm-c0-99.ucode
-Version: 96.e673484a.0
-
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-bz-b0-fm-c0-92.ucode
@@ -1217,9 +1208,6 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-fm-c0-98.ucode
 Version: 95.d661c37c.0
-
-File: iwlwifi-bz-b0-fm-c0-99.ucode
-Version: 96.e673484a.0
 
 File: iwlwifi-bz-b0-fm-c0.pnvm
 
@@ -1299,6 +1287,17 @@ Licence: Redistributable. See LICENSE.ivsc for details
 
 --------------------------------------------------------------------------
 
+Driver: intel-ipu7-isys - Intel IPU7 (Image Processing Unit 7) driver
+
+File: intel/ipu/ipu7_fw.bin
+Version: master_release_20240628_1854
+
+File: intel/ipu/ipu7ptl_fw.bin
+Version: master_release_20250515_1232
+
+Licence: Redistributable. See LICENSE.intel for details
+
+--------------------------------------------------------------------------
 Driver: mei-vsc-hw - Intel Visual Sensing Controller
 
 File: intel/vsc/ivsc_fw.bin
@@ -5363,7 +5362,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for DG2
+Version: GuC API/APB ver 70.45.2 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.16 for DG2
@@ -5407,16 +5406,16 @@ License: Redistributable. See LICENSE.i915 for details
 Driver: xe -- Intel Graphics driver
 
 File: xe/lnl_gsc_1.bin
-Version: GSC API/APB v1.0, release 104.0.0.1263, SVN 1 for Lunarlake
+Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for Lunarlake
+Version: GuC API/APB ver 70.45.2 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.44.1 for Battlemage
+Version: GuC API/APB ver 70.45.2 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -6649,9 +6648,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20241106151007a
+Version: 20250523110946a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20241106150855
+Version: 20250523110807
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6660,7 +6659,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20241106151414
+Version: 20250523111333
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6669,9 +6668,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 Wireless MACs
 
 File: mediatek/WIFI_MT7922_patch_mcu_1_1_hdr.bin
-Version: 20241106163228a
+Version: 20250523103150a
 File: mediatek/WIFI_RAM_CODE_MT7922_1.bin
-Version: 20241106163156
+Version: 20250523103106
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6680,7 +6679,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7922 - MediaTek MT7922 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7922_1_1_hdr.bin
-Version: 20241106163512
+Version: 20250523103438
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -9133,5 +9132,6 @@ Originates from https://source.chromium.org/chromiumos/chromiumos/codesearch/+/m
 Driver: qcom-geni-se - Qualcomm QUPv3 firmware image file
 File: qcom/sa8775p/qupv3fw.elf
 File: qcom/qcm6490/qupv3fw.elf
+File: qcom/qcs8300/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
