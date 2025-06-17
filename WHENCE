@@ -9145,3 +9145,15 @@ File: qcom/qcm6490/qupv3fw.elf
 File: qcom/qcs8300/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+---------------------------------------------------------------------------
+
+Driver: pcm6240 driver - Texas Instruments PCM6240 Family Audio ADC/DAC Device
+File: ti/tad5212/tad5212_01.bin
+File: ti/tad5212/tad5212_04.bin
+
+License: Redistributable. See LICENSE.ti for details
+
+Info:
+Binary files generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1
+using the json file https://git.ti.com/cgit/lpaa-android-drivers/pcmdevice-linux-driver/tree/jsn/tad5212-1dev-reg.json
