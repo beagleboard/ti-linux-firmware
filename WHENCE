@@ -6381,6 +6381,62 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: icssg-prueth - TI ICSSG Ethernet Dual EMAC Driver (SR2.0)
+
+File: ti-pruss/am64x-sr2-pru0-prueth-fw.elf
+File: ti-pruss/am64x-sr2-pru1-prueth-fw.elf
+File: ti-pruss/am64x-sr2-rtu0-prueth-fw.elf
+File: ti-pruss/am64x-sr2-rtu1-prueth-fw.elf
+File: ti-pruss/am64x-sr2-txpru0-prueth-fw.elf
+File: ti-pruss/am64x-sr2-txpru1-prueth-fw.elf
+Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.09
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG Ethernet Switch Driver (SR2.0)
+
+File: ti-pruss/am64x-sr2-pru0-prusw-fw.elf
+File: ti-pruss/am64x-sr2-pru1-prusw-fw.elf
+File: ti-pruss/am64x-sr2-rtu0-prusw-fw.elf
+File: ti-pruss/am64x-sr2-rtu1-prusw-fw.elf
+File: ti-pruss/am64x-sr2-txpru0-prusw-fw.elf
+File: ti-pruss/am64x-sr2-txpru1-prusw-fw.elf
+Version: REL.PRU-ICSS-ETHERNET-SWITCH_02.02.15.09
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG HSR Driver (SR2.0)
+
+File: ti-pruss/am64x-sr2-pru0-pruhsr-fw.elf
+File: ti-pruss/am64x-sr2-pru1-pruhsr-fw.elf
+File: ti-pruss/am64x-sr2-rtu0-pruhsr-fw.elf
+File: ti-pruss/am64x-sr2-rtu1-pruhsr-fw.elf
+File: ti-pruss/am64x-sr2-txpru0-pruhsr-fw.elf
+File: ti-pruss/am64x-sr2-txpru1-pruhsr-fw.elf
+Version: REL.HSR_1G_01.02.03.05
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
+Driver: icssg-prueth - TI ICSSG PRP Driver (SR2.0)
+
+File: ti-pruss/am64x-sr2-pru0-pruprp-fw.elf
+File: ti-pruss/am64x-sr2-pru1-pruprp-fw.elf
+File: ti-pruss/am64x-sr2-rtu0-pruprp-fw.elf
+File: ti-pruss/am64x-sr2-rtu1-pruprp-fw.elf
+File: ti-pruss/am64x-sr2-txpru0-pruprp-fw.elf
+File: ti-pruss/am64x-sr2-txpru1-pruprp-fw.elf
+Version: REL.PRP_1G_01.00.00.00
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: prueth - TI PRU-ICSS HSR Driver
 
 File: ti-pruss/am335x-pru0-pruhsr-fw.elf
