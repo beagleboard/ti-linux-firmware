@@ -6023,6 +6023,10 @@ File: ti-hsm/hsm-demo-firmware-j784s4-hs.bin
 File: ti-hsm/hsm-demo-firmware-j784s4-hs-fs.bin
 Version: v11.00.09
 
+File: ti-hsm/hsm-demo-firmware-j722s-hs.bin
+File: ti-hsm/hsm-demo-firmware-j722s-hs-fs.bin
+Version: v11.01.09
+
 Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
