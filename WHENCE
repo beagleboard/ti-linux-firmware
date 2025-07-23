@@ -9031,3 +9031,12 @@ License: Redistributable. See LICENSE.ti for details
 Info:
 Binary files generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1
 using the json file https://git.ti.com/cgit/lpaa-android-drivers/pcmdevice-linux-driver/tree/jsn/tad5212-1dev-reg.json
+
+-------------------------------------------------------------------------
+
+Firmware: ti-pka - PKA firmware for sa2_ul driver
+
+File: ti-pka/eip29t2_2.1.0.bin
+Version: 2.1.0
+
+Licence: Redistributable. See LICENCE.pka_fw for details.
