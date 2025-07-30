@@ -4160,7 +4160,9 @@ Version: 2014-10-28
 RawFile: amd-ucode/microcode_amd_fam17h.bin
 Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
-Version: 2025-07-08
+Version: 2025-07-29
+RawFile: amd-ucode/microcode_amd_fam1ah.bin
+Version: 2025-07-29
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -5090,7 +5092,7 @@ File: i915/xe2lpd_dmc.bin
 Version: DMC API/APB ver 2 release 28 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
-Version: DMC API/APB ver 2 release 23 for Xe3LPD
+Version: DMC API/APB ver 2 release 29 for Xe3LPD
 
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
@@ -6728,6 +6730,10 @@ Version: VIDEO.VPU.3.1-0090
 File: qcom/vpu/vpu20_p1_gen2.mbn
 
 Version: VIDEO.VPU.2.4.2-00025
+
+File: qcom/vpu/vpu35_p4.mbn
+
+Version: VIDEO.VPU.3.5-0040
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -9009,6 +9015,7 @@ Originates from https://source.chromium.org/chromiumos/chromiumos/codesearch/+/m
 Driver: qcom-geni-se - Qualcomm QUPv3 firmware image file
 File: qcom/sa8775p/qupv3fw.elf
 File: qcom/qcm6490/qupv3fw.elf
+Link: qcom/qcs6490/qupv3fw.elf -> ../qcm6490/qupv3fw.elf
 File: qcom/qcs8300/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
