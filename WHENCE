@@ -6002,6 +6002,12 @@ File: ti-ipc/am62dxx/ipc_rpmsg_echo.c75ss0-0.release.strip.out
 File: ti-ipc/am62dxx/ipc_rpmsg_echo.mcu-r5f0_0.release.strip.out
 Version: REL.MCUSDK.11.01.00.00
 
+File: ti-ipc/am57xx/messageq_server_dsp1.xe66
+File: ti-ipc/am57xx/messageq_server_dsp2.xe66
+File: ti-ipc/am57xx/messageq_server_ipu1.xem4
+File: ti-ipc/am57xx/messageq_server_ipu2.xem4
+Version: 3.52.00.01
+
 Licence: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
