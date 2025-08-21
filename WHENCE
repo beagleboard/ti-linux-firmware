@@ -941,25 +941,25 @@ File: iwlwifi-so-a0-jf-b0-74.ucode
 Version: 74.a5e9588b.0
 
 File: iwlwifi-cc-a0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-Qu-b0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-Qu-b0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-Qu-c0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-Qu-c0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-QuZ-a0-hr-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-QuZ-a0-jf-b0-77.ucode
-Version: 74.864baa2e.0
+Version: 74.6eaf654b.0
 
 File: iwlwifi-ty-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -983,7 +983,7 @@ File: iwlwifi-ty-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ty-a0-gf-a0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-so-a0-gf4-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1007,7 +1007,7 @@ File: iwlwifi-so-a0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf4-a0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-so-a0-gf-a0-77.ucode
 Version: 74.f92b5fed.0
@@ -1031,7 +1031,7 @@ File: iwlwifi-so-a0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-gf-a0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-so-a0-hr-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1052,7 +1052,7 @@ File: iwlwifi-so-a0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-so-a0-hr-b0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-so-a0-jf-b0-77.ucode
 Version: 74.f92b5fed.0
@@ -1064,6 +1064,9 @@ Version: 93.44729d4e.0
 
 File: iwlwifi-bz-b0-hr-b0-98.ucode
 Version: 95.d661c37c.0
+
+File: iwlwifi-bz-b0-hr-b0-100.ucode
+Version: 97.09e46595.0
 
 File: iwlwifi-bz-b0-hr-b0.pnvm
 
@@ -1081,6 +1084,9 @@ Version: 94.8049d69b.0
 
 File: iwlwifi-bz-b0-gf-a0-98.ucode
 Version: 95.d661c37c.0
+
+File: iwlwifi-bz-b0-gf-a0-100.ucode
+Version: 97.09e46595.0
 
 File: iwlwifi-bz-b0-gf-a0.pnvm
 
@@ -1108,6 +1114,9 @@ Version: 94.8049d69b.0
 File: iwlwifi-gl-c0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
+File: iwlwifi-gl-c0-fm-c0-100.ucode
+Version: 97.3f3ef548.0
+
 File: iwlwifi-gl-c0-fm-c0.pnvm
 
 File: iwlwifi-bz-b0-fm-c0-92.ucode
@@ -1128,6 +1137,9 @@ Version: 94.8049d69b.0
 File: iwlwifi-bz-b0-fm-c0-98.ucode
 Version: 95.d661c37c.0
 
+File: iwlwifi-bz-b0-fm-c0-100.ucode
+Version: 97.3f3ef548.0
+
 File: iwlwifi-bz-b0-fm-c0.pnvm
 
 File: iwlwifi-ma-b0-gf-a0-83.ucode
@@ -1137,7 +1149,7 @@ File: iwlwifi-ma-b0-gf-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf-a0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-ma-b0-gf-a0.pnvm
 
@@ -1148,7 +1160,7 @@ File: iwlwifi-ma-b0-gf4-a0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-gf4-a0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 File: iwlwifi-ma-b0-gf4-a0.pnvm
 
@@ -1159,7 +1171,7 @@ File: iwlwifi-ma-b0-hr-b0-86.ucode
 Version: 83.fb5c9aeb.0
 
 File: iwlwifi-ma-b0-hr-b0-89.ucode
-Version: 86.af655058.0
+Version: 86.2e78fa67.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -3691,6 +3703,10 @@ File: ath11k/WCN6855/hw2.0/amss.bin
 File: ath11k/WCN6855/hw2.0/m3.bin
 Version: WLAN.HSP.1.1-03125-QCAHSPSWPL_V1_V2_SILICONZ_LITE-3.6510.41
 File: ath11k/WCN6855/hw2.0/Notice.txt
+File: ath11k/WCN6855/hw2.0/nfa765/amss.bin
+File: ath11k/WCN6855/hw2.0/nfa765/m3.bin
+Version: WLAN.HSP.1.1-04685-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
+File: ath11k/WCN6855/hw2.0/nfa765/Notice.txt
 Link: ath11k/WCN6855/hw2.1/regdb.bin -> ../hw2.0/regdb.bin
 Link: ath11k/WCN6855/hw2.1/board-2.bin -> ../hw2.0/board-2.bin
 Link: ath11k/WCN6855/hw2.1/amss.bin -> ../hw2.0/amss.bin
@@ -4062,6 +4078,7 @@ File: rtl_bt/rtl8723a_fw.bin
 File: rtl_bt/rtl8723b_fw.bin
 File: rtl_bt/rtl8723bs_fw.bin
 File: rtl_bt/rtl8723bs_config.bin
+Link: rtl_bt/rtl8723b_config.bin -> rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA8723.bin -> rtl8723bs_config.bin
 Link: rtl_bt/rtl8723bs_config-OBDA0623.bin -> rtl8723bs_config.bin
 File: rtl_bt/rtl8723cs_xx_fw.bin
@@ -6761,6 +6778,10 @@ File: qcom/vpu/vpu35_p4.mbn
 
 Version: VIDEO.VPU.3.5-0040
 
+File: qcom/vpu/vpu33_p4.mbn
+
+Version: VIDEO.VPU.3.4-0054
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 --------------------------------------------------------------------------
@@ -6961,6 +6982,10 @@ RawFile: qcom/x1e80100/adsps.jsn
 RawFile: qcom/x1e80100/adspua.jsn
 RawFile: qcom/x1e80100/battmgr.jsn
 RawFile: qcom/x1e80100/LENOVO/21N1/adspua.jsn
+File: qcom/x1e80100/cdsp.mbn
+File: qcom/x1e80100/cdsp_dtb.mbn
+Version: CDSP.HT.2.9.c1-00069-HAMOA-1
+RawFile: qcom/x1e80100/cdspr.jsn
 File: qcom/x1e80100/LENOVO/21N1/qcadsp8380.mbn
 Version: ADSP.HT.5.9-00787.2-HAMOA-1
 File: qcom/x1e80100/LENOVO/21N1/adsp_dtbs.elf
@@ -8003,6 +8028,16 @@ Link: cirrus/cs35l41-dsp1-spk-prot-10433d88-spkid1-r0.bincfg -> cs35l41/bincfgs/
 Link: cirrus/cs35l41-dsp1-spk-prot-104388f4.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-104388f4-spkid1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10431454.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2316.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 Link: cirrus/cs35l41-dsp1-spk-prot-17aa2317.wmfw -> cs35l41/v6.61.1/halo_cspl_RAM_revB2_29.63.1.wmfw
 File: cirrus/cs35l41-dsp1-spk-prot-17aa2316-spkid0-l0.bin
@@ -8282,6 +8317,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.25.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
+File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8550,16 +8586,6 @@ File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp4.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10431f43-amp3.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10431454.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
-File: cirrus/cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid0-r0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-l0.bin
-Link: cirrus/cs35l41-dsp1-spk-prot-10433391-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-10431454-spkid1-r0.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid0-ampr.bin
@@ -8569,6 +8595,15 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2347.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2348.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2348-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2348-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa2349.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp1.bin
+File: cirrus/cs35l56-b0-dsp1-misc-17aa2349-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.20.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampl.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa380e-spkid0-ampr.bin
@@ -9013,6 +9048,8 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: ish - Intel Integrated Sensor Hub
 File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
+File: intel/ish/ish_lnlm_53c4ffad_2a17559f.bin
+Version: 5.8.4.7720
 
 License: Redistributable. See LICENSE.intel for details
 
