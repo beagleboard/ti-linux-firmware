@@ -6740,16 +6740,16 @@ File: qcom/venus-6.0/venus.mbn
 
 Version: VIDEO.VE.6.0-00055-PROD-1
 
+File: qcom/vpu/vpu20_p1.mbn
+Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
+
+Version: VIDEO.VPU.2.0-00055-PROD-1
+
 File: qcom/vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mbn -> ../vpu/vpu20_p4.mbn
 Link: qcom/vpu-1.0/venus.mdt -> ../vpu/vpu20_p4.mbn
 
 Version: VIDEO.VPU.1.0-00119-PROD-1
-
-File: qcom/vpu/vpu20_p1.mbn
-Link: qcom/vpu-2.0/venus.mbn -> ../vpu/vpu20_p1.mbn
-
-Version: VIDEO.VPU.2.0-00055-PROD-1
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -6759,6 +6759,10 @@ https://developer.qualcomm.com/hardware/dragonboard-410c/tools
 --------------------------------------------------------------------------
 
 Driver: iris - Qualcomm Iris video codec accelerator
+
+File: qcom/vpu/vpu20_p1_gen2.mbn
+
+Version: VIDEO.VPU.2.4.2-00025
 
 File: qcom/vpu/vpu30_p4.mbn
 
@@ -6772,17 +6776,13 @@ File: qcom/vpu/vpu30_p4_s6_16mb.mbn
 
 Version: VIDEO.VPU.3.1-0090
 
-File: qcom/vpu/vpu20_p1_gen2.mbn
+File: qcom/vpu/vpu33_p4.mbn
 
-Version: VIDEO.VPU.2.4.2-00025
+Version: VIDEO.VPU.3.4-0054
 
 File: qcom/vpu/vpu35_p4.mbn
 
 Version: VIDEO.VPU.3.5-0040
-
-File: qcom/vpu/vpu33_p4.mbn
-
-Version: VIDEO.VPU.3.4-0054
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -9089,11 +9089,11 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20250611*MTL_CLIENT_SILICON-NVR+NN-deployment*5437076a64c995fd1fbe21c3019f522b56db98f9*5437076a64c995fd1fbe21c3019f522b56db98f9*5437076a64c
+Version: 20250627*MTL_CLIENT_SILICON-NVR+NN-deployment*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521edea4e75ec14e475a72ba6f0f92685*2fc7252521e
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Jun 11 2025*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202524_npu_release_25ww22-20250603_183038-26415-8-g5437076a64c*5437076a64c995fd1fbe21c3019f522b56db98f9
+Version: Jun 27 2025*NPU40xx*ci_tag_ud202528_vpu_rc_20250626_1901*2fc7252521edea4e75ec14e475a72ba6f0f92685
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
