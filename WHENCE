@@ -9419,3 +9419,15 @@ File: ti-pka/eip29t2_2.1.0.bin
 Version: 2.1.0
 
 Licence: Redistributable. See LICENCE.pka_fw for details.
+
+---------------------------------------------------------------------------
+
+Driver: pcm6240 driver - Texas Instruments PCM6240 Family Audio ADC/DAC Device
+File: ti/pcm6240/pcm6240-2dev-reg.bin
+Version: 1.0
+
+License: Redistributable. See LICENSE.ti for details
+
+Info:
+Binary files generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
+using the json file https://git.ti.com/cgit/lpaa-android-drivers/pcmdevice-linux-driver/tree/jsn/pcm6240-1dev-reg.json.
