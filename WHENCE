@@ -3612,6 +3612,9 @@ Version: 0.0.7
 File: rtl_nic/rtl8125d-2.fw
 Version: 0.0.4
 
+File: rtl_nic/rtl8125k-1.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl8126a-2.fw
 Version: 0.0.2
 
@@ -5297,7 +5300,7 @@ File: i915/dg2_guc_70.4.1.bin
 Version: GuC API/APB ver 70.4.1 for DG2
 
 File: i915/dg2_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for DG2
+Version: GuC API/APB ver 70.53.0 for DG2
 
 File: i915/dg2_huc_gsc.bin
 Version: HuC API/APB ver 7.10.16 for DG2
@@ -5318,7 +5321,7 @@ File: i915/mtl_dmc.bin
 Version: DMC API/APB ver 2 release 23 for Meteorlake
 
 File: i915/mtl_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for Meteorlake
+Version: GuC API/APB ver 70.53.0 for Meteorlake
 
 File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
@@ -5347,13 +5350,13 @@ File: xe/lnl_gsc_1.bin
 Version: GSC API/APB v1.0, release 104.0.5.1429, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for Lunarlake
+Version: GuC API/APB ver 70.53.0 for Lunarlake
 
 File: xe/lnl_huc.bin
 Version: HuC API/APB ver 9.4.13 for Lunarlake
 
 File: xe/bmg_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for Battlemage
+Version: GuC API/APB ver 70.53.0 for Battlemage
 
 File: xe/bmg_huc.bin
 Version: HuC API/APB ver 8.2.10 for Battlemage
@@ -5362,7 +5365,7 @@ File: xe/fan_control_8086_e20b_8086_1100.bin
 Version: fan_control ver 203.0.0.0 for Battlemage
 
 File: xe/ptl_guc_70.bin
-Version: GuC API/APB ver 70.49.4 for Pantherlake
+Version: GuC API/APB ver 70.53.0 for Pantherlake
 
 File: xe/ptl_huc.bin
 Version: HuC API/APB ver 10.3.3 for Pantherlake
@@ -6726,10 +6729,14 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7988 - MediaTek MT7988 Internal 2.5G Ethernet Phy
+Driver: mtk-2p5ge - MediaTek MT798x Internal 2.5G Ethernet Phy
 
 File: mediatek/mt7988/i2p5ge-phy-pmb.bin
-Version: 20230728
+Version: 20241030
+File: mediatek/mt7987/i2p5ge-phy-DSPBitTb.bin
+Version: 20250822
+File: mediatek/mt7987/i2p5ge-phy-pmb.bin
+Version: 20250822
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7275,6 +7282,10 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/kaanapali/soccp.mbn
+File: qcom/kaanapali/soccp_dtb.mbn
+Version: SOCCP.FW.2.1-00204-KAANAPALI_SOCCP_PACK-1
+RawFile: qcom/kaanapali/soccpr.jsn
 File: qcom/sa8775p/adsp.mbn
 Version: DSP.AT.1.0.1-00163-LEMANS-1
 RawFile: qcom/sa8775p/adspr.jsn
@@ -9113,6 +9124,12 @@ File: ti/audio/tas2781/TAS2XXX12040.bin
 File: ti/audio/tas2781/TAS2XXX12041.bin
 File: ti/audio/tas2781/TAS2XXX12140.bin
 File: ti/audio/tas2781/TAS2XXX12141.bin
+File: ti/audio/tas2781/TAS2XXX13840.bin
+File: ti/audio/tas2781/TAS2XXX13841.bin
+File: ti/audio/tas2781/TAS2XXX13940.bin
+File: ti/audio/tas2781/TAS2XXX13941.bin
+File: ti/audio/tas2781/TAS2XXX13A40.bin
+File: ti/audio/tas2781/TAS2XXX13A41.bin
 File: ti/audio/tas2781/TAS2XXX1EB30.bin
 File: ti/audio/tas2781/TAS2XXX1EB31.bin
 File: ti/audio/tas2781/TAS2XXX2234.bin
@@ -9160,8 +9177,27 @@ File: ti/audio/tas2781/TAS2XXX3F200.bin
 File: ti/audio/tas2781/TAS2XXX3F201.bin
 File: ti/audio/tas2781/TAS2XXX3F300.bin
 File: ti/audio/tas2781/TAS2XXX3F301.bin
+File: ti/audio/tas2781/TAS2XXX8C70.bin
+File: ti/audio/tas2781/TAS2XXX8C71.bin
+File: ti/audio/tas2781/TAS2XXX8C72.bin
+File: ti/audio/tas2781/TAS2XXX8D8E.bin
+File: ti/audio/tas2781/TAS2XXX8DAA.bin
 File: ti/audio/tas2781/TAS2XXX8DE8.bin
 File: ti/audio/tas2781/TAS2XXX8DE9.bin
+File: ti/audio/tas2781/TAS2XXX8E17.bin
+File: ti/audio/tas2781/TAS2XXX8E19.bin
+File: ti/audio/tas2781/TAS2XXX8E1C.bin
+File: ti/audio/tas2781/TAS2XXX8E8A.bin
+File: ti/audio/tas2781/TAS2XXX8ED5.bin
+File: ti/audio/tas2781/TAS2XXX8ED6.bin
+File: ti/audio/tas2781/TAS2XXX8ED7.bin
+File: ti/audio/tas2781/TAS2XXX8ED8.bin
+File: ti/audio/tas2781/TAS2XXX8ED9.bin
+File: ti/audio/tas2781/TAS2XXX8EDA.bin
+File: ti/audio/tas2781/TAS2XXX8F40.bin
+File: ti/audio/tas2781/TAS2XXX8F41.bin
+File: ti/audio/tas2781/TAS2XXX8F42.bin
+File: ti/audio/tas2781/TAS2XXX8F62.bin
 File: ti/audio/tas2781/TXNW2781RCA0.bin
 File: ti/audio/tas2781/TXNW2781RCA1.bin
 File: ti/audio/tas2781/TIAS2781RCA2.bin
@@ -9186,6 +9222,12 @@ Link: TAS2XXX12040.bin -> ti/audio/tas2781/TAS2XXX12040.bin
 Link: TAS2XXX12041.bin -> ti/audio/tas2781/TAS2XXX12041.bin
 Link: TAS2XXX12140.bin -> ti/audio/tas2781/TAS2XXX12140.bin
 Link: TAS2XXX12141.bin -> ti/audio/tas2781/TAS2XXX12141.bin
+Link: TAS2XXX13840.bin -> ti/audio/tas2781/TAS2XXX13840.bin
+Link: TAS2XXX13841.bin -> ti/audio/tas2781/TAS2XXX13841.bin
+Link: TAS2XXX13940.bin -> ti/audio/tas2781/TAS2XXX13940.bin
+Link: TAS2XXX13941.bin -> ti/audio/tas2781/TAS2XXX13941.bin
+Link: TAS2XXX13A40.bin -> ti/audio/tas2781/TAS2XXX13A40.bin
+Link: TAS2XXX13A41.bin -> ti/audio/tas2781/TAS2XXX13A41.bin
 Link: TAS2XXX1EB3.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB30.bin -> ti/audio/tas2781/TAS2XXX1EB30.bin
 Link: TAS2XXX1EB31.bin -> ti/audio/tas2781/TAS2XXX1EB31.bin
@@ -9234,12 +9276,31 @@ Link: TAS2XXX3F200.bin -> ti/audio/tas2781/TAS2XXX3F200.bin
 Link: TAS2XXX3F201.bin -> ti/audio/tas2781/TAS2XXX3F201.bin
 Link: TAS2XXX3F300.bin -> ti/audio/tas2781/TAS2XXX3F300.bin
 Link: TAS2XXX3F301.bin -> ti/audio/tas2781/TAS2XXX3F301.bin
+Link: TAS2XXX8C70.bin -> ti/audio/tas2781/TAS2XXX8C70.bin
+Link: TAS2XXX8C71.bin -> ti/audio/tas2781/TAS2XXX8C71.bin
+Link: TAS2XXX8C72.bin -> ti/audio/tas2781/TAS2XXX8C72.bin
+Link: TAS2XXX8D8E.bin -> ti/audio/tas2781/TAS2XXX8D8E.bin
+Link: TAS2XXX8DAA.bin -> ti/audio/tas2781/TAS2XXX8DAA.bin
 Link: TAS2XXX8DE8.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE9.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE80.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE81.bin -> ti/audio/tas2781/TAS2XXX8DE8.bin
 Link: TAS2XXX8DE90.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
 Link: TAS2XXX8DE91.bin -> ti/audio/tas2781/TAS2XXX8DE9.bin
+Link: TAS2XXX8E17.bin -> ti/audio/tas2781/TAS2XXX8E17.bin
+Link: TAS2XXX8E19.bin -> ti/audio/tas2781/TAS2XXX8E19.bin
+Link: TAS2XXX8E1C.bin -> ti/audio/tas2781/TAS2XXX8E1C.bin
+Link: TAS2XXX8E8A.bin -> ti/audio/tas2781/TAS2XXX8E8A.bin
+Link: TAS2XXX8ED5.bin -> ti/audio/tas2781/TAS2XXX8ED5.bin
+Link: TAS2XXX8ED6.bin -> ti/audio/tas2781/TAS2XXX8ED6.bin
+Link: TAS2XXX8ED7.bin -> ti/audio/tas2781/TAS2XXX8ED7.bin
+Link: TAS2XXX8ED8.bin -> ti/audio/tas2781/TAS2XXX8ED8.bin
+Link: TAS2XXX8ED9.bin -> ti/audio/tas2781/TAS2XXX8ED9.bin
+Link: TAS2XXX8EDA.bin -> ti/audio/tas2781/TAS2XXX8EDA.bin
+Link: TAS2XXX8F40.bin -> ti/audio/tas2781/TAS2XXX8F40.bin
+Link: TAS2XXX8F41.bin -> ti/audio/tas2781/TAS2XXX8F41.bin
+Link: TAS2XXX8F42.bin -> ti/audio/tas2781/TAS2XXX8F42.bin
+Link: TAS2XXX8F62.bin -> ti/audio/tas2781/TAS2XXX8F62.bin
 Link: TIAS2781RCA2.bin -> ti/audio/tas2781/TIAS2781RCA2.bin
 Link: TIAS2781RCA4.bin -> ti/audio/tas2781/TIAS2781RCA4.bin
 Link: TXNW2781RCA1.bin -> ti/audio/tas2781/TXNW2781RCA0.bin
