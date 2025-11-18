@@ -4382,7 +4382,7 @@ Version: 2024-11-21
 RawFile: amd-ucode/microcode_amd_fam19h.bin
 Version: 2025-10-27
 RawFile: amd-ucode/microcode_amd_fam1ah.bin
-Version: 2025-10-30
+Version: 2025-11-13
 File: amd-ucode/README
 
 License: Redistributable. See LICENSE.amd-ucode for details
@@ -6742,22 +6742,22 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 
 --------------------------------------------------------------------------
 
-Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992
+Driver: mt7996e - MediaTek Wireless MACs for MT7996/MT7992/MT7990
 
 File: mediatek/mt7996/mt7996_wm.bin
-Version: 20240809121753
+Version: 20251111002938
 File: mediatek/mt7996/mt7996_wm_233.bin
-Version: 20240809122249
+Version: 20251111003337
 File: mediatek/mt7996/mt7996_wa.bin
-Version: 20240809121718
+Version: 20251111002848
 File: mediatek/mt7996/mt7996_wa_233.bin
-Version: 20240809122214
+Version: 20251111003249
 File: mediatek/mt7996/mt7996_rom_patch.bin
-Version: 20240809121758a
+Version: 20251111002942a
 File: mediatek/mt7996/mt7996_rom_patch_233.bin
-Version: 20240809122254a
+Version: 20251111003341a
 File: mediatek/mt7996/mt7996_dsp.bin
-Version: 20240809121650
+Version: 20251111002821
 File: mediatek/mt7996/mt7996_eeprom.bin
 Version: 20230518
 File: mediatek/mt7996/mt7996_eeprom_2i5i6i.bin
@@ -6768,21 +6768,21 @@ File: mediatek/mt7996/mt7996_eeprom_233_2i5i6i.bin
 Version: 20231129
 
 File: mediatek/mt7996/mt7992_wm.bin
-Version: 20240809131242
+Version: 20251113125714
 File: mediatek/mt7996/mt7992_wm_23.bin
-Version: 20240809124856
+Version: 20251113124751
 File: mediatek/mt7996/mt7992_wa.bin
-Version: 20240809131202
+Version: 20251113125621
 File: mediatek/mt7996/mt7992_wa_23.bin
-Version: 20240809124757
+Version: 20251113124712
 File: mediatek/mt7996/mt7992_rom_patch.bin
-Version: 20240809131205a
+Version: 20251113130209a
 File: mediatek/mt7996/mt7992_rom_patch_23.bin
-Version: 20240809124802a
+Version: 20251113125214a
 File: mediatek/mt7996/mt7992_dsp.bin
-Version: 20240809131139
+Version: 20251113125550
 File: mediatek/mt7996/mt7992_dsp_23.bin
-Version: 20240809124734
+Version: 20251113124647
 File: mediatek/mt7996/mt7992_eeprom.bin
 Version: 20230928
 File: mediatek/mt7996/mt7992_eeprom_2i5i.bin
@@ -6793,6 +6793,15 @@ File: mediatek/mt7996/mt7992_eeprom_23.bin
 Version: 20231006
 File: mediatek/mt7996/mt7992_eeprom_23_2i5i.bin
 Version: 20230811
+
+File: mediatek/mt7996/mt7990_wm.bin
+Version: 20251112210146
+File: mediatek/mt7996/mt7990_rom_patch.bin
+Version: 20251112210058a
+File: mediatek/mt7996/mt7990_eeprom.bin
+Version: 20240910
+File: mediatek/mt7996/mt7990_eeprom_2i5i.bin
+Version: 20240906
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -8565,6 +8574,7 @@ File: cirrus/cs35l56/CS35L56_Rev3.11.26.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.11.28B.wmfw
 File: cirrus/cs35l56/CS35L56_Rev3.13.3R.wmfw
+File: cirrus/cs35l56/CS35L56_Rev4.5.9.wmfw
 Link: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.11.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280c62-spkid0-amp2.bin
@@ -8681,6 +8691,36 @@ File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp2.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp3.bin
 File: cirrus/cs35l56-b0-dsp1-misc-10280d33-spkid1-amp4.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db3-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db4-spkid1-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid0-l2u3.bin
+Link: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u0.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l3u1.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u2.bin
+File: cirrus/cs35l57-b2-dsp1-misc-10280db9-spkid1-l2u3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -8933,6 +8973,34 @@ Use of Cirrus Logic drivers, firmware and other materials is permitted
 only in connection with Cirrus Logic hardware products.
 
 Copyright © 2023 Cirrus Logic, Inc. and Cirrus Logic International
+Semiconductor Ltd. All Rights Reserved.
+
+---------------------------------------------------------------------------
+
+Driver: cs42l45 - CS42L45 SDCA audio driver
+
+File: sdca/1fa/1028/db3/1.bin
+File: sdca/1fa/1028/db3/2.bin
+File: sdca/1fa/1028/db3/3.bin
+File: sdca/1fa/1028/db3/4.bin
+File: sdca/1fa/1028/db3/42450005.bin
+Link: sdca/1fa/1028/db4/1.bin -> ../db3/1.bin
+Link: sdca/1fa/1028/db4/2.bin -> ../db3/2.bin
+Link: sdca/1fa/1028/db4/3.bin -> ../db3/3.bin
+Link: sdca/1fa/1028/db4/4.bin -> ../db3/4.bin
+Link: sdca/1fa/1028/db4/42450005.bin -> ../db3/42450005.bin
+File: sdca/1fa/1028/db9/1.bin
+File: sdca/1fa/1028/db9/2.bin
+File: sdca/1fa/1028/db9/3.bin
+File: sdca/1fa/1028/db9/4.bin
+File: sdca/1fa/1028/db9/42450005.bin
+
+License: Redistributable. See LICENSE.cirrus for details.
+
+Use of Cirrus Logic drivers, firmware and other materials is permitted
+only in connection with Cirrus Logic hardware products.
+
+Copyright © 2025 Cirrus Logic, Inc. and Cirrus Logic International
 Semiconductor Ltd. All Rights Reserved.
 
 --------------------------------------------------------------------------
@@ -9494,3 +9562,10 @@ License: Redistributable. See LICENSE.ti for details
 Info:
 Binary files generated via https://git.ti.com/cgit/lpaa-android-drivers/tasdevice-linux-driver/tree/json/tool/Non_Integrated_Bin_Tool_v1.4.1 and branch-master.
 using the json file https://git.ti.com/cgit/lpaa-android-drivers/pcmdevice-linux-driver/tree/jsn/pcm6240-1dev-reg.json.
+
+---------------------------------------------------------------------------
+
+Driver: sdx35 - Qualcomm SDX35 firmware image file for Foxconn vendor
+File: qcom/sdx35/foxconn/xbl_s_devprg_ns.melf
+
+License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
