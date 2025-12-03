@@ -6150,13 +6150,15 @@ File: ti-hsm/hsm-demo-firmware-j721s2-gp.bin
 File: ti-hsm/hsm-demo-firmware-j784s4-gp.bin
 Version: v11.00.09
 
+File: ti-hsm/hsm-demo-firmware-j722s-hs.bin
+File: ti-hsm/hsm-demo-firmware-j722s-hs-fs.bin
+Version: v11.02.00
+
 File: ti-hsm/hsm-demo-firmware-j721s2-hs.bin
 File: ti-hsm/hsm-demo-firmware-j721s2-hs-fs.bin
 File: ti-hsm/hsm-demo-firmware-j784s4-hs.bin
 File: ti-hsm/hsm-demo-firmware-j784s4-hs-fs.bin
-File: ti-hsm/hsm-demo-firmware-j722s-hs.bin
-File: ti-hsm/hsm-demo-firmware-j722s-hs-fs.bin
-Version: v11.02.00
+Version: v11.02.06_hsm
 
 Licence: Redistributable. See LICENSE.ti for details.
 
