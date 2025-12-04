@@ -6289,7 +6289,7 @@ Version: REL.MCUSDK.11.01.00.01
 
 File: ti-ipc/am62dxx/ipc_rpmsg_echo.c75ss0-0.release.strip.out
 File: ti-ipc/am62dxx/ipc_rpmsg_echo.mcu-r5f0_0.release.strip.out
-Version: REL.MCUSDK.11.02.00.05
+Version: REL.MCUSDK.11.02.00.11
 
 File: ti-ipc/am57xx/messageq_server_dsp1.xe66
 File: ti-ipc/am57xx/messageq_server_dsp2.xe66
