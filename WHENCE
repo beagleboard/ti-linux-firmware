@@ -6583,6 +6583,16 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: ti-ce - TI Firmware for IPU to support Accelerated MM decode and encode
+
+File: ti-ce-fw/dra7-ipu2-fw.xem4
+
+Version: 3.00.15.00
+
+Licence: Redistributable. See LICENCE.ti-tspa for details.
+
+--------------------------------------------------------------------------
+
 Driver: mtk-vpu - Mediatek VPU video processing unit driver
 
 File: mediatek/mt8173/vpu_d.bin
