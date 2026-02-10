@@ -2180,6 +2180,16 @@ Licence: Redistributable. See LICENSE.airoha for details.
 
 --------------------------------------------------------------------------
 
+Driver: airoha-npu-7581-mt7996 - Airoha Network Processor Unit driver for
+				 EN7581 SoC used for MT7990 offloading
+
+File: airoha/en7581_MT7996_npu_data.bin
+File: airoha/en7581_MT7996_npu_rv32.bin
+
+Licence: Redistributable. See LICENSE.airoha for details.
+
+--------------------------------------------------------------------------
+
 Driver: airoha-npu-7583 - Airoha Network Processor Unit driver for AN7583 SoC
 
 File: airoha/an7583_npu_data.bin
@@ -2872,12 +2882,12 @@ Licence: Redistributable. See LICENSE.amdgpu for details.
 
 Driver: amdxdna - AMD Inference processor
 
-File: amdnpu/1502_00/npu.sbin.1.5.2.380
-Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.2.380
-File: amdnpu/17f0_10/npu.sbin.1.0.0.63
-Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.0.0.63
-File: amdnpu/17f0_11/npu.sbin.1.0.0.166
-Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.0.0.166
+File: amdnpu/1502_00/npu.sbin.1.5.5.391
+Link: amdnpu/1502_00/npu.sbin -> npu.sbin.1.5.5.391
+File: amdnpu/17f0_10/npu.sbin.1.1.2.64
+Link: amdnpu/17f0_10/npu.sbin -> npu.sbin.1.1.2.64
+File: amdnpu/17f0_11/npu.sbin.1.1.2.65
+Link: amdnpu/17f0_11/npu.sbin -> npu.sbin.1.1.2.65
 
 Licence: Redistributable. See LICENSE.amdnpu for details.
 
@@ -3675,6 +3685,9 @@ Version: 0.0.4
 File: rtl_nic/rtl8125k-1.fw
 Version: 0.0.1
 
+File: rtl_nic/rtl8125cp-1.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl9151a-1.fw
 Version: 0.0.1
 
@@ -4023,7 +4036,7 @@ Version: WLAN.IOE_HMT.1.1-00018-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1
 File: ath12k/WCN7850/hw2.0/ncm865/Notice.txt
 File: ath12k/QCN9274/hw2.0/board-2.bin
 File: ath12k/QCN9274/hw2.0/firmware-2.bin
-Version: WLAN.WBE.1.5-01651-QCAHKSWPL_SILICONZ-1
+Version: WLAN.WBE.1.6-01243-QCAHKSWPL_SILICONZ-1
 File: ath12k/QCN9274/hw2.0/Notice.txt
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
@@ -4177,31 +4190,27 @@ Version: BT_WindStormPeak_REL1299
 
 File: intel/ibt-17-16-1.sfi
 File: intel/ibt-17-16-1.ddc
-File: intel/ibt-17-2.sfi
-File: intel/ibt-17-2.ddc
+Link: intel/ibt-17-2.sfi -> ibt-17-16-1.sfi
+Link: intel/ibt-17-2.ddc -> ibt-17-16-1.ddc
+
 File: intel/ibt-18-16-1.sfi
 File: intel/ibt-18-16-1.ddc
-File: intel/ibt-18-2.sfi
-File: intel/ibt-18-2.ddc
+Link: intel/ibt-18-2.sfi -> ibt-18-16-1.sfi
+Link: intel/ibt-18-2.ddc -> ibt-18-16-1.ddc
 Version: BT_Pulsar_REL20425_22.20.2412.20425
 
 File: intel/ibt-17-0-1.sfi
-Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
-Version: BT_JeffersonPeak_A0_B0_REL0201
-File: intel/ibt-17-1.sfi
-Version: BT_JeffersonPeak_A0_B0_REL0201
-File: intel/ibt-17-1.ddc
+Link: intel/ibt-17-1.sfi -> ibt-17-0-1.sfi
+Link: intel/ibt-17-1.ddc -> ibt-17-0-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 
 File: intel/ibt-18-0-1.sfi
-Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
+Link: intel/ibt-18-1.sfi -> ibt-18-0-1.sfi
+Link: intel/ibt-18-1.ddc -> ibt-18-0-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
-File: intel/ibt-18-1.sfi
-Version: BT_ThunderPeak_A0_B0_REL0201
-File: intel/ibt-18-1.ddc
-Version: BT_ThunderPeak_A0_B0_REL0201
+
 File: intel/ibt-20-0-3.sfi
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-0-3.ddc
@@ -4214,71 +4223,53 @@ File: intel/ibt-20-1-4.sfi
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL53636
-File: intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL53697
-File: intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL53697
-File: intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL53697
-File: intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL53697
-File: intel/ibt-19-0-3.sfi
-Version: BT_Quasar_REL53697
-File: intel/ibt-19-0-3.ddc
-Version: BT_Quasar_REL53697
+
 File: intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL53697
 File: intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL53697
-File: intel/ibt-19-240-4.ddc
+Link: intel/ibt-19-0-0.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-0-0.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-0-1.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-0-1.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-0-3.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-0-3.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-16-4.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-16-4.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-32-1.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-32-1.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-32-0.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-32-0.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-32-4.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-32-4.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-240-1.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-240-1.ddc -> ibt-19-0-4.ddc
+Link: intel/ibt-19-240-4.sfi -> ibt-19-0-4.sfi
+Link: intel/ibt-19-240-4.ddc -> ibt-19-0-4.ddc
 Version: BT_HarrisonPeak_REL53697
 
 File: intel/ibt-0041-0041.sfi
 File: intel/ibt-0041-0041.ddc
 File: intel/ibt-0040-0041.sfi
 File: intel/ibt-0040-0041.ddc
-File: intel/ibt-0040-4150.sfi
-File: intel/ibt-0040-4150.ddc
+Link: intel/ibt-0040-4150.sfi -> ibt-0040-0041.sfi
+Link: intel/ibt-0040-4150.ddc -> ibt-0040-0041.ddc
 File: intel/ibt-1040-0041.sfi
 File: intel/ibt-1040-0041.ddc
-File: intel/ibt-1040-4150.sfi
-File: intel/ibt-1040-4150.ddc
-File: intel/ibt-0040-1050.sfi
-File: intel/ibt-0040-1050.ddc
-File: intel/ibt-1040-1050.sfi
-File: intel/ibt-1040-1050.ddc
-Version: BT_Solar_REL82053_23.50.25205.82053
+Link: intel/ibt-1040-4150.sfi -> ibt-1040-0041.sfi
+Link: intel/ibt-1040-4150.ddc -> ibt-1040-0041.ddc
+Link: intel/ibt-0040-1050.sfi -> ibt-0040-0041.sfi
+Link: intel/ibt-0040-1050.ddc -> ibt-0040-0041.ddc
+Link: intel/ibt-1040-1050.sfi -> ibt-1040-0041.sfi
+Link: intel/ibt-1040-1050.ddc -> ibt-1040-0041.ddc
+Version: BT_Solar_REL82122_23.50.26053.82122
 
 File: intel/ibt-0040-1020.sfi
 File: intel/ibt-0040-1020.ddc
 File: intel/ibt-1040-1020.sfi
 File: intel/ibt-1040-1020.ddc
-File: intel/ibt-0040-2120.sfi
-File: intel/ibt-0040-2120.ddc
-File: intel/ibt-1040-2120.sfi
-File: intel/ibt-1040-2120.ddc
+Link: intel/ibt-0040-2120.sfi -> ibt-0040-1020.sfi
+Link: intel/ibt-0040-2120.ddc -> ibt-0040-1020.ddc
+Link: intel/ibt-1040-2120.sfi -> ibt-1040-1020.sfi
+Link: intel/ibt-1040-2120.ddc -> ibt-1040-1020.ddc
 Version: BT_SolarJfp_REL151_22.180.2405.151
 
 File: intel/ibt-0093-0041.sfi
@@ -6819,7 +6810,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20250625154126
+Version: 20251223091725
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -7139,6 +7130,10 @@ Link: qcom/vpu/vpu35_p4.mbn -> vpu35_p4_s7.mbn
 
 Version: VIDEO.VPU.3.5-0040
 
+File: qcom/vpu/vpu36_p4_s7.mbn
+
+Version: VIDEO.VPU.3.6-0032
+
 File: qcom/vpu/vpu40_p2_s7.mbn
 
 Version: VIDEO.VPU.4.0-0045
@@ -7265,6 +7260,14 @@ File: qcom/gen80200_sqe.fw
 Version: v0.88
 File: qcom/kaanapali/gen80200_zap.mbn
 Version: v0.03
+File: qcom/gen80100_aqe.fw
+Version: v0.30
+File: qcom/gen80100_gmu.bin
+Version: v5.02.26
+File: qcom/gen80100_sqe.fw
+Version: v1.00
+File: qcom/glymur/gen80100_zap.mbn
+Version: v0.03
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -7330,10 +7333,12 @@ Link: qcom/qcs6490/battmgr.jsn -> ../qcm6490/battmgr.jsn
 Link: qcom/qcs6490/cdsp.mbn -> ../qcm6490/cdsp.mbn
 Link: qcom/qcs6490/cdspr.jsn -> ../qcm6490/cdspr.jsn
 File: qcom/qcs6490/radxa/dragon-q6a/adsp.mbn
-Version: ADSP.HT.5.5.c8-00217-KODIAK-1
+Version: ADSP.HT.5.5.c9-00028-KODIAK-2
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspr.jsn
-RawFile: qcom/qcs6490/radxa/dragon-q6a/adsps.jsn
 RawFile: qcom/qcs6490/radxa/dragon-q6a/adspua.jsn
+File: qcom/qcs6490/radxa/dragon-q6a/cdsp.mbn
+Version: CDSP.HT.2.5.c4-00004-KODIAK-1
+RawFile: qcom/qcs6490/radxa/dragon-q6a/cdspr.jsn
 File: qcom/qcs6490/Thundercomm/RubikPi3/adsp.mbn
 Version: ADSP.HT.5.5.c8-00217-KODIAK-1
 RawFile: qcom/qcs6490/Thundercomm/RubikPi3/adspr.jsn
@@ -7443,6 +7448,16 @@ https://github.com/andersson/pil-squasher
 cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
 https://github.com/andersson/pil-squasher
 
+File: qcom/glymur/adsp.mbn
+File: qcom/glymur/adsp_dtb.mbn
+Version: LPAIDSP.HT.1.6.c1-00007-GLYMUR-3
+RawFile: qcom/glymur/adspr.jsn
+RawFile: qcom/glymur/adsps.jsn
+RawFile: qcom/glymur/adspua.jsn
+File: qcom/glymur/cdsp.mbn
+File: qcom/glymur/cdsp_dtb.mbn
+Version: CDSP.HT.3.3-00302-GLYMUR-1
+RawFile: qcom/glymur/cdspr.jsn
 File: qcom/kaanapali/adsp.mbn
 File: qcom/kaanapali/adsp_dtb.mbn
 Version: LPAIDSP.HT.1.6-00223-KAANAPALI-1
@@ -7674,7 +7689,7 @@ Driver: ice - Intel(R) Ethernet Connection E800 Series
 
 File: intel/ice/ddp/ice-1.3.43.0.pkg
 Link: intel/ice/ddp/ice.pkg -> ice-1.3.43.0.pkg
-File: intel/ice/ddp-lag/ice_lag-1.3.1.0.pkg
+File: intel/ice/ddp-lag/ice_lag-1.3.2.0.pkg
 
 License: Redistributable. See LICENSE.ice for details
 
@@ -9103,6 +9118,9 @@ File: cirrus/cs35l56-b0-dsp1-misc-17aa233b-spkid1-ampr.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0.wmfw -> cs35l56/CS35L56_Rev3.11.28.wmfw
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0-amp1.bin -> cs35l56-b0-dsp1-misc-17aa233c-amp1.bin
+Link: cirrus/cs35l56-b0-dsp1-misc-17aa233c-spkid0-amp2.bin -> cs35l56-b0-dsp1-misc-17aa233c-amp2.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-17aa2347.wmfw -> cs35l56/CS35L56_Rev3.13.3R.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-17aa2347-amp2.bin
@@ -9705,6 +9723,43 @@ Licence: Redistributable. See LICENCE.ti-tspa for details. Marked:
 
 --------------------------------------------------------------------------
 
+Driver: ti-tas2783 - tas2783 firmware
+
+File: ti/audio/tas2783/8EXX-X-9.bin
+File: ti/audio/tas2783/8EXX-X-A.bin
+File: ti/audio/tas2783/8EXX-X-C.bin
+File: ti/audio/tas2783/8EXX-X-D.bin
+File: ti/audio/tas2783/8EF6-X-9.bin
+File: ti/audio/tas2783/8EF6-X-C.bin
+
+Link: 8E86-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E86-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E86-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E86-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E86-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E86-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E86-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E86-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E87-1-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E87-1-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E87-1-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E87-1-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8E87-2-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8E87-2-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8E87-2-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8E87-2-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8EF5-0-9.bin -> ti/audio/tas2783/8EXX-X-9.bin
+Link: 8EF5-0-A.bin -> ti/audio/tas2783/8EXX-X-A.bin
+Link: 8EF5-0-C.bin -> ti/audio/tas2783/8EXX-X-C.bin
+Link: 8EF5-0-D.bin -> ti/audio/tas2783/8EXX-X-D.bin
+Link: 8EF6-2-9.bin -> ti/audio/tas2783/8EF6-X-9.bin
+Link: 8EF6-2-C.bin -> ti/audio/tas2783/8EF6-X-C.bin
+
+Licence: Redistributable. LICENCE.ti-tspa for details. Marked:
+	 Copyright (C) 2026 Texas Instruments
+
+--------------------------------------------------------------------------
+
 Driver: ti-tas2563 - tas2563 firmware
 File: ti/audio/tas2563/TAS2XXX3870.bin
 File: ti/audio/tas2563/INT8866RCA2.bin
@@ -9795,6 +9850,9 @@ License: Redistributable. See LICENCE.HP for details
 File: dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 Link: intel/ish/ish_lnlm_39ceeaf8.bin -> ../../dell/ish/ish_lnlm_39ceeaf8_58.7727.0.bin
 
+File: dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+Link: intel/ish/ish_ptl_39ceeaf8.bin -> ../../dell/ish/ish_ptl_39ceeaf8_581.7779.0.bin
+
 License: Redistributable. See LICENSE.dell for details
 
 --------------------------------------------------------------------------
@@ -9859,6 +9917,7 @@ File: qcom/sa8775p/qupv3fw.elf
 File: qcom/qcm6490/qupv3fw.elf
 Link: qcom/qcs6490/qupv3fw.elf -> ../qcm6490/qupv3fw.elf
 File: qcom/qcs8300/qupv3fw.elf
+File: qcom/x1e80100/qupv3fw.elf
 
 License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
