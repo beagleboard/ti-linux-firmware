@@ -6472,6 +6472,20 @@ License: Redistributable. See LICENSE.ti for details.
 
 --------------------------------------------------------------------------
 
+Driver: icssg-prueth - TI ICSSG PRP Driver (SR2.0)
+
+File: ti-pruss/am65x-sr2-pru0-pruprp-fw.elf
+File: ti-pruss/am65x-sr2-pru1-pruprp-fw.elf
+File: ti-pruss/am65x-sr2-rtu0-pruprp-fw.elf
+File: ti-pruss/am65x-sr2-rtu1-pruprp-fw.elf
+File: ti-pruss/am65x-sr2-txpru0-pruprp-fw.elf
+File: ti-pruss/am65x-sr2-txpru1-pruprp-fw.elf
+Version: REL.PRP_1G_01.00.01.00
+
+License: Redistributable. See LICENSE.ti for details.
+
+--------------------------------------------------------------------------
+
 Driver: icssg-prueth - TI ICSSG Ethernet Dual EMAC Driver (SR2.0)
 
 File: ti-pruss/am64x-sr2-pru0-prueth-fw.elf
@@ -6522,7 +6536,7 @@ File: ti-pruss/am64x-sr2-rtu0-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-rtu1-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-txpru0-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-txpru1-pruprp-fw.elf
-Version: REL.PRP_1G_01.00.00.01
+Version: REL.PRP_1G_01.00.01.00
 
 License: Redistributable. See LICENSE.ti for details.
 
