@@ -6203,7 +6203,7 @@ File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-enc.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-fs-cert.bin
 File: ti-sysfw/ti-sci-firmware-am64x_sr2-hs-fs-enc.bin
-Version: v11.02.09
+Version: v12.00.02
 
 File: ti-sysfw/ti-fs-stub-firmware-am62ax-gp.bin
 Version: v11.01.00
@@ -6218,8 +6218,6 @@ File: ti-sysfw/ti-fs-firmware-am62ax-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62ax-hs-fs-enc.bin
-Version: v11.02.10
-
 File: ti-sysfw/ti-fs-stub-firmware-am62x-hs-cert.bin
 File: ti-sysfw/ti-fs-stub-firmware-am62x-hs-enc.bin
 File: ti-sysfw/ti-fs-firmware-am62x-gp.bin
@@ -6239,11 +6237,9 @@ File: ti-sysfw/ti-fs-firmware-am62px-hs-fs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62px-hs-fs-enc.bin
 File: ti-sysfw/ti-fs-firmware-am62px-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62px-hs-enc.bin
-Version: v11.02.09
-
 File: ti-sysfw/ti-fs-firmware-am62lx-hs-cert.bin
 File: ti-sysfw/ti-fs-firmware-am62lx-hs-enc.bin
-Version: v11.02.09
+Version: v12.00.02
 
 Licence: Redistributable. See LICENSE.ti for details.
 
