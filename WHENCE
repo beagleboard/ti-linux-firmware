@@ -1395,6 +1395,10 @@ File: intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode
 Link: iwlwifi-sc-a0-fm-c0-c102.ucode -> intel/iwlwifi/iwlwifi-sc-a0-fm-c0-c102.ucode
 Version: 102.07fca168.0
 
+File: intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode
+Link: iwlwifi-bz-b0-wh-b0-c102.ucode -> intel/iwlwifi/iwlwifi-bz-b0-wh-b0-c102.ucode
+Version: 102.07fca168.0
+
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
 Also available from http://wireless.kernel.org/en/users/Drivers/iwlwifi#Firmware
@@ -4036,7 +4040,7 @@ Driver: ath12k - Qualcomm Technologies Wi-Fi 7 chipset support
 File: ath12k/WCN7850/hw2.0/board-2.bin
 File: ath12k/WCN7850/hw2.0/amss.bin
 File: ath12k/WCN7850/hw2.0/m3.bin
-Version: WLAN.HMT.1.1.c5-00302-QCAHMTSWPL_V1.0_V2.0_SILICONZ-1.115823.3
+Version: WLAN.HMT.1.1.c7-00108-QCAHMTSWPL_V1.0_V2.0_SILICONZ_UPSTREAM-3
 File: ath12k/WCN7850/hw2.0/Notice.txt
 File: ath12k/WCN7850/hw2.0/ncm865/amss.bin
 File: ath12k/WCN7850/hw2.0/ncm865/m3.bin
@@ -4220,15 +4224,15 @@ Link: intel/ibt-18-1.ddc -> ibt-18-0-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 
 File: intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL53636
+Version: BT_Quasar_REL53843_22.180.2607.53843
 File: intel/ibt-20-0-3.ddc
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL53636
+Version: BT_Quasar_REL53843_22.180.2607.53843
 File: intel/ibt-20-1-3.ddc
 Version: BT_CyclonePeak_A0_REL53636
 File: intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL53636
+Version: BT_Quasar_REL53843_22.180.2607.53843
 File: intel/ibt-20-1-4.ddc
 Version: BT_CyclonePeak_A0_REL53636
 
@@ -4252,7 +4256,7 @@ Link: intel/ibt-19-240-1.sfi -> ibt-19-0-4.sfi
 Link: intel/ibt-19-240-1.ddc -> ibt-19-0-4.ddc
 Link: intel/ibt-19-240-4.sfi -> ibt-19-0-4.sfi
 Link: intel/ibt-19-240-4.ddc -> ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL53697
+Version: BT_Quasar_REL53843_22.180.2607.53843
 
 File: intel/ibt-0041-0041.sfi
 File: intel/ibt-0041-0041.ddc
@@ -4286,13 +4290,13 @@ File: intel/ibt-0093-4150.sfi
 File: intel/ibt-0093-4150.ddc
 File: intel/ibt-0093-1050.sfi
 File: intel/ibt-0093-1050.ddc
-Version: BT_BlazaruHrpGfp_S_REL203_24.00.25462.203
+Version: BT_BlazaruHrpGfp_S_REL297_24.00.26071.297
 
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
 File: intel/ibt-0093-0291.sfi
 File: intel/ibt-0093-0291.ddc
-Version: BT_BlazarU_S_REL102203_24.20.26030.102203
+Version: BT_BlazarU_S_REL105597_24.30.26081.105597
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -4311,12 +4315,14 @@ File: intel/ibt-0190-0041-pci.ddc
 File: intel/ibt-0190-0041-pci.sfi
 File: intel/ibt-0190-0041-usb.ddc
 File: intel/ibt-0190-0041-usb.sfi
-Version: BT_BlazariGfp_S_REL156_24.00.25462.156
+Version: BT_BlazariGfp_S_REL233_24.00.26071.233
 
 #below fw files are for BlazarIW for WCL
 File: intel/ibt-1190-0041-iml.sfi
 File: intel/ibt-1190-0041-pci.ddc
 File: intel/ibt-1190-0041-pci.sfi
+File: intel/ibt-1190-0041-usb.sfi
+File: intel/ibt-1190-0041-usb.ddc
 Version: BT_BlazariGfp_S_REL182_24.00.25515.182
 
 File: intel/ibt-0190-0291-iml.sfi
@@ -4324,7 +4330,7 @@ File: intel/ibt-0190-0291-usb.ddc
 File: intel/ibt-0190-0291-usb.sfi
 File: intel/ibt-0190-0291-pci.ddc
 File: intel/ibt-0190-0291-pci.sfi
-Version: BT_BlazarI_S_REL109743_24.20.26030.109743
+Version: BT_BlazarI_S_REL113003_24.30.26081.113003
 
 # Below fw files are for BlazarIW for WCL
 File: intel/ibt-1190-01a1-iml.sfi
@@ -4342,12 +4348,12 @@ File: intel/ibt-00a0-0291-pci.ddc
 File: intel/ibt-00a0-0291-pci.sfi
 File: intel/ibt-00a0-0291-usb.ddc
 File: intel/ibt-00a0-0291-usb.sfi
-Version: BT_Scorpius_S_REL75512_24.20.26030.75512
+Version: BT_Scorpius_S_REL79662_24.30.26081.79662
 
 File: intel/ibt-00a0-0041-iml.sfi
 File: intel/ibt-00a0-0041-pci.ddc
 File: intel/ibt-00a0-0041-pci.sfi
-Version: BT_ScorpiusGfp_S_REL199_24.00.25462.199
+Version: BT_ScorpiusGfp_S_REL281_24.00.26071.281
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -6841,9 +6847,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1a_2_hdr.bin
-Version: 20260105151012a
+Version: 20260224110857a
 File: mediatek/WIFI_RAM_CODE_MT7961_1a.bin
-Version: 20260105151805
+Version: 20260224110939
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6852,7 +6858,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7920 - MediaTek MT7920 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1a_2_hdr.bin
-Version: 20260105151350
+Version: 20260224111231
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6861,9 +6867,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 Wireless MACs
 
 File: mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin
-Version: 20251223091050a
+Version: 20260224110909a
 File: mediatek/WIFI_RAM_CODE_MT7961_1.bin
-Version: 20251223091148
+Version: 20260224110949
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6872,7 +6878,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7921 - MediaTek MT7921 bluetooth chipset
 
 File: mediatek/BT_RAM_CODE_MT7961_1_2_hdr.bin
-Version: 20251223091725
+Version: 20260224111243
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -9034,336 +9040,306 @@ File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-02-ampr.bin
 Link: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03.wmfw -> cs35l56/CS35L56_Rev4.5.9.wmfw
 File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03-ampl.bin
 File: cirrus/cs35l56-b2-dsp1-misc-10280dd6-03-ampr.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid0-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid1-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid2-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1c-spkid3-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid0-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid1-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid2-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1e-spkid3-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid0-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid0-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid0-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid1-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid1-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid1-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid2-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid2-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid2-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid3-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid3-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e1f-spkid3-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid0-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid0-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid0-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid1-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid1-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid1-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid2-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid2-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid2-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid3-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid3-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e20-spkid3-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid0-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid0-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid2-03-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid2-03-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-03-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-03-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e21-spkid3-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid0-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid0-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid0-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid2-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid2-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-02-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e22-spkid3-02-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u3.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u3.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u1.bin
+File: cirrus/cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid0-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid2-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid3-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e24-spkid3-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid0-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid0-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid0-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid1-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid1-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid1-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid2-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid2-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid3-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e25-spkid3-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid0-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid0-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid0-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid1-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid1-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid1-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid2-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid2-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid3-01-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e26-spkid3-01-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid0-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid0-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid1-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid1-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid1-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid2-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid2-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid3-06-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e27-spkid3-06-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid0-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid0-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid0-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid1-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid1-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid1-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid2-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid2-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid2-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid3-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid3-05-l1u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e28-spkid3-05-l1u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid0-00.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid0-00-l1u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid0-00-l1u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid1-00.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid1-00-l1u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2b-spkid1-00-l1u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid0-00.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid0-00-l1u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid0-00-l1u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid1-00.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid1-00-l1u1.bin
 File: cirrus/cs35l63-a1-dsp1-misc-10280e2c-spkid1-00-l1u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid0-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid0-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid2-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e38-spkid3-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid0-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid0-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid0-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid1-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid1-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid1-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid1-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid2-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid2-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid3-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3e-spkid3-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1c-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid0-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid1-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid1-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid2-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-07.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-07-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e3f-spkid3-07-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1e-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid0-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid0-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid0-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid2-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid2-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid2-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-03-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e82-spkid3-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1b-spkid3-04-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid0-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid0-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid0-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid0-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid2-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid2-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid2-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid2-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-01.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-01-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-01-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-01-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-02.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-02-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e83-spkid3-02-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1a-spkid3-02-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid0-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-05.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-05-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-05-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid2-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid3-06.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid3-06-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
 Link: cirrus/cs35l63-a1-dsp1-misc-10280e84-spkid3-06-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid0-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-03.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-05-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid2-06-l3u3.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u1.bin
-Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e1d-spkid3-06-l3u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-03-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid0-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid0-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-03-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-03-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-03-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid2-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid2-04-l1u3.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3.wmfw -> cs35l63/CS35L63_Rev2.5.7.wmfw
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u1.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u1.bin
+Link: cirrus/cs35l63-a1-dsp1-misc-10280e85-spkid3-04-l3u3.bin -> cs35l63-a1-dsp1-misc-10280e23-spkid3-04-l1u3.bin
 Link: cirrus/cs35l56-b0-dsp1-misc-103c8c52.wmfw -> cs35l56/CS35L56_Rev3.11.16.wmfw
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp1.bin
 File: cirrus/cs35l56-b0-dsp1-misc-103c8c52-amp2.bin
@@ -10358,6 +10334,8 @@ File: intel/ish/ish_lnlm.bin
 Version: 5.8.0.7716
 File: intel/ish/ish_ptl.bin
 Version: 5.8.1.7778
+File: intel/ish/ish_wcl.bin
+Version: 5.8.4.7784
 
 License: Redistributable. See LICENSE.intel for details
 
@@ -10370,6 +10348,13 @@ File: LENOVO/ish/ish_lnlm_lenovo_x9-15_2025_5.8.0.7720.bin
 Link: intel/ish/ish_lnlm_53c4ffad_90ef58cf.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_x9-15_2025_5.8.0.7720.bin
 Info: product_family - "ThinkPad X9-15 Gen 1"
 Version: 5.8.0.7720
+
+File: LENOVO/ish/ish_ptl_lenovo_X1_2026_5.8.1.7782.bin
+Link: intel/ish/ish_lnlm_53c4ffad_bc3e29f7.bin -> ../../LENOVO/ish/ish_ptl_lenovo_X1_2026_5.8.1.7782.bin
+Info: product_family - "ThinkPad X1 2-in-1 Gen 11"
+Link: intel/ish/ish_lnlm_53c4ffad_75d6ebe2.bin -> ../../LENOVO/ish/ish_ptl_lenovo_X1_2026_5.8.1.7782.bin
+Info: product_family - "ThinkPad X1 Carbon Gen 14"
+Version: 5.8.1.7782
 
 File: LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
 Link: intel/ish/ish_lnlm_53c4ffad_cb391961.bin -> ../../LENOVO/ish/ish_lnlm_lenovo_X1_2025_5.8.4.7720.bin
@@ -10427,15 +10412,15 @@ License: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 Driver: intel_vpu - Intel NPU driver
 
 File: intel/vpu/vpu_37xx_v1.bin
-Version: 20251113*MTL_CLIENT_SILICON-NVR+NN-deployment*72f907ffc780df5579a2fed65afc4944da8b0e44*72f907ffc780df5579a2fed65afc4944da8b0e44*72f907ffc78
+Version: 20260219*MTL_CLIENT_SILICON-NVR+NN-deployment*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3ce525f34822f263cc12192ff0722f*f693e2c0dc3
 Link: intel/vpu/vpu_37xx_v0.0.bin -> vpu_37xx_v1.bin
 
 File: intel/vpu/vpu_40xx_v1.bin
-Version: Nov 13 2025*NPU40xx*ci_tag_ud202548_vpu_rc_20251112_1901-1-g72f907ffc78*72f907ffc780df5579a2fed65afc4944da8b0e44
+Version: Feb 19 2026*NPU40xx*build/ci/npu-fw-ci-ci_branch_UD202608_npu_release_26ww05-20260206_112046-32016-7-gf693e2c0dc3*f693e2c0dc3ce525f34822f263cc12192ff0722f
 Link: intel/vpu/vpu_40xx_v0.0.bin -> vpu_40xx_v1.bin
 
 File: intel/vpu/vpu_50xx_v1.bin
-Version: Nov 13 2025*NPU50xx*ci_tag_ud202548_vpu_rc_20251112_1901-1-g72f907ffc78*72f907ffc780df5579a2fed65afc4944da8b0e44
+Version: Feb 19 2026*NPU50xx*build/ci/npu-fw-ci-ci_branch_UD202608_npu_release_26ww05-20260206_112046-32016-7-gf693e2c0dc3*f693e2c0dc3ce525f34822f263cc12192ff0722f
 Link: intel/vpu/vpu_50xx_v0.0.bin -> vpu_50xx_v1.bin
 
 License: Redistributable. See LICENSE.intel_vpu for details
