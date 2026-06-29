@@ -6534,7 +6534,7 @@ File: ti-pruss/am64x-sr2-rtu0-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-rtu1-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-txpru0-pruprp-fw.elf
 File: ti-pruss/am64x-sr2-txpru1-pruprp-fw.elf
-Version: REL.PRP_1G_01.00.01.00
+Version: REL.PRP_1G_01.00.01.02
 
 License: Redistributable. See LICENSE.ti for details.
 
